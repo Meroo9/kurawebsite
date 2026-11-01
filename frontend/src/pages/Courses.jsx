@@ -1,0 +1,25 @@
+import {useEffect,useState} from 'react';
+import {Link,useSearchParams} from 'react-router-dom';
+import {Search,ArrowLeft,UploadCloud,Loader2} from 'lucide-react';
+import {api,message,money,upload,fileUrl,date} from '../lib/api';
+import {useApp} from '../context/AppContext';
+import {PageHeading,CourseCard,Empty,Busy,Pager,Btn,Status,ErrorNotice} from '../components/Shared';
+import {toast} from 'sonner';
+export {default as CourseDetail} from './CourseDetail';
+
+export default function Courses(){
+ const {categories}=useApp(),[params,setParams]=useSearchParams();
+ const [data,setData]=useState(null),[error,setError]=useState('');
+ const q=params.get('q')||'',category=params.get('category')||'',page=Number(params.get('page')||1);
+ useEffect(()=>{let alive=true;api.get('/courses',{params:{q,category,page}}).then(r=>{if(alive)setData(r.data);}).catch(e=>{if(alive)setError(message(e));});return()=>{alive=false;};},[q,category,page]);
+ const change=(key,value)=>{const p=new URLSearchParams(params);value?p.set(key,value):p.delete(key);if(key!=='page')p.delete('page');setParams(p);};
+ return <div className="container catalog-page"><PageHeading eyebrow="مساحة المعرفة" title="تعلّم اليوم. اصنع أثرًا غدًا." text="كورسات ومحاضرات طبية وبحثية، لتواصل تطوير مهاراتك."/><div className="catalog-toolbar"><div className="search-box"><Search size={19}/><input data-testid="courses-search" placeholder="ابحث عن كورس أو موضوع…" value={q} onChange={e=>change('q',e.target.value)}/></div><div className="category-tabs"><button data-testid="category-all" className={!category?'active':''} onClick={()=>change('category','')}>الكل</button>{categories.map(c=><button key={c.id} data-testid={`category-filter-${c.id}`} className={category===c.id?'active':''} onClick={()=>change('category',c.id)}>{c.name}</button>)}</div></div><ErrorNotice text={error}/>{!data&&!error?<Busy/>:data?.items.length?<><div className="results-heading"><span data-testid="course-results-count">{data.total} كورس</span><span>معرفة متاحة، وطموح بلا حدود</span></div><div className="courses-grid">{data.items.map(c=><CourseCard key={c.id} course={c}/>)}</div><Pager page={page} total={data.total} size={12} onChange={p=>change('page',p)}/></>:<Empty title={q||category?'لا توجد كورسات مطابقة':'المعرفة تستحق الانتظار'} text={q||category?'جرّب كلمة بحث أخرى أو تصنيفًا مختلفًا.':'تُعرض الكورسات هنا فور نشرها من إدارة المركز.'} action={q||category?<Btn data-testid="reset-course-filters" variant="outline" onClick={()=>setParams({})}>عرض جميع الكورسات</Btn>:<Link data-testid="empty-courses-about" to="/about" className="text-link">تعرّف على مركز كورا<ArrowLeft size={17}/></Link>}/>}</div>;
+}
+
+export const ReceiptForm=({purchase,onDone})=>{
+ const [file,setFile]=useState(null),[progress,setProgress]=useState(0),[busy,setBusy]=useState(false),[error,setError]=useState('');
+ const submit=async e=>{e.preventDefault();if(!file)return;setBusy(true);setError('');try{const uploaded=await upload(file,'receipt',purchase.id,setProgress);const row=(await api.post(`/purchases/${purchase.id}/receipt`,{file_id:uploaded.id})).data;toast.success('تم إرسال الإيصال للمراجعة');onDone(row);}catch(e){setError(message(e));}finally{setBusy(false);}};
+ return <form onSubmit={submit} className="receipt-form"><div className="payment-instructions" data-testid={`payment-instructions-${purchase.id}`}><strong>تعليمات الدفع</strong><p>{purchase.payment_instructions}</p><span>المبلغ المطلوب: {money(purchase.amount_minor,purchase.currency)}</span></div><label className="upload-zone"><UploadCloud size={27}/><strong>أرفق إيصال الدفع</strong><span>PDF أو صورة · حتى 10 ميجابايت</span><input data-testid={`receipt-file-${purchase.id}`} type="file" accept="application/pdf,image/png,image/jpeg,image/webp" required onChange={e=>setFile(e.target.files[0])}/>{file&&<span data-testid={`receipt-filename-${purchase.id}`}>{file.name}</span>}</label>{busy&&<div className="upload-progress" data-testid="receipt-upload-progress"><progress value={progress} max={100}/>{progress===100?'جارٍ حفظ الملف…':`${progress}%`}</div>}<ErrorNotice text={error}/><Btn data-testid={`receipt-submit-${purchase.id}`} disabled={busy||!file} type="submit">{busy?<Loader2 className="spin" size={18}/>:<UploadCloud size={18}/>}إرسال الإيصال للمراجعة</Btn></form>;
+};
+
+export const ReceiptHistory=({purchase})=><div className="receipt-history">{purchase.receipts?.map((r,i)=><div key={r.id} data-testid={`receipt-history-${r.id}`}><div className="row"><span>الإيصال {i+1} · {date(r.submitted_at)}</span><Status value={r.status} id={`receipt-status-${r.id}`}/><a data-testid={`view-receipt-${r.id}`} href={fileUrl(r.file_id)} target="_blank" rel="noreferrer">عرض الإيصال<ArrowLeft size={14}/></a></div>{r.reason&&<p className="rejection-reason" data-testid={`receipt-reason-${r.id}`}>{r.reason}</p>}</div>)}</div>;

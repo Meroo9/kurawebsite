@@ -1,0 +1,41 @@
+{
+  "summary": "Mandatory post-critical-security regression completed against the external origin: 32/32 API tests passed across core, follow-up, edge and new security suites. Browser visitor/student registration submissions, Arabic calendar, KRC correction, older purchase lookup, receipt reject/replace/approve/unlock, metadata-to-private-file viewer, paginated library, profile saving and navigation passed. Previous application findings resolved; no unresolved flow/API failures found. Only test files changed.",
+  "backend_issues": {"critical": [], "minor": []},
+  "frontend_issues": {"ui_bugs": [], "integration_issues": [], "design_issues": []},
+  "test_report_links": [
+    "/app/backend/tests/test_phase1.py",
+    "/app/backend/tests/test_phase1_followup.py",
+    "/app/backend/tests/test_phase1_edge_checks.py",
+    "/app/backend/tests/test_phase1_security.py",
+    "/app/tests/phase1_browser_regression.py",
+    "/app/backend/tests/cleanup_phase1.py",
+    "/app/test_reports/pytest/security_core_results.xml",
+    "/app/test_reports/pytest/security_followup_results.xml",
+    "/app/test_reports/pytest/security_edge_results.xml",
+    "/app/test_reports/pytest/security_new_results.xml",
+    "/app/test_reports/cleanup_results.json"
+  ],
+  "action_items": ["Main agent may generate the actual private owner invitation after this verified cleanup."],
+  "critical_code_review_comments": [],
+  "updated_files": [
+    "/app/backend/tests/test_phase1.py",
+    "/app/backend/tests/test_phase1_followup.py",
+    "/app/backend/tests/test_phase1_edge_checks.py",
+    "/app/backend/tests/test_phase1_security.py",
+    "/app/backend/tests/cleanup_phase1.py",
+    "/app/tests/phase1_browser_regression.py",
+    "/app/memory/test_credentials.md",
+    "/app/test_reports/iteration_2.json"
+  ],
+  "success_rate": {"backend": "100% (32/32)", "frontend": "All executed critical workflows passed after correcting test-only selectors/navigation expectations"},
+  "test_credentials": "Credential file confirmed no existing active credentials. Isolated generated accounts used; all removed and private manifest deleted. Only delivered@resend.dev used for actual existing-account reset mail. No actual owner invite created or consumed.",
+  "seed_data_creation": "Removed eight test users, sixteen courses, nineteen purchases (including sixteen synthetic later history rows), seven file metadata rows, two lectures, one retained category, twenty-three sessions and two separately tagged test invitations. Settings restored exactly. Managed objects lack a provider delete API; metadata removed and access blocked. Rate-limit buckets left to expire.",
+  "retest_needed": false,
+  "should_main_agent_self_test": false,
+  "context_for_next_testing_agent": "Run core -> follow-up -> edge -> security -> browser -> cleanup, each pytest module separately (max 16 tests/run). New security library test retains fourteen API-created free courses for browser testing. Do not rerun library setup into retained state without cleanup. Follow-up/security suites skip if manifest absent. Browser helper accepts environment-derived base and isolated state; extracted from executed Playwright flows, syntax checked, not separately executed as a combined module. Calendar days use buttons filtered by exact visible day text because day-picker assigns gridcell roles; default caption title is correctly clipped via rdp-vhidden, not duplicated visually. Logout redirects to login and preserved location.state.from can send an admin to /dashboard; tests explicitly navigate to /admin after successful login. No application code modified. No integration MOCKED.",
+  "security_verification": "External cookies retain Secure, HttpOnly, Path=/api; infrastructure rewrites application SameSite=Lax to None+Partitioned. This is an understood constraint, not a failed application fix. Authenticated mutation without X-Kura-Request:1 returned 403, hostile Origin even with header returned 403, hostile preflight returned 400 with no allow-origin, legitimate same-origin preflight/login succeeded, and unauthenticated no-cookie login without custom header succeeded. Actual UI authenticated mutations passed with axios header.",
+  "storage_and_permissions": "Malformed signature-only PDF now returns 422; genuine PIL-generated PDF uploads and streams through real storage. Private metadata excludes storage path/owner and matches file permission denials for anonymous, unrelated member and employee. Normal, suffix and open-ended ranges returned matching bytes/206; invalid/out-of-range/multi-range returned 416. Download code reviewed: 8MB spool threshold present. Large-video concurrency/load performance not exercised.",
+  "mail_verification": "Managed send_reset_email accepted a real test message. Public forgot-password against an isolated existing account temporarily using delivered@resend.dev returned neutral success and retained its reset token, confirming provider did not report delivery failure. Inbox receipt/link clicking not inspected; expired/single-use/session invalidation reset tests used isolated inserted tokens, not mocked provider responses.",
+  "browser_verification": "Submitted unique visitor and KRC student registrations through mobile UI and verified dashboard plus /auth/me values. Direct YYYY-MM-DD typing, Arabic calendar day/month/year selection, non-native picker and no duplicate visible caption verified. Admin KRC correction saved, reflected in approved student's profile, and remained disabled for that student; API uniqueness test passed. Course detail immediately showed existing awaiting_receipt purchase hidden behind sixteen newer rows without Buy. Real receipt upload, reasoned rejection, replacement, approval and course unlock passed; viewer fetched authorized metadata then actual private text file (200 each). Dashboard counted fifteen accessible courses; library displayed twelve then three, search and category filters worked, mobile pagination had no document overflow. Mobile profile save persisted. Desktop public navigation and non-clickable future research/posts spans had no overflow. No visible app errors or broken relevant images observed.",
+  "rca of the issue": "No unresolved application issue reproduced. Initial browser harness interruptions were a day-picker role mismatch and incorrect logout/admin landing expectations; corrected using exact button text and explicit post-login workspace navigation. Previously reported PDF parser, category audit/404, exact lookup, KRC editor and date picker fixes all passed regression. Proxy cookie rewriting is compensated by validated custom-header, strict-Origin and CORS controls."
+}

@@ -1,0 +1,18 @@
+{
+  "deleted_counts": {
+    "sessions": 23,
+    "reset_tokens": 1,
+    "owner_invites": 2,
+    "lectures": 2,
+    "purchases": 19,
+    "files": 7,
+    "courses": 16,
+    "categories": 1,
+    "audit": 96,
+    "users": 8
+  },
+  "settings_restored": true,
+  "test_records_removed": true,
+  "managed_storage_objects": "No provider delete API; metadata removed and access blocked",
+  "rate_limits": "Shared IP buckets left intact; expire automatically"
+}

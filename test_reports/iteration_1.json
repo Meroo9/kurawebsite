@@ -1,0 +1,63 @@
+{
+  "summary": "Tested Phase 1 through the external origin with pytest and desktop/mobile Playwright. Core API results 15/16 passed, follow-up 4/5, edge checks 1/4 (two cookie failures represent the same deployment discrepancy). Real managed storage and managed reset email acceptance passed. Browser receipt submission/rejection/replacement/approval/unlock, lecture viewer, profile edit, employee creation, student decisions, course edit, private lecture upload and mobile panels passed. Four backend findings and three UI gaps remain. No application functionality modified.",
+  "backend_issues": {
+    "critical": [
+      {"endpoint": "/api/files", "issue": "Malformed PDF containing only '%PDF- totally invalid, not a PDF document' is accepted and stored (200). media.validate_file only checks the signature; a PDF parser/integrity check is needed.", "priority": "HIGH"},
+      {"endpoint": "/api/auth/login", "issue": "External Set-Cookie has HttpOnly, Secure, Path=/api, but SameSite=None and Partitioned, not the requested Lax. auth.py sets lax correctly; the public ingress/proxy rewrites cookie attributes. Confirm deployment cookie policy rather than changing auth code blindly.", "priority": "HIGH"}
+    ],
+    "minor": [
+      {"endpoint": "/api/admin/categories", "issue": "Category create/edit/delete produce no audit events (audit search by category ID returns total=0); these handlers omit audit calls."},
+      {"endpoint": "/api/admin/categories/TEST_NONEXISTENT", "issue": "PUT returns 200 success for a nonexistent category because edit_category ignores matched_count; should return 404."}
+    ]
+  },
+  "frontend_issues": {
+    "ui_bugs": [
+      {"component": "AdminUsers.UserEditor", "issue": "KRC is displayed read-only; admin cannot correct an approved KRC from the UI, although PATCH backend supports it. Modal contains only name/email/phone inputs.", "selector": "[data-testid='student-details']", "priority": "MEDIUM"}
+    ],
+    "integration_issues": [
+      {"flow": "Course purchase detail beyond first history page", "issue": "Reproduced with a real awaiting_receipt purchase and 16 later synthetic TEST history rows: exact lookup finds it, but CourseDetail fetches only the first /my/purchases page, shows Buy, and hides its receipt form/status. Clicking Buy recovers the existing purchase without duplication. Use /my/purchases/course/{cid}.", "affected_selectors": ["[data-testid='course-purchase']", "[data-testid='purchase-status']", "[data-testid^='receipt-file-']"]}
+    ],
+    "design_issues": [
+      {"screen": "Registration and profile", "issues": ["KRC registration-date uses the browser-native type=date picker rather than the requested shadcn calendar."]}
+    ]
+  },
+  "test_report_links": [
+    "/app/backend/tests/test_phase1.py",
+    "/app/backend/tests/test_phase1_followup.py",
+    "/app/backend/tests/test_phase1_edge_checks.py",
+    "/app/backend/tests/cleanup_phase1.py",
+    "/app/test_reports/pytest/pytest_results.xml",
+    "/app/test_reports/pytest/followup_results.xml",
+    "/app/test_reports/pytest/edge_results.xml",
+    "/app/test_reports/cleanup_results.json"
+  ],
+  "action_items": [
+    "Reject malformed signature-only PDFs using real structural validation; retest receipts and lectures.",
+    "Investigate ingress SameSite=None/Partitioned rewrite versus required Lax.",
+    "Add editable admin KRC field and use exact purchase lookup in CourseDetail.",
+    "Audit category mutations and return 404 for missing update targets.",
+    "Replace native registration-date picker with shadcn calendar if mandated by the approved UI plan."
+  ],
+  "critical_code_review_comments": [
+    "My courses endpoint returns up to 10,000 courses and its UI has neither pagination nor filters, unlike the list scalability requirement; large-list behavior was not exercised.",
+    "Lecture/file downloads fetch the entire managed object into memory before applying Range; authenticated Range responses worked but large-video performance was not load-tested.",
+    "Mailer and storage contain hardcoded provider URL fallbacks, deviating from the environment-only URL configuration requirement.",
+    "Follow-up regression modules require retained core-test state and ordered execution; run core, follow-up, browser, then edge checks and explicit cleanup. They skip if state is absent."
+  ],
+  "updated_files": [
+    "/app/backend/tests/test_phase1.py",
+    "/app/backend/tests/test_phase1_followup.py",
+    "/app/backend/tests/test_phase1_edge_checks.py",
+    "/app/backend/tests/inspect_cookie.py",
+    "/app/backend/tests/cleanup_phase1.py",
+    "/app/memory/test_credentials.md",
+    "/app/test_reports/iteration_1.json"
+  ],
+  "success_rate": {"backend": "80% across 25 executed test cases; cookie discrepancy counted twice", "frontend": "Core executed workflows passed; older-purchase display failed; missing KRC editing/native picker also verified"},
+  "test_credentials": "Initial credential file had no account credentials. Temporary generated credentials used only for isolated TEST accounts; all removed, private state manifest deleted. Owner invitations were never touched except separately tagged temporary test invites.",
+  "seed_data_creation": "Created 7 isolated users, 2 courses, 2 retained test categories, lectures, receipts/avatars, purchases and 16 synthetic purchase-history rows. Cleanup removed users/sessions/invites/lectures/purchases/files/categories/courses/audit and restored original settings. Base categories retained. Managed objects cannot be physically deleted via provider API; removing all metadata blocks access. Shared IP rate-limit buckets left to expire naturally.",
+  "retest_needed": true,
+  "should_main_agent_self_test": false,
+  "context_for_next_testing_agent": "No active test admin or test records remain. Core external storage upload/download, authenticated range, ownership denials, block revocation, student free access, currency snapshots, duplicate review protection, expired/single-use reset and session invalidation passed. Managed send_reset_email accepted a message to delivered@resend.dev; real inbox delivery and public forgot for an existing email were NOT exercised, avoiding invented inbox mail. Reset token tests used separate DB-inserted hashed tokens, not a captured delivery token. API owner one-time and expired behavior used temporary tagged invitations. UI registration validation tested but actual UI registration submission was not tested. No storage/email integration MOCKED. Mobile 390x844 public/admin/member pages showed no document horizontal overflow; desktop 1920x1080 home/admin/receipt flows worked. Edge suite had >50% failures, so further backend probing stopped and findings were reported. Cookie parser assertions were corrected after proxy diagnostics; final corrected parser was not rerun. Native date picker and KRC UI gap remain. Public-origin cookie policy is a proxy deployment issue, not evidence of login failure.",
+  "rca of the issue": "PDF integrity gap: media.py line 50 uses startswith only. Category audit/404 gaps: catalog.py handlers omit audit and do not inspect update result. Purchase UI gap: Courses.jsx line 15 reads only page 1, not available exact course lookup. KRC correction gap: AdminUsers.jsx omits KRC from editable state and payload. Cookie discrepancy: external response has None/Partitioned despite backend response.set_cookie(lax), indicating proxy rewriting. Test-only interruptions were invalid PNG fixture and incorrect navigation expectations after logout/admin relogin; corrected without application changes, and complete receipt workflow subsequently passed."
+}

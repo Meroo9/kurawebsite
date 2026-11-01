@@ -1,0 +1,18 @@
+import {Loader2,ArrowLeft,ArrowRight,Inbox,AlertCircle} from 'lucide-react';
+import {Link} from 'react-router-dom';
+import {Button} from './ui/button';
+import {Input} from './ui/input';
+import {Textarea} from './ui/textarea';
+import {DateInput} from './DateInput';
+export const Btn=({children,className='',...props})=><Button className={`k-btn ${className}`} {...props}>{children}</Button>;
+export const Field=({label,id,multiline=false,...props})=>{const Comp=multiline?Textarea:Input;return <div className="field"><label htmlFor={id} data-testid={`${id}-label`}>{label}</label>{props.type==='date'?<DateInput id={id} {...props}/>:<Comp id={id} data-testid={id} {...props}/>}</div>;};
+export const SelectField=({label,id,children,...props})=><label className="field" htmlFor={id}><span data-testid={`${id}-label`}>{label}</span><select id={id} data-testid={id} {...props}>{children}</select></label>;
+export const Check=({id,children,...props})=><label className="check"><input type="checkbox" data-testid={id} {...props}/><span data-testid={`${id}-label`}>{children}</span></label>;
+export const Busy=()=> <div className="busy" data-testid="loading-state"><Loader2 className="spin"/> جارٍ التحميل…</div>;
+export const Empty=({title='لا توجد نتائج',text,action})=><div className="empty" data-testid="empty-state"><span className="empty-icon"><Inbox size={32}/></span><h3 data-testid="empty-title">{title}</h3>{text&&<p data-testid="empty-description">{text}</p>}{action}</div>;
+export const ErrorNotice=({text})=>text?<div className="error-notice" role="alert" data-testid="error-notice"><AlertCircle size={18}/>{text}</div>:null;
+export const PageHeading=({eyebrow,title,text,children})=><div className="page-heading"><div>{eyebrow&&<span className="eyebrow" data-testid="page-eyebrow">{eyebrow}</span>}<h1 data-testid="page-title">{title}</h1>{text&&<p data-testid="page-description">{text}</p>}</div>{children}</div>;
+export const Pager=({page,total,size=15,onChange})=>total>size?<div className="pager"><Btn data-testid="previous-page" variant="outline" disabled={page===1} onClick={()=>onChange(page-1)}><ArrowRight size={15}/>السابق</Btn><span data-testid="pagination-status">{page} / {Math.ceil(total/size)}</span><Btn data-testid="next-page" variant="outline" disabled={page*size>=total} onClick={()=>onChange(page+1)}>التالي<ArrowLeft size={15}/></Btn></div>:null;
+const labels={pending:'قيد المراجعة',approved:'مقبول',rejected:'مرفوض',awaiting_receipt:'بانتظار الإيصال',active:'نشط',blocked:'محظور',inactive:'غير نشط',none:'غير مقدم',visitor:'زائر مسجل',student:'طالب كورا',admin:'مدير',employee:'موظف'};
+export const Status=({value,id})=><span data-testid={id} className={`status status-${value}`}>{labels[value]||value}</span>;
+export const CourseCard=({course})=><Link className="course-card" data-testid={`course-${course.id}`} to={`/courses/${course.id}`}><div className={`course-art ${course.category_id}`}><span className="course-monogram">K</span><span>كورا · مساحة للمعرفة</span></div><div className="course-card-body"><span className="eyebrow">{course.has_access?'متاح لك':'كورس طبي وبحثي'}</span><h3 data-testid={`course-title-${course.id}`}>{course.title}</h3><p>{course.description}</p><div className="course-card-bottom"><span data-testid={`course-price-${course.id}`}>{course.price_minor===0?'مجاني':new Intl.NumberFormat('ar').format(course.price_minor/100)+' '+course.currency}</span><ArrowLeft size={19}/></div></div></Link>;
