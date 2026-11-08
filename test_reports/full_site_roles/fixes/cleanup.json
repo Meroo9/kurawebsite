@@ -1,0 +1,20 @@
+{
+  "deleted": {
+    "sessions": 7,
+    "reset_tokens": 0,
+    "files": 5,
+    "purchases": 1,
+    "lectures": 2,
+    "courses": 4,
+    "categories": 1,
+    "audit": 33,
+    "users": 8
+  },
+  "checks": {
+    "settings_exact": true,
+    "courses_exact": true,
+    "owner_invites_exact": true,
+    "users_removed": true
+  },
+  "storage": "Metadata access revoked; physical provider objects retained (no delete API)."
+}

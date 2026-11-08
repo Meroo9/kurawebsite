@@ -1,0 +1,19 @@
+# Rerun current research/posts workflows on this full-site run's retained isolated roles.
+import pytest
+import test_research_posts as rp
+from full_site_support import load,save,STATE
+rp.STATE=STATE
+rp.save=save
+
+@pytest.fixture(scope='module')
+def c():
+    x=load();yield x;save(x)
+
+from test_research_posts import (
+ test_01_health_auth_mutation,test_02_draft_validation_edit_privacy,test_03_input_real_upload_limits_remove,
+ test_04_quotes_discount_reject_stale_lock,test_05_non_sensitive_available_and_claim_race,
+ test_06_return_reassignment_revokes,test_07_unpaid_work_results_withheld,
+ test_08_reject_replace_partial_full_immutable,test_09_revision_completion,
+ test_10_visitor_prepay_deliver_cancel_settlement,test_11_posts_actual_image_draft_publish_security,
+ test_12_post_idempotent_likes_comments_authorization,test_13_post_image_replace_hide_delete,
+ test_14_blocked_user_private_denial_public_read,test_15_counts_search_pagination_balances_audit)

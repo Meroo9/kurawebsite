@@ -1,0 +1,302 @@
+[
+  {
+    "file": "/app/test_reports/full_site_roles/admin-admin-1920.jpg",
+    "width": 1920,
+    "height": 1080,
+    "purpose": "Role/public/flow evidence"
+  },
+  {
+    "file": "/app/test_reports/full_site_roles/admin-admin-390.jpg",
+    "width": 390,
+    "height": 844,
+    "purpose": "Role/public/flow evidence"
+  },
+  {
+    "file": "/app/test_reports/full_site_roles/admin-admin-posts-1920.jpg",
+    "width": 1920,
+    "height": 1080,
+    "purpose": "Role/public/flow evidence"
+  },
+  {
+    "file": "/app/test_reports/full_site_roles/admin-admin-posts-390.jpg",
+    "width": 390,
+    "height": 844,
+    "purpose": "Role/public/flow evidence"
+  },
+  {
+    "file": "/app/test_reports/full_site_roles/admin-admin-purchases-1920.jpg",
+    "width": 1920,
+    "height": 1080,
+    "purpose": "Role/public/flow evidence"
+  },
+  {
+    "file": "/app/test_reports/full_site_roles/admin-admin-purchases-390.jpg",
+    "width": 390,
+    "height": 844,
+    "purpose": "Role/public/flow evidence"
+  },
+  {
+    "file": "/app/test_reports/full_site_roles/admin-admin-research-1920.jpg",
+    "width": 1920,
+    "height": 1080,
+    "purpose": "Role/public/flow evidence"
+  },
+  {
+    "file": "/app/test_reports/full_site_roles/admin-admin-research-390.jpg",
+    "width": 390,
+    "height": 844,
+    "purpose": "Role/public/flow evidence"
+  },
+  {
+    "file": "/app/test_reports/full_site_roles/admin-admin-research-abdb7b17d8caaf8636f098b9-1920.jpg",
+    "width": 1920,
+    "height": 1080,
+    "purpose": "Role/public/flow evidence"
+  },
+  {
+    "file": "/app/test_reports/full_site_roles/admin-admin-research-abdb7b17d8caaf8636f098b9-390.jpg",
+    "width": 390,
+    "height": 844,
+    "purpose": "Role/public/flow evidence"
+  },
+  {
+    "file": "/app/test_reports/full_site_roles/admin-admin-users-1920.jpg",
+    "width": 1920,
+    "height": 1080,
+    "purpose": "Role/public/flow evidence"
+  },
+  {
+    "file": "/app/test_reports/full_site_roles/admin-admin-users-390.jpg",
+    "width": 390,
+    "height": 844,
+    "purpose": "Role/public/flow evidence"
+  },
+  {
+    "file": "/app/test_reports/full_site_roles/admin-course-receipt-approved-1920.jpg",
+    "width": 1920,
+    "height": 1080,
+    "purpose": "Role/public/flow evidence"
+  },
+  {
+    "file": "/app/test_reports/full_site_roles/admin-course-receipt-rejected-1920.jpg",
+    "width": 1920,
+    "height": 1080,
+    "purpose": "Role/public/flow evidence"
+  },
+  {
+    "file": "/app/test_reports/full_site_roles/blocked-notice-390.jpg",
+    "width": 390,
+    "height": 844,
+    "purpose": "Role/public/flow evidence"
+  },
+  {
+    "file": "/app/test_reports/full_site_roles/employee1-assigned-list-1920.jpg",
+    "width": 1920,
+    "height": 1080,
+    "purpose": "Role/public/flow evidence"
+  },
+  {
+    "file": "/app/test_reports/full_site_roles/employee1-dashboard-research-1920.jpg",
+    "width": 1920,
+    "height": 1080,
+    "purpose": "Role/public/flow evidence"
+  },
+  {
+    "file": "/app/test_reports/full_site_roles/employee1-dashboard-research-390.jpg",
+    "width": 390,
+    "height": 844,
+    "purpose": "Role/public/flow evidence"
+  },
+  {
+    "file": "/app/test_reports/full_site_roles/employee1-dashboard-research-abdb7b17d8caaf8636f098b9-1920.jpg",
+    "width": 1920,
+    "height": 1080,
+    "purpose": "Role/public/flow evidence"
+  },
+  {
+    "file": "/app/test_reports/full_site_roles/employee1-dashboard-research-abdb7b17d8caaf8636f098b9-390.jpg",
+    "width": 390,
+    "height": 844,
+    "purpose": "Role/public/flow evidence"
+  },
+  {
+    "file": "/app/test_reports/full_site_roles/employee2-dashboard-research-1920.jpg",
+    "width": 1920,
+    "height": 1080,
+    "purpose": "Role/public/flow evidence"
+  },
+  {
+    "file": "/app/test_reports/full_site_roles/employee2-dashboard-research-390.jpg",
+    "width": 390,
+    "height": 844,
+    "purpose": "Role/public/flow evidence"
+  },
+  {
+    "file": "/app/test_reports/full_site_roles/inactive-notice-390.jpg",
+    "width": 390,
+    "height": 844,
+    "purpose": "Role/public/flow evidence"
+  },
+  {
+    "file": "/app/test_reports/full_site_roles/long-course-fresh-1000.jpg",
+    "width": 1000,
+    "height": 1024,
+    "purpose": "Confirmed overflow/blank-layout evidence"
+  },
+  {
+    "file": "/app/test_reports/full_site_roles/long-course-fresh-1920.jpg",
+    "width": 1920,
+    "height": 1080,
+    "purpose": "Confirmed overflow/blank-layout evidence"
+  },
+  {
+    "file": "/app/test_reports/full_site_roles/long-course-fresh-390.jpg",
+    "width": 390,
+    "height": 844,
+    "purpose": "Confirmed overflow/blank-layout evidence"
+  },
+  {
+    "file": "/app/test_reports/full_site_roles/long-course-title-1000.jpg",
+    "width": 1000,
+    "height": 1024,
+    "purpose": "Confirmed overflow/blank-layout evidence"
+  },
+  {
+    "file": "/app/test_reports/full_site_roles/long-course-title-1920.jpg",
+    "width": 1920,
+    "height": 1080,
+    "purpose": "Confirmed overflow/blank-layout evidence"
+  },
+  {
+    "file": "/app/test_reports/full_site_roles/long-course-title-390.jpg",
+    "width": 390,
+    "height": 844,
+    "purpose": "Confirmed overflow/blank-layout evidence"
+  },
+  {
+    "file": "/app/test_reports/full_site_roles/long-post-detail-1000.jpg",
+    "width": 1000,
+    "height": 1024,
+    "purpose": "Role/public/flow evidence"
+  },
+  {
+    "file": "/app/test_reports/full_site_roles/long-post-detail-1920.jpg",
+    "width": 1920,
+    "height": 1080,
+    "purpose": "Role/public/flow evidence"
+  },
+  {
+    "file": "/app/test_reports/full_site_roles/long-post-detail-390.jpg",
+    "width": 390,
+    "height": 844,
+    "purpose": "Role/public/flow evidence"
+  },
+  {
+    "file": "/app/test_reports/full_site_roles/mobile-logout-toast-diagnostic.jpg",
+    "width": 390,
+    "height": 844,
+    "purpose": "Role/public/flow evidence"
+  },
+  {
+    "file": "/app/test_reports/full_site_roles/pending-dashboard-profile-1920.jpg",
+    "width": 1920,
+    "height": 1080,
+    "purpose": "Role/public/flow evidence"
+  },
+  {
+    "file": "/app/test_reports/full_site_roles/pending-dashboard-profile-390.jpg",
+    "width": 390,
+    "height": 844,
+    "purpose": "Role/public/flow evidence"
+  },
+  {
+    "file": "/app/test_reports/full_site_roles/post-workflow-mobile.jpg",
+    "width": 1000,
+    "height": 1024,
+    "purpose": "Role/public/flow evidence"
+  },
+  {
+    "file": "/app/test_reports/full_site_roles/public-home-1000.jpg",
+    "width": 1000,
+    "height": 1024,
+    "purpose": "Role/public/flow evidence"
+  },
+  {
+    "file": "/app/test_reports/full_site_roles/public-home-1920.jpg",
+    "width": 1920,
+    "height": 1080,
+    "purpose": "Role/public/flow evidence"
+  },
+  {
+    "file": "/app/test_reports/full_site_roles/public-home-390.jpg",
+    "width": 390,
+    "height": 844,
+    "purpose": "Role/public/flow evidence"
+  },
+  {
+    "file": "/app/test_reports/full_site_roles/public-posts-1000.jpg",
+    "width": 1000,
+    "height": 1024,
+    "purpose": "Role/public/flow evidence"
+  },
+  {
+    "file": "/app/test_reports/full_site_roles/public-posts-1920.jpg",
+    "width": 1920,
+    "height": 1080,
+    "purpose": "Role/public/flow evidence"
+  },
+  {
+    "file": "/app/test_reports/full_site_roles/public-posts-390.jpg",
+    "width": 390,
+    "height": 844,
+    "purpose": "Role/public/flow evidence"
+  },
+  {
+    "file": "/app/test_reports/full_site_roles/research-workflow-completed-1000.jpg",
+    "width": 1000,
+    "height": 1024,
+    "purpose": "Role/public/flow evidence"
+  },
+  {
+    "file": "/app/test_reports/full_site_roles/student-dashboard-courses-1920.jpg",
+    "width": 1920,
+    "height": 1080,
+    "purpose": "Role/public/flow evidence"
+  },
+  {
+    "file": "/app/test_reports/full_site_roles/student-dashboard-courses-390.jpg",
+    "width": 390,
+    "height": 844,
+    "purpose": "Role/public/flow evidence"
+  },
+  {
+    "file": "/app/test_reports/full_site_roles/ui_visitor-registration-dashboard-390.jpg",
+    "width": 390,
+    "height": 844,
+    "purpose": "Role/public/flow evidence"
+  },
+  {
+    "file": "/app/test_reports/full_site_roles/visitor-dashboard-1920.jpg",
+    "width": 1920,
+    "height": 1080,
+    "purpose": "Role/public/flow evidence"
+  },
+  {
+    "file": "/app/test_reports/full_site_roles/visitor-dashboard-390.jpg",
+    "width": 390,
+    "height": 844,
+    "purpose": "Role/public/flow evidence"
+  },
+  {
+    "file": "/app/test_reports/full_site_roles/visitor-dashboard-research-abdb7b17d8caaf8636f098b9-1920.jpg",
+    "width": 1920,
+    "height": 1080,
+    "purpose": "Role/public/flow evidence"
+  },
+  {
+    "file": "/app/test_reports/full_site_roles/visitor-dashboard-research-abdb7b17d8caaf8636f098b9-390.jpg",
+    "width": 390,
+    "height": 844,
+    "purpose": "Role/public/flow evidence"
+  }
+]

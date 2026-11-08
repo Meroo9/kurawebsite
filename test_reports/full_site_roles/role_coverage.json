@@ -1,0 +1,74 @@
+{
+  "public": {
+    "visible": "All 15 public routes at 390/1000/1920; real navigation, course/post search and pagination, research introduction, auth forms.",
+    "permissions": "Anonymous admin/private files/comments/purchase/research gates exercised.",
+    "result": "PASS normal content; FAIL valid long-course layout.",
+    "screenshots": [
+      "public-home-390.jpg",
+      "public-home-1920.jpg",
+      "public-posts-1000.jpg",
+      "long-course-fresh-390.jpg"
+    ]
+  },
+  "registered_visitor": {
+    "visible": "Dashboard, profile/avatar, course library/payments, own research, posts/likes/comments/share. Actual browser registration and profile save.",
+    "permissions": "No self-promotion; admin UI/API denied; ID tampering/private receipt/avatar/research denied. Whole-course receipt rejects/replacement/full approval, preview/download, full research financial lifecycle.",
+    "result": "PASS tested workflows; long-course layout FAIL. First immediate profile/logout sequence interrupted, settled diagnostic logout passed.",
+    "screenshots": [
+      "visitor-dashboard-390.jpg",
+      "visitor-dashboard-1920.jpg",
+      "ui_visitor-registration-dashboard-390.jpg"
+    ]
+  },
+  "pending_KRC": {
+    "visible": "Pending notice, editable profile/KRC, visitor library/payments, research intake.",
+    "permissions": "No free flagged course and 0% research discount before approval; admin direct routes denied. API registration passed; admin browser approval and KRC correction passed.",
+    "result": "PASS API permissions and role screens; actual pending browser registration submission NOT VERIFIED, calendar worked but no POST observed.",
+    "screenshots": [
+      "pending-dashboard-profile-390.jpg",
+      "pending-dashboard-profile-1920.jpg"
+    ]
+  },
+  "approved_student": {
+    "visible": "Student role, disabled approved KRC field, flagged free courses, 15% research quote, course/research payment tabs.",
+    "permissions": "Unflagged course not free; course price not research-discounted; admin routes denied; one revision then completion.",
+    "result": "PASS tested role flows.",
+    "screenshots": [
+      "student-dashboard-courses-390.jpg",
+      "student-dashboard-courses-1920.jpg",
+      "research-workflow-completed-1000.jpg"
+    ]
+  },
+  "employee1_and_employee2": {
+    "visible": "Employee dashboard/profile, available non-sensitive service pool, assigned details/input/results, claim/start/return/delivery. No payment/course navigation.",
+    "permissions": "Concurrent claim exactly one winner; prior assignee loses files after return/reopen. No receipt/owner identity/quote totals/current or legacy settlement notes. Admin UI/API denied.",
+    "result": "PASS APIs and UI. One employee2 mobile profile navigation timeout passed on its single retry; not reproducible as app bug.",
+    "screenshots": [
+      "employee1-dashboard-research-390.jpg",
+      "employee2-dashboard-research-1920.jpg",
+      "employee1-assigned-list-1920.jpg",
+      "employee1-dashboard-research-abdb7b17d8caaf8636f098b9-390.jpg"
+    ]
+  },
+  "admin": {
+    "visible": "All 11 admin/nested pages at three widths; actual KRC approval/correction, course draft/edit/publish, lecture upload, receipt reviews, quotes, cancellation settlement, posts/image CRUD/moderation. Filtered test-only private lists.",
+    "permissions": "Non-admin API/UI denial backed by server. Positive amount/reason/duplicate/stale quote/review guards checked.",
+    "result": "PASS critical admin workflows; missing course/lecture DELETE falsely succeeds (minor).",
+    "screenshots": [
+      "admin-admin-1920.jpg",
+      "admin-admin-users-390.jpg",
+      "admin-course-receipt-approved-1920.jpg",
+      "admin-admin-research-390.jpg",
+      "admin-admin-posts-1920.jpg"
+    ]
+  },
+  "blocked_and_inactive": {
+    "visible": "Clear blocked/inactive login notices, public post reads still available.",
+    "permissions": "API login/session denial and stale-session private research/file/upload/reaction/comment denial; block/unblock/session revocation checked.",
+    "result": "PASS tested restrictions.",
+    "screenshots": [
+      "blocked-notice-390.jpg",
+      "inactive-notice-390.jpg"
+    ]
+  }
+}

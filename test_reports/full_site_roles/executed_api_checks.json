@@ -1,0 +1,235 @@
+{
+  "checks": [
+    {
+      "check": "tests.test_full_site_accounts_courses::test_01_health_public_and_role_gates",
+      "passed": true,
+      "evidence": "full_site_accounts_courses.xml"
+    },
+    {
+      "check": "tests.test_full_site_accounts_courses::test_02_cookie_csrf_cors",
+      "passed": true,
+      "evidence": "full_site_accounts_courses.xml"
+    },
+    {
+      "check": "tests.test_full_site_accounts_courses::test_03_normalized_duplicates_and_dates",
+      "passed": true,
+      "evidence": "full_site_accounts_courses.xml"
+    },
+    {
+      "check": "tests.test_full_site_accounts_courses::test_04_profile_no_self_promotion_and_krc_correction",
+      "passed": true,
+      "evidence": "full_site_accounts_courses.xml"
+    },
+    {
+      "check": "tests.test_full_site_accounts_courses::test_05_employee_management",
+      "passed": true,
+      "evidence": "full_site_accounts_courses.xml"
+    },
+    {
+      "check": "tests.test_full_site_accounts_courses::test_06_catalog_category_publish_prerequisite",
+      "passed": true,
+      "evidence": "full_site_accounts_courses.xml"
+    },
+    {
+      "check": "tests.test_full_site_accounts_courses::test_07_student_pending_free_flag_not_discount",
+      "passed": true,
+      "evidence": "full_site_accounts_courses.xml"
+    },
+    {
+      "check": "tests.test_full_site_accounts_courses::test_08_lectures_upload_order_edit_protection",
+      "passed": true,
+      "evidence": "full_site_accounts_courses.xml"
+    },
+    {
+      "check": "tests.test_full_site_accounts_courses::test_09_purchase_concurrent_receipt_pending",
+      "passed": true,
+      "evidence": "full_site_accounts_courses.xml"
+    },
+    {
+      "check": "tests.test_full_site_accounts_courses::test_10_reject_replacement_double_approval_unlock_all",
+      "passed": true,
+      "evidence": "full_site_accounts_courses.xml"
+    },
+    {
+      "check": "tests.test_full_site_accounts_courses::test_11_price_edit_currency_history",
+      "passed": true,
+      "evidence": "full_site_accounts_courses.xml"
+    },
+    {
+      "check": "tests.test_full_site_accounts_courses::test_12_avatar_validation_replacement_private",
+      "passed": true,
+      "evidence": "full_site_accounts_courses.xml"
+    },
+    {
+      "check": "tests.test_full_site_accounts_courses::test_13_ranges_metadata_and_pdf",
+      "passed": true,
+      "evidence": "full_site_accounts_courses.xml"
+    },
+    {
+      "check": "tests.test_full_site_accounts_courses::test_14_library_and_purchase_pagination",
+      "passed": true,
+      "evidence": "full_site_accounts_courses.xml"
+    },
+    {
+      "check": "tests.test_full_site_accounts_courses::test_15_block_inactive_revocation_unblock_logout",
+      "passed": true,
+      "evidence": "full_site_accounts_courses.xml"
+    },
+    {
+      "check": "tests.test_full_site_accounts_courses::test_16_reset_neutral_managed_mail_and_single_use",
+      "passed": true,
+      "evidence": "full_site_accounts_courses.xml"
+    },
+    {
+      "check": "tests.test_full_site_accounts_courses::test_17_archive_revokes_and_category_delete",
+      "passed": true,
+      "evidence": "full_site_accounts_courses.xml"
+    },
+    {
+      "check": "tests.test_full_site_accounts_courses::test_18_balances_audit_original_preservation",
+      "passed": true,
+      "evidence": "full_site_accounts_courses.xml"
+    },
+    {
+      "check": "tests.test_full_site_research_posts::test_01_health_auth_mutation",
+      "passed": true,
+      "evidence": "full_site_research_posts.xml"
+    },
+    {
+      "check": "tests.test_full_site_research_posts::test_02_draft_validation_edit_privacy",
+      "passed": true,
+      "evidence": "full_site_research_posts.xml"
+    },
+    {
+      "check": "tests.test_full_site_research_posts::test_03_input_real_upload_limits_remove",
+      "passed": true,
+      "evidence": "full_site_research_posts.xml"
+    },
+    {
+      "check": "tests.test_full_site_research_posts::test_04_quotes_discount_reject_stale_lock",
+      "passed": true,
+      "evidence": "full_site_research_posts.xml"
+    },
+    {
+      "check": "tests.test_full_site_research_posts::test_05_non_sensitive_available_and_claim_race",
+      "passed": true,
+      "evidence": "full_site_research_posts.xml"
+    },
+    {
+      "check": "tests.test_full_site_research_posts::test_06_return_reassignment_revokes",
+      "passed": true,
+      "evidence": "full_site_research_posts.xml"
+    },
+    {
+      "check": "tests.test_full_site_research_posts::test_07_unpaid_work_results_withheld",
+      "passed": true,
+      "evidence": "full_site_research_posts.xml"
+    },
+    {
+      "check": "tests.test_full_site_research_posts::test_08_reject_replace_partial_full_immutable",
+      "passed": true,
+      "evidence": "full_site_research_posts.xml"
+    },
+    {
+      "check": "tests.test_full_site_research_posts::test_09_revision_completion",
+      "passed": true,
+      "evidence": "full_site_research_posts.xml"
+    },
+    {
+      "check": "tests.test_full_site_research_posts::test_10_visitor_prepay_deliver_cancel_settlement",
+      "passed": true,
+      "evidence": "full_site_research_posts.xml"
+    },
+    {
+      "check": "tests.test_full_site_research_posts::test_11_posts_actual_image_draft_publish_security",
+      "passed": true,
+      "evidence": "full_site_research_posts.xml"
+    },
+    {
+      "check": "tests.test_full_site_research_posts::test_12_post_idempotent_likes_comments_authorization",
+      "passed": true,
+      "evidence": "full_site_research_posts.xml"
+    },
+    {
+      "check": "tests.test_full_site_research_posts::test_13_post_image_replace_hide_delete",
+      "passed": true,
+      "evidence": "full_site_research_posts.xml"
+    },
+    {
+      "check": "tests.test_full_site_research_posts::test_14_blocked_user_private_denial_public_read",
+      "passed": true,
+      "evidence": "full_site_research_posts.xml"
+    },
+    {
+      "check": "tests.test_full_site_research_posts::test_15_counts_search_pagination_balances_audit",
+      "passed": true,
+      "evidence": "full_site_research_posts.xml"
+    },
+    {
+      "check": "tests.test_full_site_boundaries::test_01_public_posts_comments_pagination",
+      "passed": true,
+      "evidence": "full_site_boundaries.xml"
+    },
+    {
+      "check": "tests.test_full_site_boundaries::test_02_research_legacy_notes_and_assigned_layout",
+      "passed": true,
+      "evidence": "full_site_boundaries.xml"
+    },
+    {
+      "check": "tests.test_full_site_boundaries::test_03_sensitive_pool_tampering_and_new_cancellation",
+      "passed": true,
+      "evidence": "full_site_boundaries_followup.xml"
+    },
+    {
+      "check": "tests.test_full_site_boundaries::test_04_employee_financial_api_roles_and_blocked_stale",
+      "passed": true,
+      "evidence": "full_site_boundaries.xml"
+    },
+    {
+      "check": "tests.test_full_site_boundaries::test_05_concurrent_research_receipt_review",
+      "passed": true,
+      "evidence": "full_site_boundaries.xml"
+    },
+    {
+      "check": "tests.test_full_site_boundaries::test_06_private_reference_images_and_invalid_inputs",
+      "passed": true,
+      "evidence": "full_site_boundaries.xml"
+    },
+    {
+      "check": "tests.test_full_site_boundaries::test_07_missing_resource_delete_semantics[courses]",
+      "passed": false,
+      "evidence": "full_site_boundaries_followup.xml"
+    },
+    {
+      "check": "tests.test_full_site_boundaries::test_07_missing_resource_delete_semantics[lectures]",
+      "passed": false,
+      "evidence": "full_site_boundaries_followup.xml"
+    },
+    {
+      "check": "tests.test_full_site_final_checks::test_01_long_course_fixture_valid",
+      "passed": true,
+      "evidence": "full_site_final_checks.xml"
+    },
+    {
+      "check": "tests.test_full_site_final_checks::test_02_long_post_comment_fixture",
+      "passed": true,
+      "evidence": "full_site_final_checks.xml"
+    },
+    {
+      "check": "tests.test_full_site_final_checks::test_03_multiple_currency_balances_isolated_history",
+      "passed": true,
+      "evidence": "full_site_final_checks.xml"
+    },
+    {
+      "check": "tests.test_full_site_final_checks::test_04_ui_created_archive_revoke",
+      "passed": true,
+      "evidence": "full_site_final_checks.xml"
+    },
+    {
+      "check": "tests.test_full_site_final_checks::test_05_original_settings_courses_invites_intact",
+      "passed": true,
+      "evidence": "full_site_final_checks.xml"
+    }
+  ],
+  "execution_attempts": 48
+}

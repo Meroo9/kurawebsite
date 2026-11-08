@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="2" skipped="0" tests="3" time="2.443" timestamp="2026-11-08T13:50:53.266839+00:00" hostname="agent-env-f7a95980-9c0c-42e6-8d0a-efee50fe419b"><testcase classname="tests.test_full_site_boundaries" name="test_03_sensitive_pool_tampering_and_new_cancellation" time="1.390" /><testcase classname="tests.test_full_site_boundaries" name="test_07_missing_resource_delete_semantics[courses]" time="0.082"><failure message="AssertionError: ('/admin/courses/TEST_NONEXISTENT', 200, '{&quot;success&quot;:true}')">test_full_site_boundaries.py:78: in test_07_missing_resource_delete_semantics
+    denied(c,'admin','delete','/admin/'+resource+'/TEST_NONEXISTENT',404)
+full_site_support.py:35: in denied
+    r=req(c,role,method,path,**({'json':data} if data is not None else {}));assert r.status_code==code,(path,r.status_code,r.text);assert 'detail' in r.json()
+                                                                                   ^^^^^^^^^^^^^^^^^^^
+E   AssertionError: ('/admin/courses/TEST_NONEXISTENT', 200, '{"success":true}')</failure></testcase><testcase classname="tests.test_full_site_boundaries" name="test_07_missing_resource_delete_semantics[lectures]" time="0.308"><failure message="AssertionError: ('/admin/lectures/TEST_NONEXISTENT', 200, '{&quot;success&quot;:true}')">test_full_site_boundaries.py:78: in test_07_missing_resource_delete_semantics
+    denied(c,'admin','delete','/admin/'+resource+'/TEST_NONEXISTENT',404)
+full_site_support.py:35: in denied
+    r=req(c,role,method,path,**({'json':data} if data is not None else {}));assert r.status_code==code,(path,r.status_code,r.text);assert 'detail' in r.json()
+                                                                                   ^^^^^^^^^^^^^^^^^^^
+E   AssertionError: ('/admin/lectures/TEST_NONEXISTENT', 200, '{"success":true}')</failure></testcase></testsuite></testsuites>

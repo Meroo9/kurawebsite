@@ -20,7 +20,7 @@ export default function CourseDetail(){
  if(error)return <div className="container section-pad"><ErrorNotice text={error}/></div>;
  if(!course)return <Busy/>;
  return <div className="container course-detail">
-  <Link data-testid="back-to-courses" className="breadcrumb" to="/courses">الكورسات والمحاضرات<ChevronLeft size={15}/>{course.title}</Link>
+  <Link data-testid="back-to-courses" className="breadcrumb" to="/courses"><span>الكورسات والمحاضرات</span><ChevronLeft size={15}/><span className="breadcrumb-current" data-testid="course-breadcrumb-title">{course.title}</span></Link>
   <div className="course-detail-grid"><div>
    <span className="eyebrow">كورسات كورا</span><h1 data-testid="course-detail-title">{course.title}</h1>
    <p className="course-description" data-testid="course-detail-description">{course.description}</p>

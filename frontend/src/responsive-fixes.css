@@ -1,0 +1,11 @@
+/* Content-length resilience: keep real titles visible instead of clipping them. */
+.course-detail-grid{min-width:0;grid-template-columns:minmax(0,1fr) 350px}
+.course-detail-grid>*{min-width:0;max-width:100%}
+.course-detail h1,.course-description,.course-card h3,.course-card-body>p{overflow-wrap:anywhere;word-break:break-word;max-width:100%}
+.course-card,.course-card-body{min-width:0;max-width:100%}
+.course-detail .breadcrumb{min-width:0;max-width:100%;overflow-wrap:anywhere}
+.course-detail .breadcrumb>span{min-width:0;max-width:100%}
+.course-detail .breadcrumb-current{flex:1;overflow-wrap:anywhere;word-break:break-word}
+@media(max-width:1250px){.course-detail-grid{grid-template-columns:minmax(0,1fr) 320px}}
+@media(max-width:1024px){.course-detail-grid{grid-template-columns:minmax(0,1fr) 300px}}
+@media(max-width:760px){.course-detail-grid{grid-template-columns:minmax(0,1fr)}}

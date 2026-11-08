@@ -1,0 +1,47 @@
+{
+  "checks": [
+    {
+      "check": "long post and 1300char comment wraps literal XSS @390",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "confirmed public long-course overflow @390",
+      "passed": false,
+      "error": "{'doc': 1801, 'viewport': 390, 'scrollX': 0, 'headingWidth': 1783, 'headingRight': 372, 'headingWrap': 'normal', 'gridColumns': '1783px'}"
+    },
+    {
+      "check": "long post and 1300char comment wraps literal XSS @1000",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "confirmed public long-course overflow @1000",
+      "passed": false,
+      "error": "{'doc': 2273, 'viewport': 1000, 'scrollX': 0, 'headingWidth': 1916, 'headingRight': 968, 'headingWrap': 'normal', 'gridColumns': '1916px 300px'}"
+    },
+    {
+      "check": "long post and 1300char comment wraps literal XSS @1920",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "confirmed public long-course overflow @1920",
+      "passed": false,
+      "error": "{'doc': 2863, 'viewport': 1920, 'scrollX': 0, 'headingWidth': 2183, 'headingRight': 1655, 'headingWrap': 'normal', 'gridColumns': '2183px 350px'}"
+    },
+    {
+      "check": "final independent interactions",
+      "passed": false,
+      "error": "AssertionError()"
+    }
+  ],
+  "screenshots": [
+    "/app/test_reports/full_site_roles/long-post-detail-390.jpg",
+    "/app/test_reports/full_site_roles/long-course-fresh-390.jpg",
+    "/app/test_reports/full_site_roles/long-post-detail-1000.jpg",
+    "/app/test_reports/full_site_roles/long-course-fresh-1000.jpg",
+    "/app/test_reports/full_site_roles/long-post-detail-1920.jpg",
+    "/app/test_reports/full_site_roles/long-course-fresh-1920.jpg"
+  ]
+}

@@ -1,0 +1,1482 @@
+{
+  "checks": [
+    {
+      "check": "public / @390",
+      "passed": true,
+      "error": "",
+      "evidence": "public_browser.json"
+    },
+    {
+      "check": "public /about @390",
+      "passed": true,
+      "error": "",
+      "evidence": "public_browser.json"
+    },
+    {
+      "check": "public /services @390",
+      "passed": true,
+      "error": "",
+      "evidence": "public_browser.json"
+    },
+    {
+      "check": "public /courses @390",
+      "passed": true,
+      "error": "",
+      "evidence": "public_browser.json"
+    },
+    {
+      "check": "public /courses/c33f632eac8df2bad4c0c339 @390",
+      "passed": true,
+      "error": "",
+      "evidence": "public_browser.json"
+    },
+    {
+      "check": "public /research @390",
+      "passed": true,
+      "error": "",
+      "evidence": "public_browser.json"
+    },
+    {
+      "check": "public /posts @390",
+      "passed": true,
+      "error": "",
+      "evidence": "public_browser.json"
+    },
+    {
+      "check": "public /posts/4f43043ee8ec0b80a05433d4 @390",
+      "passed": true,
+      "error": "",
+      "evidence": "public_browser.json"
+    },
+    {
+      "check": "public /pricing @390",
+      "passed": true,
+      "error": "",
+      "evidence": "public_browser.json"
+    },
+    {
+      "check": "public /contact @390",
+      "passed": true,
+      "error": "",
+      "evidence": "public_browser.json"
+    },
+    {
+      "check": "public /privacy @390",
+      "passed": true,
+      "error": "",
+      "evidence": "public_browser.json"
+    },
+    {
+      "check": "public /login @390",
+      "passed": true,
+      "error": "",
+      "evidence": "public_browser.json"
+    },
+    {
+      "check": "public /register @390",
+      "passed": true,
+      "error": "",
+      "evidence": "public_browser.json"
+    },
+    {
+      "check": "public /forgot-password @390",
+      "passed": true,
+      "error": "",
+      "evidence": "public_browser.json"
+    },
+    {
+      "check": "public /reset-password @390",
+      "passed": true,
+      "error": "",
+      "evidence": "public_browser.json"
+    },
+    {
+      "check": "public / @1000",
+      "passed": true,
+      "error": "",
+      "evidence": "public_browser.json"
+    },
+    {
+      "check": "public /about @1000",
+      "passed": true,
+      "error": "",
+      "evidence": "public_browser.json"
+    },
+    {
+      "check": "public /services @1000",
+      "passed": true,
+      "error": "",
+      "evidence": "public_browser.json"
+    },
+    {
+      "check": "public /courses @1000",
+      "passed": true,
+      "error": "",
+      "evidence": "public_browser.json"
+    },
+    {
+      "check": "public /courses/c33f632eac8df2bad4c0c339 @1000",
+      "passed": true,
+      "error": "",
+      "evidence": "public_browser.json"
+    },
+    {
+      "check": "public /research @1000",
+      "passed": true,
+      "error": "",
+      "evidence": "public_browser.json"
+    },
+    {
+      "check": "public /posts @1000",
+      "passed": true,
+      "error": "",
+      "evidence": "public_browser.json"
+    },
+    {
+      "check": "public /posts/4f43043ee8ec0b80a05433d4 @1000",
+      "passed": true,
+      "error": "",
+      "evidence": "public_browser.json"
+    },
+    {
+      "check": "public /pricing @1000",
+      "passed": true,
+      "error": "",
+      "evidence": "public_browser.json"
+    },
+    {
+      "check": "public /contact @1000",
+      "passed": true,
+      "error": "",
+      "evidence": "public_browser.json"
+    },
+    {
+      "check": "public /privacy @1000",
+      "passed": true,
+      "error": "",
+      "evidence": "public_browser.json"
+    },
+    {
+      "check": "public /login @1000",
+      "passed": true,
+      "error": "",
+      "evidence": "public_browser.json"
+    },
+    {
+      "check": "public /register @1000",
+      "passed": true,
+      "error": "",
+      "evidence": "public_browser.json"
+    },
+    {
+      "check": "public /forgot-password @1000",
+      "passed": true,
+      "error": "",
+      "evidence": "public_browser.json"
+    },
+    {
+      "check": "public /reset-password @1000",
+      "passed": true,
+      "error": "",
+      "evidence": "public_browser.json"
+    },
+    {
+      "check": "public / @1920",
+      "passed": true,
+      "error": "",
+      "evidence": "public_browser.json"
+    },
+    {
+      "check": "public /about @1920",
+      "passed": true,
+      "error": "",
+      "evidence": "public_browser.json"
+    },
+    {
+      "check": "public /services @1920",
+      "passed": true,
+      "error": "",
+      "evidence": "public_browser.json"
+    },
+    {
+      "check": "public /courses @1920",
+      "passed": true,
+      "error": "",
+      "evidence": "public_browser.json"
+    },
+    {
+      "check": "public /courses/c33f632eac8df2bad4c0c339 @1920",
+      "passed": true,
+      "error": "",
+      "evidence": "public_browser.json"
+    },
+    {
+      "check": "public /research @1920",
+      "passed": true,
+      "error": "",
+      "evidence": "public_browser.json"
+    },
+    {
+      "check": "public /posts @1920",
+      "passed": true,
+      "error": "",
+      "evidence": "public_browser.json"
+    },
+    {
+      "check": "public /posts/4f43043ee8ec0b80a05433d4 @1920",
+      "passed": true,
+      "error": "",
+      "evidence": "public_browser.json"
+    },
+    {
+      "check": "public /pricing @1920",
+      "passed": true,
+      "error": "",
+      "evidence": "public_browser.json"
+    },
+    {
+      "check": "public /contact @1920",
+      "passed": true,
+      "error": "",
+      "evidence": "public_browser.json"
+    },
+    {
+      "check": "public /privacy @1920",
+      "passed": true,
+      "error": "",
+      "evidence": "public_browser.json"
+    },
+    {
+      "check": "public /login @1920",
+      "passed": true,
+      "error": "",
+      "evidence": "public_browser.json"
+    },
+    {
+      "check": "public /register @1920",
+      "passed": true,
+      "error": "",
+      "evidence": "public_browser.json"
+    },
+    {
+      "check": "public /forgot-password @1920",
+      "passed": true,
+      "error": "",
+      "evidence": "public_browser.json"
+    },
+    {
+      "check": "public /reset-password @1920",
+      "passed": true,
+      "error": "",
+      "evidence": "public_browser.json"
+    },
+    {
+      "check": "public actual mobile menu navigation all eight links",
+      "passed": true,
+      "error": "",
+      "evidence": "public_browser.json"
+    },
+    {
+      "check": "anonymous purchase login gating",
+      "passed": true,
+      "error": "",
+      "evidence": "public_browser.json"
+    },
+    {
+      "check": "anonymous research login gating",
+      "passed": true,
+      "error": "",
+      "evidence": "public_browser.json"
+    },
+    {
+      "check": "anonymous comments gated",
+      "passed": true,
+      "error": "",
+      "evidence": "public_browser.json"
+    },
+    {
+      "check": "anonymous admin UI redirect",
+      "passed": true,
+      "error": "",
+      "evidence": "public_browser.json"
+    },
+    {
+      "check": "not-found home recovery",
+      "passed": true,
+      "error": "",
+      "evidence": "public_browser.json"
+    },
+    {
+      "check": "visitor /dashboard @390",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "visitor /dashboard/courses @390",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "visitor /dashboard/payments @390",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "visitor /dashboard/profile @390",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "visitor /dashboard/research @390",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "visitor /dashboard/research/new @390",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "visitor /dashboard/research/abdb7b17d8caaf8636f098b9 @390",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "visitor /dashboard @1000",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "visitor /dashboard/courses @1000",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "visitor /dashboard/payments @1000",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "visitor /dashboard/profile @1000",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "visitor /dashboard/research @1000",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "visitor /dashboard/research/new @1000",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "visitor /dashboard/research/abdb7b17d8caaf8636f098b9 @1000",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "visitor /dashboard @1920",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "visitor /dashboard/courses @1920",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "visitor /dashboard/payments @1920",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "visitor /dashboard/profile @1920",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "visitor /dashboard/research @1920",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "visitor /dashboard/research/new @1920",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "visitor /dashboard/research/abdb7b17d8caaf8636f098b9 @1920",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "visitor direct UI /admin denied",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "visitor direct UI /admin/users denied",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "visitor direct UI /admin/research denied",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "visitor direct UI /admin/posts denied",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "visitor direct UI /admin/settings denied",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "visitor dashboard actual library count",
+      "passed": true,
+      "error": "",
+      "evidence": "role_followup.json"
+    },
+    {
+      "check": "pending /dashboard @390",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "pending /dashboard/courses @390",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "pending /dashboard/payments @390",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "pending /dashboard/profile @390",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "pending /dashboard/research @390",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "pending /dashboard/research/new @390",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "pending /dashboard @1000",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "pending /dashboard/courses @1000",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "pending /dashboard/payments @1000",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "pending /dashboard/profile @1000",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "pending /dashboard/research @1000",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "pending /dashboard/research/new @1000",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "pending /dashboard @1920",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "pending /dashboard/courses @1920",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "pending /dashboard/payments @1920",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "pending /dashboard/profile @1920",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "pending /dashboard/research @1920",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "pending /dashboard/research/new @1920",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "pending direct UI /admin denied",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "pending direct UI /admin/users denied",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "pending direct UI /admin/research denied",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "pending direct UI /admin/posts denied",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "pending direct UI /admin/settings denied",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "pending dashboard actual library count",
+      "passed": true,
+      "error": "",
+      "evidence": "role_followup.json"
+    },
+    {
+      "check": "student /dashboard @390",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "student /dashboard/courses @390",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "student /dashboard/payments @390",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "student /dashboard/profile @390",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "student /dashboard/research @390",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "student /dashboard/research/new @390",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "student /dashboard/research/a63681b45182f80e27f58f42 @390",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "student /dashboard @1000",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "student /dashboard/courses @1000",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "student /dashboard/payments @1000",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "student /dashboard/profile @1000",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "student /dashboard/research @1000",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "student /dashboard/research/new @1000",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "student /dashboard/research/a63681b45182f80e27f58f42 @1000",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "student /dashboard @1920",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "student /dashboard/courses @1920",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "student /dashboard/payments @1920",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "student /dashboard/profile @1920",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "student /dashboard/research @1920",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "student /dashboard/research/new @1920",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "student /dashboard/research/a63681b45182f80e27f58f42 @1920",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "student direct UI /admin denied",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "student direct UI /admin/users denied",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "student direct UI /admin/research denied",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "student direct UI /admin/posts denied",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "student direct UI /admin/settings denied",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "student dashboard actual library count",
+      "passed": true,
+      "error": "",
+      "evidence": "role_followup.json"
+    },
+    {
+      "check": "employee1 /dashboard @390",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "employee1 /dashboard/profile @390",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "employee1 /dashboard/research @390",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "employee1 /dashboard/research/abdb7b17d8caaf8636f098b9 @390",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "employee1 /dashboard @1000",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "employee1 /dashboard/profile @1000",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "employee1 /dashboard/research @1000",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "employee1 /dashboard/research/abdb7b17d8caaf8636f098b9 @1000",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "employee1 /dashboard @1920",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "employee1 /dashboard/profile @1920",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "employee1 /dashboard/research @1920",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "employee1 /dashboard/research/abdb7b17d8caaf8636f098b9 @1920",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "employee1 direct UI /admin denied",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "employee1 direct UI /admin/users denied",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "employee1 direct UI /admin/research denied",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "employee1 direct UI /admin/posts denied",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "employee1 direct UI /admin/settings denied",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "employee assigned tab navigation",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "employee2 /dashboard @390",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "employee2 /dashboard/profile @390",
+      "passed": true,
+      "error": "",
+      "evidence": "role_followup.json"
+    },
+    {
+      "check": "employee2 /dashboard/research @390",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "employee2 /dashboard @1000",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "employee2 /dashboard/profile @1000",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "employee2 /dashboard/research @1000",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "employee2 /dashboard @1920",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "employee2 /dashboard/profile @1920",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "employee2 /dashboard/research @1920",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "employee2 direct UI /admin denied",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "employee2 direct UI /admin/users denied",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "employee2 direct UI /admin/research denied",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "employee2 direct UI /admin/posts denied",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "employee2 direct UI /admin/settings denied",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "admin /admin @390",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "admin /admin/users @390",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "admin /admin/courses @390",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "admin /admin/courses/c33f632eac8df2bad4c0c339 @390",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "admin /admin/categories @390",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "admin /admin/purchases @390",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "admin /admin/audit @390",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "admin /admin/settings @390",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "admin /admin/research @390",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "admin /admin/research/abdb7b17d8caaf8636f098b9 @390",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "admin /admin/posts @390",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "admin /admin @1000",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "admin /admin/users @1000",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "admin /admin/courses @1000",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "admin /admin/courses/c33f632eac8df2bad4c0c339 @1000",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "admin /admin/categories @1000",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "admin /admin/purchases @1000",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "admin /admin/audit @1000",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "admin /admin/settings @1000",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "admin /admin/research @1000",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "admin /admin/research/abdb7b17d8caaf8636f098b9 @1000",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "admin /admin/posts @1000",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "admin /admin @1920",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "admin /admin/users @1920",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "admin /admin/courses @1920",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "admin /admin/courses/c33f632eac8df2bad4c0c339 @1920",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "admin /admin/categories @1920",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "admin /admin/purchases @1920",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "admin /admin/audit @1920",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "admin /admin/settings @1920",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "admin /admin/research @1920",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "admin /admin/research/abdb7b17d8caaf8636f098b9 @1920",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "admin /admin/posts @1920",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "blocked login denied with notice",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "blocked public read remains available",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "inactive login denied with notice",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "inactive public read remains available",
+      "passed": true,
+      "error": "",
+      "evidence": "roles_browser.json"
+    },
+    {
+      "check": "admin UI approval promotes only isolated pending student",
+      "passed": true,
+      "error": "",
+      "evidence": "accounts_courses_browser.json"
+    },
+    {
+      "check": "admin UI KRC correction",
+      "passed": true,
+      "error": "",
+      "evidence": "accounts_courses_browser.json"
+    },
+    {
+      "check": "admin UI draft course creation",
+      "passed": true,
+      "error": "",
+      "evidence": "accounts_courses_browser.json"
+    },
+    {
+      "check": "admin UI course publish",
+      "passed": true,
+      "error": "",
+      "evidence": "accounts_courses_browser.json"
+    },
+    {
+      "check": "admin UI actual lecture upload",
+      "passed": true,
+      "error": "",
+      "evidence": "accounts_courses_browser.json"
+    },
+    {
+      "check": "exact older purchase UI found beyond page15",
+      "passed": true,
+      "error": "",
+      "evidence": "accounts_courses_browser.json"
+    },
+    {
+      "check": "whole-course pending locked rejected",
+      "passed": true,
+      "error": "",
+      "evidence": "accounts_courses_browser.json"
+    },
+    {
+      "check": "actual course receipt rejected",
+      "passed": true,
+      "error": "",
+      "evidence": "accounts_courses_browser.json"
+    },
+    {
+      "check": "whole-course pending locked approved",
+      "passed": true,
+      "error": "",
+      "evidence": "accounts_courses_browser.json"
+    },
+    {
+      "check": "actual course receipt approved",
+      "passed": true,
+      "error": "",
+      "evidence": "accounts_courses_browser.json"
+    },
+    {
+      "check": "approved whole course private lecture preview",
+      "passed": true,
+      "error": "",
+      "evidence": "accounts_courses_browser.json"
+    },
+    {
+      "check": "protected lecture real download",
+      "passed": true,
+      "error": "",
+      "evidence": "accounts_courses_browser.json"
+    },
+    {
+      "check": "long-course title layout @390",
+      "passed": false,
+      "error": "{'doc': 1801, 'viewport': 390, 'scrollX': 0, 'headingWidth': 1783, 'headingRight': 372, 'headingWrap': 'normal', 'gridColumns': '1783px'}",
+      "evidence": "final_browser.json"
+    },
+    {
+      "check": "long-course title layout @1000",
+      "passed": false,
+      "error": "{'doc': 2273, 'viewport': 1000, 'scrollX': 0, 'headingWidth': 1916, 'headingRight': 968, 'headingWrap': 'normal', 'gridColumns': '1916px 300px'}",
+      "evidence": "final_browser.json"
+    },
+    {
+      "check": "long-course title layout @1920",
+      "passed": false,
+      "error": "{'doc': 2863, 'viewport': 1920, 'scrollX': 0, 'headingWidth': 2183, 'headingRight': 1655, 'headingWrap': 'normal', 'gridColumns': '2183px 350px'}",
+      "evidence": "final_browser.json"
+    },
+    {
+      "check": "actual UI whole course purchase",
+      "passed": true,
+      "error": "",
+      "evidence": "accounts_courses_browser.json"
+    },
+    {
+      "check": "actual library search and page12 navigation",
+      "passed": true,
+      "error": "",
+      "evidence": "accounts_courses_browser.json"
+    },
+    {
+      "check": "mobile intake, 10-file batch limit, actual upload, long Arabic title/file layout; request 4b82aa833acfcc699ec47064",
+      "passed": true,
+      "error": "",
+      "evidence": "research_workflow_browser.json"
+    },
+    {
+      "check": "admin quote and owner discount/accept",
+      "passed": true,
+      "error": "",
+      "evidence": "research_workflow_browser.json"
+    },
+    {
+      "check": "employee claim/start/upload/deliver without payment; owner results withheld",
+      "passed": true,
+      "error": "",
+      "evidence": "research_workflow_browser.json"
+    },
+    {
+      "check": "receipt rejection/replacement, partial amount resets, full approval unlocks real result",
+      "passed": true,
+      "error": "",
+      "evidence": "research_workflow_browser.json"
+    },
+    {
+      "check": "revision/re-delivery/completion and separate research/course payments",
+      "passed": true,
+      "error": "",
+      "evidence": "research_workflow_browser.json"
+    },
+    {
+      "check": "1000px tablet detail no horizontal overflow",
+      "passed": true,
+      "error": "",
+      "evidence": "research_workflow_browser.json"
+    },
+    {
+      "check": "admin actual post/image create",
+      "passed": true,
+      "error": "",
+      "evidence": "posts_workflow_browser.json"
+    },
+    {
+      "check": "post detail layout 390",
+      "passed": true,
+      "error": "",
+      "evidence": "posts_workflow_browser.json"
+    },
+    {
+      "check": "post detail layout 1000",
+      "passed": true,
+      "error": "",
+      "evidence": "posts_workflow_browser.json"
+    },
+    {
+      "check": "feed/detail real image, persistent like, comment, plain-text XSS",
+      "passed": true,
+      "error": "",
+      "evidence": "posts_workflow_browser.json"
+    },
+    {
+      "check": "moderation, text edit, image removal revokes public image, draft hides and delete",
+      "passed": true,
+      "error": "",
+      "evidence": "posts_workflow_browser.json"
+    },
+    {
+      "check": "invalid upload retains draft; resume/edit/upload/submit succeeds",
+      "passed": true,
+      "error": "",
+      "evidence": "posts_workflow_browser.json"
+    },
+    {
+      "check": "quote rejection/history, requote, owner cancel request, admin reasoned reject/approve settlement UI",
+      "passed": true,
+      "error": "",
+      "evidence": "posts_workflow_browser.json"
+    },
+    {
+      "check": "long post and 1300char comment wraps literal XSS @390",
+      "passed": true,
+      "error": "",
+      "evidence": "final_browser.json"
+    },
+    {
+      "check": "long post and 1300char comment wraps literal XSS @1000",
+      "passed": true,
+      "error": "",
+      "evidence": "final_browser.json"
+    },
+    {
+      "check": "long post and 1300char comment wraps literal XSS @1920",
+      "passed": true,
+      "error": "",
+      "evidence": "final_browser.json"
+    },
+    {
+      "check": "actual comments page15 navigation",
+      "passed": true,
+      "error": "",
+      "evidence": "final_interactions_browser.json"
+    },
+    {
+      "check": "actual clipboard share copies canonical post URL",
+      "passed": true,
+      "error": "",
+      "evidence": "final_interactions_browser.json"
+    },
+    {
+      "check": "actual public posts search page6 navigation",
+      "passed": true,
+      "error": "",
+      "evidence": "final_interactions_browser.json"
+    },
+    {
+      "check": "actual course search category page12 navigation",
+      "passed": true,
+      "error": "",
+      "evidence": "final_interactions_browser.json"
+    },
+    {
+      "check": "financial tabs and per-currency course totals actual UI",
+      "passed": true,
+      "error": "",
+      "evidence": "final_interactions_browser.json"
+    },
+    {
+      "check": "visitor actual browser registration with avatar",
+      "passed": true,
+      "error": "",
+      "evidence": "accounts_courses/automation_output/20261108_135820_23d6804d4c2d/console_20261108_135820.log"
+    },
+    {
+      "check": "visitor actual browser profile save",
+      "passed": true,
+      "error": "",
+      "evidence": "accounts_courses automation stdout; ui_visitor-registration-dashboard-390.jpg"
+    },
+    {
+      "check": "pending custom registration calendar selects date",
+      "passed": true,
+      "error": "",
+      "evidence": "accounts_courses/automation_output/20261108_135938_e063f25149e0/console_20261108_135938.log"
+    },
+    {
+      "check": "visitor browser logout after settled page",
+      "passed": true,
+      "error": "",
+      "evidence": "logout_diagnostic automation stdout: HTTP200, redirected login"
+    },
+    {
+      "check": "pending actual browser registration submission",
+      "passed": false,
+      "error": "No POST response observed after calendar interaction; stopped after repeated workflow interruptions. Root cause undetermined; not classified as proven application bug.",
+      "evidence": "accounts_courses automation stdout 20261108_135938_e063f25149e0"
+    }
+  ],
+  "manual_observations": [
+    {
+      "check": "visitor actual browser registration with avatar",
+      "passed": true,
+      "error": "",
+      "evidence": "accounts_courses/automation_output/20261108_135820_23d6804d4c2d/console_20261108_135820.log"
+    },
+    {
+      "check": "visitor actual browser profile save",
+      "passed": true,
+      "error": "",
+      "evidence": "accounts_courses automation stdout; ui_visitor-registration-dashboard-390.jpg"
+    },
+    {
+      "check": "pending custom registration calendar selects date",
+      "passed": true,
+      "error": "",
+      "evidence": "accounts_courses/automation_output/20261108_135938_e063f25149e0/console_20261108_135938.log"
+    },
+    {
+      "check": "visitor browser logout after settled page",
+      "passed": true,
+      "error": "",
+      "evidence": "logout_diagnostic automation stdout: HTTP200, redirected login"
+    },
+    {
+      "check": "pending actual browser registration submission",
+      "passed": false,
+      "error": "No POST response observed after calendar interaction; stopped after repeated workflow interruptions. Root cause undetermined; not classified as proven application bug.",
+      "evidence": "accounts_courses automation stdout 20261108_135938_e063f25149e0"
+    }
+  ]
+}

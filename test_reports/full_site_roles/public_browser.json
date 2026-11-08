@@ -1,0 +1,267 @@
+{
+  "checks": [
+    {
+      "check": "public / @390",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "public /about @390",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "public /services @390",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "public /courses @390",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "public /courses/c33f632eac8df2bad4c0c339 @390",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "public /research @390",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "public /posts @390",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "public /posts/4f43043ee8ec0b80a05433d4 @390",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "public /pricing @390",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "public /contact @390",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "public /privacy @390",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "public /login @390",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "public /register @390",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "public /forgot-password @390",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "public /reset-password @390",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "public / @1000",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "public /about @1000",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "public /services @1000",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "public /courses @1000",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "public /courses/c33f632eac8df2bad4c0c339 @1000",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "public /research @1000",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "public /posts @1000",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "public /posts/4f43043ee8ec0b80a05433d4 @1000",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "public /pricing @1000",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "public /contact @1000",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "public /privacy @1000",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "public /login @1000",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "public /register @1000",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "public /forgot-password @1000",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "public /reset-password @1000",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "public / @1920",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "public /about @1920",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "public /services @1920",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "public /courses @1920",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "public /courses/c33f632eac8df2bad4c0c339 @1920",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "public /research @1920",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "public /posts @1920",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "public /posts/4f43043ee8ec0b80a05433d4 @1920",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "public /pricing @1920",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "public /contact @1920",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "public /privacy @1920",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "public /login @1920",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "public /register @1920",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "public /forgot-password @1920",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "public /reset-password @1920",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "public actual mobile menu navigation all eight links",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "anonymous purchase login gating",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "anonymous research login gating",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "anonymous comments gated",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "anonymous admin UI redirect",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "not-found home recovery",
+      "passed": true,
+      "error": ""
+    }
+  ],
+  "screenshots": [
+    "/app/test_reports/full_site_roles/public-home-390.jpg",
+    "/app/test_reports/full_site_roles/public-posts-390.jpg",
+    "/app/test_reports/full_site_roles/public-home-1000.jpg",
+    "/app/test_reports/full_site_roles/public-posts-1000.jpg",
+    "/app/test_reports/full_site_roles/public-home-1920.jpg",
+    "/app/test_reports/full_site_roles/public-posts-1920.jpg"
+  ]
+}

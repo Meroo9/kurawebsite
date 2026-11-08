@@ -1,0 +1,1256 @@
+[
+  {
+    "cell": null,
+    "code": "F403",
+    "end_location": {
+      "column": 32,
+      "row": 5
+    },
+    "filename": "/app/backend/tests/test_full_site_boundaries.py",
+    "fix": null,
+    "location": {
+      "column": 1,
+      "row": 5
+    },
+    "message": "`from full_site_support import *` used; unable to detect undefined names",
+    "name": "undefined-local-with-import-star",
+    "noqa_row": 5,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-local-with-import-star"
+  },
+  {
+    "cell": null,
+    "code": "F405",
+    "end_location": {
+      "column": 15,
+      "row": 7
+    },
+    "filename": "/app/backend/tests/test_full_site_boundaries.py",
+    "fix": null,
+    "location": {
+      "column": 10,
+      "row": 7
+    },
+    "message": "`STATE` may be undefined, or defined from star imports",
+    "name": "undefined-local-with-import-star-usage",
+    "noqa_row": 7,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-local-with-import-star-usage"
+  },
+  {
+    "cell": null,
+    "code": "F405",
+    "end_location": {
+      "column": 13,
+      "row": 8
+    },
+    "filename": "/app/backend/tests/test_full_site_boundaries.py",
+    "fix": null,
+    "location": {
+      "column": 9,
+      "row": 8
+    },
+    "message": "`save` may be undefined, or defined from star imports",
+    "name": "undefined-local-with-import-star-usage",
+    "noqa_row": 8,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-local-with-import-star-usage"
+  },
+  {
+    "cell": null,
+    "code": "F405",
+    "end_location": {
+      "column": 11,
+      "row": 13
+    },
+    "filename": "/app/backend/tests/test_full_site_boundaries.py",
+    "fix": null,
+    "location": {
+      "column": 7,
+      "row": 13
+    },
+    "message": "`load` may be undefined, or defined from star imports",
+    "name": "undefined-local-with-import-star-usage",
+    "noqa_row": 13,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-local-with-import-star-usage"
+  },
+  {
+    "cell": null,
+    "code": "F405",
+    "end_location": {
+      "column": 26,
+      "row": 13
+    },
+    "filename": "/app/backend/tests/test_full_site_boundaries.py",
+    "fix": null,
+    "location": {
+      "column": 22,
+      "row": 13
+    },
+    "message": "`save` may be undefined, or defined from star imports",
+    "name": "undefined-local-with-import-star-usage",
+    "noqa_row": 13,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-local-with-import-star-usage"
+  },
+  {
+    "cell": null,
+    "code": "F405",
+    "end_location": {
+      "column": 38,
+      "row": 17
+    },
+    "filename": "/app/backend/tests/test_full_site_boundaries.py",
+    "fix": null,
+    "location": {
+      "column": 36,
+      "row": 17
+    },
+    "message": "`ok` may be undefined, or defined from star imports",
+    "name": "undefined-local-with-import-star-usage",
+    "noqa_row": 17,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-local-with-import-star-usage"
+  },
+  {
+    "cell": null,
+    "code": "F405",
+    "end_location": {
+      "column": 46,
+      "row": 18
+    },
+    "filename": "/app/backend/tests/test_full_site_boundaries.py",
+    "fix": null,
+    "location": {
+      "column": 42,
+      "row": 18
+    },
+    "message": "`save` may be undefined, or defined from star imports",
+    "name": "undefined-local-with-import-star-usage",
+    "noqa_row": 18,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-local-with-import-star-usage"
+  },
+  {
+    "cell": null,
+    "code": "F405",
+    "end_location": {
+      "column": 11,
+      "row": 19
+    },
+    "filename": "/app/backend/tests/test_full_site_boundaries.py",
+    "fix": null,
+    "location": {
+      "column": 9,
+      "row": 19
+    },
+    "message": "`ok` may be undefined, or defined from star imports",
+    "name": "undefined-local-with-import-star-usage",
+    "noqa_row": 19,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-local-with-import-star-usage"
+  },
+  {
+    "cell": null,
+    "code": "F405",
+    "end_location": {
+      "column": 67,
+      "row": 19
+    },
+    "filename": "/app/backend/tests/test_full_site_boundaries.py",
+    "fix": null,
+    "location": {
+      "column": 65,
+      "row": 19
+    },
+    "message": "`ok` may be undefined, or defined from star imports",
+    "name": "undefined-local-with-import-star-usage",
+    "noqa_row": 19,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-local-with-import-star-usage"
+  },
+  {
+    "cell": null,
+    "code": "F405",
+    "end_location": {
+      "column": 26,
+      "row": 20
+    },
+    "filename": "/app/backend/tests/test_full_site_boundaries.py",
+    "fix": null,
+    "location": {
+      "column": 24,
+      "row": 20
+    },
+    "message": "`ok` may be undefined, or defined from star imports",
+    "name": "undefined-local-with-import-star-usage",
+    "noqa_row": 20,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-local-with-import-star-usage"
+  },
+  {
+    "cell": null,
+    "code": "F405",
+    "end_location": {
+      "column": 11,
+      "row": 21
+    },
+    "filename": "/app/backend/tests/test_full_site_boundaries.py",
+    "fix": null,
+    "location": {
+      "column": 9,
+      "row": 21
+    },
+    "message": "`ok` may be undefined, or defined from star imports",
+    "name": "undefined-local-with-import-star-usage",
+    "noqa_row": 21,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-local-with-import-star-usage"
+  },
+  {
+    "cell": null,
+    "code": "F405",
+    "end_location": {
+      "column": 62,
+      "row": 21
+    },
+    "filename": "/app/backend/tests/test_full_site_boundaries.py",
+    "fix": null,
+    "location": {
+      "column": 60,
+      "row": 21
+    },
+    "message": "`ok` may be undefined, or defined from star imports",
+    "name": "undefined-local-with-import-star-usage",
+    "noqa_row": 21,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-local-with-import-star-usage"
+  },
+  {
+    "cell": null,
+    "code": "F405",
+    "end_location": {
+      "column": 49,
+      "row": 24
+    },
+    "filename": "/app/backend/tests/test_full_site_boundaries.py",
+    "fix": null,
+    "location": {
+      "column": 47,
+      "row": 24
+    },
+    "message": "`ok` may be undefined, or defined from star imports",
+    "name": "undefined-local-with-import-star-usage",
+    "noqa_row": 24,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-local-with-import-star-usage"
+  },
+  {
+    "cell": null,
+    "code": "F405",
+    "end_location": {
+      "column": 15,
+      "row": 25
+    },
+    "filename": "/app/backend/tests/test_full_site_boundaries.py",
+    "fix": null,
+    "location": {
+      "column": 9,
+      "row": 25
+    },
+    "message": "`upload` may be undefined, or defined from star imports",
+    "name": "undefined-local-with-import-star-usage",
+    "noqa_row": 25,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-local-with-import-star-usage"
+  },
+  {
+    "cell": null,
+    "code": "F405",
+    "end_location": {
+      "column": 114,
+      "row": 25
+    },
+    "filename": "/app/backend/tests/test_full_site_boundaries.py",
+    "fix": null,
+    "location": {
+      "column": 112,
+      "row": 25
+    },
+    "message": "`ok` may be undefined, or defined from star imports",
+    "name": "undefined-local-with-import-star-usage",
+    "noqa_row": 25,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-local-with-import-star-usage"
+  },
+  {
+    "cell": null,
+    "code": "F405",
+    "end_location": {
+      "column": 101,
+      "row": 29
+    },
+    "filename": "/app/backend/tests/test_full_site_boundaries.py",
+    "fix": null,
+    "location": {
+      "column": 93,
+      "row": 29
+    },
+    "message": "`datetime` may be undefined, or defined from star imports",
+    "name": "undefined-local-with-import-star-usage",
+    "noqa_row": 29,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-local-with-import-star-usage"
+  },
+  {
+    "cell": null,
+    "code": "F405",
+    "end_location": {
+      "column": 114,
+      "row": 29
+    },
+    "filename": "/app/backend/tests/test_full_site_boundaries.py",
+    "fix": null,
+    "location": {
+      "column": 106,
+      "row": 29
+    },
+    "message": "`timezone` may be undefined, or defined from star imports",
+    "name": "undefined-local-with-import-star-usage",
+    "noqa_row": 29,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-local-with-import-star-usage"
+  },
+  {
+    "cell": null,
+    "code": "F405",
+    "end_location": {
+      "column": 11,
+      "row": 33
+    },
+    "filename": "/app/backend/tests/test_full_site_boundaries.py",
+    "fix": null,
+    "location": {
+      "column": 9,
+      "row": 33
+    },
+    "message": "`ok` may be undefined, or defined from star imports",
+    "name": "undefined-local-with-import-star-usage",
+    "noqa_row": 33,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-local-with-import-star-usage"
+  },
+  {
+    "cell": null,
+    "code": "F405",
+    "end_location": {
+      "column": 35,
+      "row": 35
+    },
+    "filename": "/app/backend/tests/test_full_site_boundaries.py",
+    "fix": null,
+    "location": {
+      "column": 33,
+      "row": 35
+    },
+    "message": "`ok` may be undefined, or defined from star imports",
+    "name": "undefined-local-with-import-star-usage",
+    "noqa_row": 35,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-local-with-import-star-usage"
+  },
+  {
+    "cell": null,
+    "code": "F405",
+    "end_location": {
+      "column": 100,
+      "row": 35
+    },
+    "filename": "/app/backend/tests/test_full_site_boundaries.py",
+    "fix": null,
+    "location": {
+      "column": 98,
+      "row": 35
+    },
+    "message": "`ok` may be undefined, or defined from star imports",
+    "name": "undefined-local-with-import-star-usage",
+    "noqa_row": 35,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-local-with-import-star-usage"
+  },
+  {
+    "cell": null,
+    "code": "F405",
+    "end_location": {
+      "column": 41,
+      "row": 36
+    },
+    "filename": "/app/backend/tests/test_full_site_boundaries.py",
+    "fix": null,
+    "location": {
+      "column": 37,
+      "row": 36
+    },
+    "message": "`save` may be undefined, or defined from star imports",
+    "name": "undefined-local-with-import-star-usage",
+    "noqa_row": 36,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-local-with-import-star-usage"
+  },
+  {
+    "cell": null,
+    "code": "F405",
+    "end_location": {
+      "column": 12,
+      "row": 40
+    },
+    "filename": "/app/backend/tests/test_full_site_boundaries.py",
+    "fix": null,
+    "location": {
+      "column": 10,
+      "row": 40
+    },
+    "message": "`ok` may be undefined, or defined from star imports",
+    "name": "undefined-local-with-import-star-usage",
+    "noqa_row": 40,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-local-with-import-star-usage"
+  },
+  {
+    "cell": null,
+    "code": "F405",
+    "end_location": {
+      "column": 11,
+      "row": 41
+    },
+    "filename": "/app/backend/tests/test_full_site_boundaries.py",
+    "fix": null,
+    "location": {
+      "column": 5,
+      "row": 41
+    },
+    "message": "`denied` may be undefined, or defined from star imports",
+    "name": "undefined-local-with-import-star-usage",
+    "noqa_row": 41,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-local-with-import-star-usage"
+  },
+  {
+    "cell": null,
+    "code": "F405",
+    "end_location": {
+      "column": 68,
+      "row": 41
+    },
+    "filename": "/app/backend/tests/test_full_site_boundaries.py",
+    "fix": null,
+    "location": {
+      "column": 62,
+      "row": 41
+    },
+    "message": "`denied` may be undefined, or defined from star imports",
+    "name": "undefined-local-with-import-star-usage",
+    "noqa_row": 41,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-local-with-import-star-usage"
+  },
+  {
+    "cell": null,
+    "code": "F405",
+    "end_location": {
+      "column": 44,
+      "row": 42
+    },
+    "filename": "/app/backend/tests/test_full_site_boundaries.py",
+    "fix": null,
+    "location": {
+      "column": 42,
+      "row": 42
+    },
+    "message": "`ok` may be undefined, or defined from star imports",
+    "name": "undefined-local-with-import-star-usage",
+    "noqa_row": 42,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-local-with-import-star-usage"
+  },
+  {
+    "cell": null,
+    "code": "F405",
+    "end_location": {
+      "column": 48,
+      "row": 43
+    },
+    "filename": "/app/backend/tests/test_full_site_boundaries.py",
+    "fix": null,
+    "location": {
+      "column": 46,
+      "row": 43
+    },
+    "message": "`ok` may be undefined, or defined from star imports",
+    "name": "undefined-local-with-import-star-usage",
+    "noqa_row": 43,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-local-with-import-star-usage"
+  },
+  {
+    "cell": null,
+    "code": "F405",
+    "end_location": {
+      "column": 37,
+      "row": 44
+    },
+    "filename": "/app/backend/tests/test_full_site_boundaries.py",
+    "fix": null,
+    "location": {
+      "column": 35,
+      "row": 44
+    },
+    "message": "`ok` may be undefined, or defined from star imports",
+    "name": "undefined-local-with-import-star-usage",
+    "noqa_row": 44,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-local-with-import-star-usage"
+  },
+  {
+    "cell": null,
+    "code": "F405",
+    "end_location": {
+      "column": 97,
+      "row": 44
+    },
+    "filename": "/app/backend/tests/test_full_site_boundaries.py",
+    "fix": null,
+    "location": {
+      "column": 95,
+      "row": 44
+    },
+    "message": "`ok` may be undefined, or defined from star imports",
+    "name": "undefined-local-with-import-star-usage",
+    "noqa_row": 44,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-local-with-import-star-usage"
+  },
+  {
+    "cell": null,
+    "code": "F405",
+    "end_location": {
+      "column": 11,
+      "row": 45
+    },
+    "filename": "/app/backend/tests/test_full_site_boundaries.py",
+    "fix": null,
+    "location": {
+      "column": 5,
+      "row": 45
+    },
+    "message": "`denied` may be undefined, or defined from star imports",
+    "name": "undefined-local-with-import-star-usage",
+    "noqa_row": 45,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-local-with-import-star-usage"
+  },
+  {
+    "cell": null,
+    "code": "F405",
+    "end_location": {
+      "column": 42,
+      "row": 46
+    },
+    "filename": "/app/backend/tests/test_full_site_boundaries.py",
+    "fix": null,
+    "location": {
+      "column": 38,
+      "row": 46
+    },
+    "message": "`save` may be undefined, or defined from star imports",
+    "name": "undefined-local-with-import-star-usage",
+    "noqa_row": 46,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-local-with-import-star-usage"
+  },
+  {
+    "cell": null,
+    "code": "F405",
+    "end_location": {
+      "column": 11,
+      "row": 50
+    },
+    "filename": "/app/backend/tests/test_full_site_boundaries.py",
+    "fix": null,
+    "location": {
+      "column": 5,
+      "row": 50
+    },
+    "message": "`denied` may be undefined, or defined from star imports",
+    "name": "undefined-local-with-import-star-usage",
+    "noqa_row": 50,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-local-with-import-star-usage"
+  },
+  {
+    "cell": null,
+    "code": "F405",
+    "end_location": {
+      "column": 11,
+      "row": 51
+    },
+    "filename": "/app/backend/tests/test_full_site_boundaries.py",
+    "fix": null,
+    "location": {
+      "column": 5,
+      "row": 51
+    },
+    "message": "`denied` may be undefined, or defined from star imports",
+    "name": "undefined-local-with-import-star-usage",
+    "noqa_row": 51,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-local-with-import-star-usage"
+  },
+  {
+    "cell": null,
+    "code": "F405",
+    "end_location": {
+      "column": 11,
+      "row": 52
+    },
+    "filename": "/app/backend/tests/test_full_site_boundaries.py",
+    "fix": null,
+    "location": {
+      "column": 5,
+      "row": 52
+    },
+    "message": "`denied` may be undefined, or defined from star imports",
+    "name": "undefined-local-with-import-star-usage",
+    "noqa_row": 52,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-local-with-import-star-usage"
+  },
+  {
+    "cell": null,
+    "code": "F405",
+    "end_location": {
+      "column": 88,
+      "row": 55
+    },
+    "filename": "/app/backend/tests/test_full_site_boundaries.py",
+    "fix": null,
+    "location": {
+      "column": 82,
+      "row": 55
+    },
+    "message": "`denied` may be undefined, or defined from star imports",
+    "name": "undefined-local-with-import-star-usage",
+    "noqa_row": 55,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-local-with-import-star-usage"
+  },
+  {
+    "cell": null,
+    "code": "F405",
+    "end_location": {
+      "column": 15,
+      "row": 56
+    },
+    "filename": "/app/backend/tests/test_full_site_boundaries.py",
+    "fix": null,
+    "location": {
+      "column": 9,
+      "row": 56
+    },
+    "message": "`denied` may be undefined, or defined from star imports",
+    "name": "undefined-local-with-import-star-usage",
+    "noqa_row": 56,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-local-with-import-star-usage"
+  },
+  {
+    "cell": null,
+    "code": "F405",
+    "end_location": {
+      "column": 15,
+      "row": 57
+    },
+    "filename": "/app/backend/tests/test_full_site_boundaries.py",
+    "fix": null,
+    "location": {
+      "column": 9,
+      "row": 57
+    },
+    "message": "`denied` may be undefined, or defined from star imports",
+    "name": "undefined-local-with-import-star-usage",
+    "noqa_row": 57,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-local-with-import-star-usage"
+  },
+  {
+    "cell": null,
+    "code": "F405",
+    "end_location": {
+      "column": 18,
+      "row": 58
+    },
+    "filename": "/app/backend/tests/test_full_site_boundaries.py",
+    "fix": null,
+    "location": {
+      "column": 16,
+      "row": 58
+    },
+    "message": "`ok` may be undefined, or defined from star imports",
+    "name": "undefined-local-with-import-star-usage",
+    "noqa_row": 58,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-local-with-import-star-usage"
+  },
+  {
+    "cell": null,
+    "code": "F405",
+    "end_location": {
+      "column": 76,
+      "row": 63
+    },
+    "filename": "/app/backend/tests/test_full_site_boundaries.py",
+    "fix": null,
+    "location": {
+      "column": 73,
+      "row": 63
+    },
+    "message": "`req` may be undefined, or defined from star imports",
+    "name": "undefined-local-with-import-star-usage",
+    "noqa_row": 63,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-local-with-import-star-usage"
+  },
+  {
+    "cell": null,
+    "code": "F405",
+    "end_location": {
+      "column": 11,
+      "row": 65
+    },
+    "filename": "/app/backend/tests/test_full_site_boundaries.py",
+    "fix": null,
+    "location": {
+      "column": 9,
+      "row": 65
+    },
+    "message": "`ok` may be undefined, or defined from star imports",
+    "name": "undefined-local-with-import-star-usage",
+    "noqa_row": 65,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-local-with-import-star-usage"
+  },
+  {
+    "cell": null,
+    "code": "F405",
+    "end_location": {
+      "column": 114,
+      "row": 65
+    },
+    "filename": "/app/backend/tests/test_full_site_boundaries.py",
+    "fix": null,
+    "location": {
+      "column": 110,
+      "row": 65
+    },
+    "message": "`save` may be undefined, or defined from star imports",
+    "name": "undefined-local-with-import-star-usage",
+    "noqa_row": 65,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-local-with-import-star-usage"
+  },
+  {
+    "cell": null,
+    "code": "F405",
+    "end_location": {
+      "column": 33,
+      "row": 68
+    },
+    "filename": "/app/backend/tests/test_full_site_boundaries.py",
+    "fix": null,
+    "location": {
+      "column": 31,
+      "row": 68
+    },
+    "message": "`ok` may be undefined, or defined from star imports",
+    "name": "undefined-local-with-import-star-usage",
+    "noqa_row": 68,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-local-with-import-star-usage"
+  },
+  {
+    "cell": null,
+    "code": "F405",
+    "end_location": {
+      "column": 33,
+      "row": 70
+    },
+    "filename": "/app/backend/tests/test_full_site_boundaries.py",
+    "fix": null,
+    "location": {
+      "column": 27,
+      "row": 70
+    },
+    "message": "`denied` may be undefined, or defined from star imports",
+    "name": "undefined-local-with-import-star-usage",
+    "noqa_row": 70,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-local-with-import-star-usage"
+  },
+  {
+    "cell": null,
+    "code": "F405",
+    "end_location": {
+      "column": 78,
+      "row": 70
+    },
+    "filename": "/app/backend/tests/test_full_site_boundaries.py",
+    "fix": null,
+    "location": {
+      "column": 72,
+      "row": 70
+    },
+    "message": "`denied` may be undefined, or defined from star imports",
+    "name": "undefined-local-with-import-star-usage",
+    "noqa_row": 70,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-local-with-import-star-usage"
+  },
+  {
+    "cell": null,
+    "code": "F405",
+    "end_location": {
+      "column": 11,
+      "row": 71
+    },
+    "filename": "/app/backend/tests/test_full_site_boundaries.py",
+    "fix": null,
+    "location": {
+      "column": 5,
+      "row": 71
+    },
+    "message": "`denied` may be undefined, or defined from star imports",
+    "name": "undefined-local-with-import-star-usage",
+    "noqa_row": 71,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-local-with-import-star-usage"
+  },
+  {
+    "cell": null,
+    "code": "F405",
+    "end_location": {
+      "column": 59,
+      "row": 72
+    },
+    "filename": "/app/backend/tests/test_full_site_boundaries.py",
+    "fix": null,
+    "location": {
+      "column": 53,
+      "row": 72
+    },
+    "message": "`denied` may be undefined, or defined from star imports",
+    "name": "undefined-local-with-import-star-usage",
+    "noqa_row": 72,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-local-with-import-star-usage"
+  },
+  {
+    "cell": null,
+    "code": "F405",
+    "end_location": {
+      "column": 11,
+      "row": 73
+    },
+    "filename": "/app/backend/tests/test_full_site_boundaries.py",
+    "fix": null,
+    "location": {
+      "column": 5,
+      "row": 73
+    },
+    "message": "`denied` may be undefined, or defined from star imports",
+    "name": "undefined-local-with-import-star-usage",
+    "noqa_row": 73,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-local-with-import-star-usage"
+  },
+  {
+    "cell": null,
+    "code": "F405",
+    "end_location": {
+      "column": 11,
+      "row": 78
+    },
+    "filename": "/app/backend/tests/test_full_site_boundaries.py",
+    "fix": null,
+    "location": {
+      "column": 5,
+      "row": 78
+    },
+    "message": "`denied` may be undefined, or defined from star imports",
+    "name": "undefined-local-with-import-star-usage",
+    "noqa_row": 78,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-local-with-import-star-usage"
+  },
+  {
+    "cell": null,
+    "code": "F403",
+    "end_location": {
+      "column": 32,
+      "row": 3
+    },
+    "filename": "/app/backend/tests/test_full_site_final_checks.py",
+    "fix": null,
+    "location": {
+      "column": 1,
+      "row": 3
+    },
+    "message": "`from full_site_support import *` used; unable to detect undefined names",
+    "name": "undefined-local-with-import-star",
+    "noqa_row": 3,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-local-with-import-star"
+  },
+  {
+    "cell": null,
+    "code": "F405",
+    "end_location": {
+      "column": 11,
+      "row": 7
+    },
+    "filename": "/app/backend/tests/test_full_site_final_checks.py",
+    "fix": null,
+    "location": {
+      "column": 7,
+      "row": 7
+    },
+    "message": "`load` may be undefined, or defined from star imports",
+    "name": "undefined-local-with-import-star-usage",
+    "noqa_row": 7,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-local-with-import-star-usage"
+  },
+  {
+    "cell": null,
+    "code": "F405",
+    "end_location": {
+      "column": 26,
+      "row": 7
+    },
+    "filename": "/app/backend/tests/test_full_site_final_checks.py",
+    "fix": null,
+    "location": {
+      "column": 22,
+      "row": 7
+    },
+    "message": "`save` may be undefined, or defined from star imports",
+    "name": "undefined-local-with-import-star-usage",
+    "noqa_row": 7,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-local-with-import-star-usage"
+  },
+  {
+    "cell": null,
+    "code": "F405",
+    "end_location": {
+      "column": 37,
+      "row": 10
+    },
+    "filename": "/app/backend/tests/test_full_site_final_checks.py",
+    "fix": null,
+    "location": {
+      "column": 35,
+      "row": 10
+    },
+    "message": "`ok` may be undefined, or defined from star imports",
+    "name": "undefined-local-with-import-star-usage",
+    "noqa_row": 10,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-local-with-import-star-usage"
+  },
+  {
+    "cell": null,
+    "code": "F405",
+    "end_location": {
+      "column": 7,
+      "row": 12
+    },
+    "filename": "/app/backend/tests/test_full_site_final_checks.py",
+    "fix": null,
+    "location": {
+      "column": 5,
+      "row": 12
+    },
+    "message": "`ok` may be undefined, or defined from star imports",
+    "name": "undefined-local-with-import-star-usage",
+    "noqa_row": 12,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-local-with-import-star-usage"
+  },
+  {
+    "cell": null,
+    "code": "F405",
+    "end_location": {
+      "column": 14,
+      "row": 13
+    },
+    "filename": "/app/backend/tests/test_full_site_final_checks.py",
+    "fix": null,
+    "location": {
+      "column": 12,
+      "row": 13
+    },
+    "message": "`ok` may be undefined, or defined from star imports",
+    "name": "undefined-local-with-import-star-usage",
+    "noqa_row": 13,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-local-with-import-star-usage"
+  },
+  {
+    "cell": null,
+    "code": "F405",
+    "end_location": {
+      "column": 12,
+      "row": 17
+    },
+    "filename": "/app/backend/tests/test_full_site_final_checks.py",
+    "fix": null,
+    "location": {
+      "column": 10,
+      "row": 17
+    },
+    "message": "`ok` may be undefined, or defined from star imports",
+    "name": "undefined-local-with-import-star-usage",
+    "noqa_row": 17,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-local-with-import-star-usage"
+  },
+  {
+    "cell": null,
+    "code": "F405",
+    "end_location": {
+      "column": 75,
+      "row": 18
+    },
+    "filename": "/app/backend/tests/test_full_site_final_checks.py",
+    "fix": null,
+    "location": {
+      "column": 71,
+      "row": 18
+    },
+    "message": "`save` may be undefined, or defined from star imports",
+    "name": "undefined-local-with-import-star-usage",
+    "noqa_row": 18,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-local-with-import-star-usage"
+  },
+  {
+    "cell": null,
+    "code": "F405",
+    "end_location": {
+      "column": 14,
+      "row": 19
+    },
+    "filename": "/app/backend/tests/test_full_site_final_checks.py",
+    "fix": null,
+    "location": {
+      "column": 12,
+      "row": 19
+    },
+    "message": "`ok` may be undefined, or defined from star imports",
+    "name": "undefined-local-with-import-star-usage",
+    "noqa_row": 19,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-local-with-import-star-usage"
+  },
+  {
+    "cell": null,
+    "code": "F405",
+    "end_location": {
+      "column": 11,
+      "row": 20
+    },
+    "filename": "/app/backend/tests/test_full_site_final_checks.py",
+    "fix": null,
+    "location": {
+      "column": 9,
+      "row": 20
+    },
+    "message": "`ok` may be undefined, or defined from star imports",
+    "name": "undefined-local-with-import-star-usage",
+    "noqa_row": 20,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-local-with-import-star-usage"
+  },
+  {
+    "cell": null,
+    "code": "F405",
+    "end_location": {
+      "column": 14,
+      "row": 22
+    },
+    "filename": "/app/backend/tests/test_full_site_final_checks.py",
+    "fix": null,
+    "location": {
+      "column": 12,
+      "row": 22
+    },
+    "message": "`ok` may be undefined, or defined from star imports",
+    "name": "undefined-local-with-import-star-usage",
+    "noqa_row": 22,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-local-with-import-star-usage"
+  },
+  {
+    "cell": null,
+    "code": "F405",
+    "end_location": {
+      "column": 14,
+      "row": 26
+    },
+    "filename": "/app/backend/tests/test_full_site_final_checks.py",
+    "fix": null,
+    "location": {
+      "column": 12,
+      "row": 26
+    },
+    "message": "`ok` may be undefined, or defined from star imports",
+    "name": "undefined-local-with-import-star-usage",
+    "noqa_row": 26,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-local-with-import-star-usage"
+  },
+  {
+    "cell": null,
+    "code": "F405",
+    "end_location": {
+      "column": 31,
+      "row": 27
+    },
+    "filename": "/app/backend/tests/test_full_site_final_checks.py",
+    "fix": null,
+    "location": {
+      "column": 24,
+      "row": 27
+    },
+    "message": "`secrets` may be undefined, or defined from star imports",
+    "name": "undefined-local-with-import-star-usage",
+    "noqa_row": 27,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-local-with-import-star-usage"
+  },
+  {
+    "cell": null,
+    "code": "F405",
+    "end_location": {
+      "column": 16,
+      "row": 29
+    },
+    "filename": "/app/backend/tests/test_full_site_final_checks.py",
+    "fix": null,
+    "location": {
+      "column": 14,
+      "row": 29
+    },
+    "message": "`ok` may be undefined, or defined from star imports",
+    "name": "undefined-local-with-import-star-usage",
+    "noqa_row": 29,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-local-with-import-star-usage"
+  },
+  {
+    "cell": null,
+    "code": "F405",
+    "end_location": {
+      "column": 33,
+      "row": 34
+    },
+    "filename": "/app/backend/tests/test_full_site_final_checks.py",
+    "fix": null,
+    "location": {
+      "column": 31,
+      "row": 34
+    },
+    "message": "`ok` may be undefined, or defined from star imports",
+    "name": "undefined-local-with-import-star-usage",
+    "noqa_row": 34,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-local-with-import-star-usage"
+  },
+  {
+    "cell": null,
+    "code": "F405",
+    "end_location": {
+      "column": 82,
+      "row": 34
+    },
+    "filename": "/app/backend/tests/test_full_site_final_checks.py",
+    "fix": null,
+    "location": {
+      "column": 76,
+      "row": 34
+    },
+    "message": "`denied` may be undefined, or defined from star imports",
+    "name": "undefined-local-with-import-star-usage",
+    "noqa_row": 34,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-local-with-import-star-usage"
+  },
+  {
+    "cell": null,
+    "code": "F405",
+    "end_location": {
+      "column": 43,
+      "row": 35
+    },
+    "filename": "/app/backend/tests/test_full_site_final_checks.py",
+    "fix": null,
+    "location": {
+      "column": 41,
+      "row": 35
+    },
+    "message": "`ok` may be undefined, or defined from star imports",
+    "name": "undefined-local-with-import-star-usage",
+    "noqa_row": 35,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-local-with-import-star-usage"
+  },
+  {
+    "cell": null,
+    "code": "F405",
+    "end_location": {
+      "column": 23,
+      "row": 38
+    },
+    "filename": "/app/backend/tests/test_full_site_final_checks.py",
+    "fix": null,
+    "location": {
+      "column": 14,
+      "row": 38
+    },
+    "message": "`json_util` may be undefined, or defined from star imports",
+    "name": "undefined-local-with-import-star-usage",
+    "noqa_row": 38,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-local-with-import-star-usage"
+  },
+  {
+    "cell": null,
+    "code": "F405",
+    "end_location": {
+      "column": 21,
+      "row": 39
+    },
+    "filename": "/app/backend/tests/test_full_site_final_checks.py",
+    "fix": null,
+    "location": {
+      "column": 12,
+      "row": 39
+    },
+    "message": "`json_util` may be undefined, or defined from star imports",
+    "name": "undefined-local-with-import-star-usage",
+    "noqa_row": 39,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/undefined-local-with-import-star-usage"
+  }
+]

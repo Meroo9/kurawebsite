@@ -1,0 +1,35 @@
+{
+  "checks": [
+    {
+      "check": "mobile intake, 10-file batch limit, actual upload, long Arabic title/file layout; request 4b82aa833acfcc699ec47064",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "admin quote and owner discount/accept",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "employee claim/start/upload/deliver without payment; owner results withheld",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "receipt rejection/replacement, partial amount resets, full approval unlocks real result",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "revision/re-delivery/completion and separate research/course payments",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "1000px tablet detail no horizontal overflow",
+      "passed": true,
+      "error": ""
+    }
+  ],
+  "screenshots": []
+}

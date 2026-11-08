@@ -1,0 +1,25 @@
+{
+  "checks": [
+    {
+      "check": "visitor dashboard actual library count",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "pending dashboard actual library count",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "student dashboard actual library count",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "employee2 /dashboard/profile @390 retry",
+      "passed": true,
+      "error": ""
+    }
+  ],
+  "screenshots": []
+}

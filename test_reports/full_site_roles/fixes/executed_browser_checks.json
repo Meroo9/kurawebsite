@@ -1,0 +1,232 @@
+[
+  {
+    "check": "public long course detail @390",
+    "passed": true,
+    "error": ""
+  },
+  {
+    "check": "public normal course detail @390",
+    "passed": true,
+    "error": ""
+  },
+  {
+    "check": "public long course detail @1000",
+    "passed": true,
+    "error": ""
+  },
+  {
+    "check": "public normal course detail @1000",
+    "passed": true,
+    "error": ""
+  },
+  {
+    "check": "public long course detail @1920",
+    "passed": true,
+    "error": ""
+  },
+  {
+    "check": "public normal course detail @1920",
+    "passed": true,
+    "error": ""
+  },
+  {
+    "check": "student long course detail @390",
+    "passed": true,
+    "error": ""
+  },
+  {
+    "check": "student normal course detail @390",
+    "passed": true,
+    "error": ""
+  },
+  {
+    "check": "student long course detail @1000",
+    "passed": true,
+    "error": ""
+  },
+  {
+    "check": "student normal course detail @1000",
+    "passed": true,
+    "error": ""
+  },
+  {
+    "check": "student long course detail @1920",
+    "passed": true,
+    "error": ""
+  },
+  {
+    "check": "student normal course detail @1920",
+    "passed": true,
+    "error": ""
+  },
+  {
+    "check": "catalog full long title @390",
+    "passed": true,
+    "error": ""
+  },
+  {
+    "check": "library full long title @390",
+    "passed": true,
+    "error": ""
+  },
+  {
+    "check": "catalog full long title @1000",
+    "passed": true,
+    "error": ""
+  },
+  {
+    "check": "library full long title @1000",
+    "passed": true,
+    "error": ""
+  },
+  {
+    "check": "catalog full long title @1920",
+    "passed": true,
+    "error": ""
+  },
+  {
+    "check": "library full long title @1920",
+    "passed": true,
+    "error": ""
+  },
+  {
+    "check": "workspace-profile unique navigation/save @390",
+    "passed": true,
+    "error": ""
+  },
+  {
+    "check": "workspace-header-profile unique navigation/save @390",
+    "passed": true,
+    "error": ""
+  },
+  {
+    "check": "workspace-profile unique navigation/save @1920",
+    "passed": true,
+    "error": ""
+  },
+  {
+    "check": "workspace-header-profile unique navigation/save @1920",
+    "passed": true,
+    "error": ""
+  },
+  {
+    "check": "typed actual signup POST/avatar/date/pending @1920",
+    "passed": true,
+    "error": ""
+  },
+  {
+    "check": "typed pending flagged course denied",
+    "passed": true,
+    "error": ""
+  },
+  {
+    "check": "typed admin UI approval",
+    "passed": true,
+    "error": ""
+  },
+  {
+    "check": "typed logout revokes session",
+    "passed": true,
+    "error": ""
+  },
+  {
+    "check": "typed real login approved student access",
+    "passed": true,
+    "error": ""
+  },
+  {
+    "check": "calendar actual signup POST/avatar/date/pending @390",
+    "passed": true,
+    "error": ""
+  },
+  {
+    "check": "calendar pending flagged course denied",
+    "passed": true,
+    "error": ""
+  },
+  {
+    "check": "calendar admin UI approval",
+    "passed": true,
+    "error": ""
+  },
+  {
+    "check": "calendar logout revokes session",
+    "passed": true,
+    "error": ""
+  },
+  {
+    "check": "calendar real login approved student access",
+    "passed": true,
+    "error": ""
+  },
+  {
+    "check": "admin actual UI employee creation",
+    "passed": true,
+    "error": ""
+  },
+  {
+    "check": "admin actual UI employee edit persisted @390",
+    "passed": true,
+    "error": ""
+  },
+  {
+    "check": "employee actual browser login before inactive @390",
+    "passed": true,
+    "error": ""
+  },
+  {
+    "check": "employee actual browser login before inactive @1920",
+    "passed": true,
+    "error": ""
+  },
+  {
+    "check": "admin actual UI employee disable persisted",
+    "passed": true,
+    "error": ""
+  },
+  {
+    "check": "employee disable revoked both existing browser sessions",
+    "passed": true,
+    "error": ""
+  },
+  {
+    "check": "ui_employee actual denied login notice @390",
+    "passed": true,
+    "error": ""
+  },
+  {
+    "check": "ui_employee actual denied login notice @1920",
+    "passed": true,
+    "error": ""
+  },
+  {
+    "check": "blocked actual denied login notice @390",
+    "passed": true,
+    "error": ""
+  },
+  {
+    "check": "blocked actual denied login notice @1920",
+    "passed": true,
+    "error": ""
+  },
+  {
+    "check": "real protected MP4 finite duration/play/seek @390",
+    "passed": true,
+    "error": ""
+  },
+  {
+    "check": "real protected MP4 finite duration/play/seek @1920",
+    "passed": true,
+    "error": ""
+  },
+  {
+    "check": "ui_pending_typed real persisted avatar renders @1920",
+    "passed": true,
+    "error": ""
+  },
+  {
+    "check": "ui_pending_calendar real persisted avatar renders @390",
+    "passed": true,
+    "error": ""
+  }
+]

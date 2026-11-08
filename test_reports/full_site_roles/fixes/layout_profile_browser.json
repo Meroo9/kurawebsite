@@ -1,0 +1,136 @@
+{
+  "checks": [
+    {
+      "check": "public long course detail @390",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "public normal course detail @390",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "public long course detail @1000",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "public normal course detail @1000",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "public long course detail @1920",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "public normal course detail @1920",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "student long course detail @390",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "student normal course detail @390",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "student long course detail @1000",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "student normal course detail @1000",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "student long course detail @1920",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "student normal course detail @1920",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "catalog full long title @390",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "library full long title @390",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "catalog full long title @1000",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "library full long title @1000",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "catalog full long title @1920",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "library full long title @1920",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "workspace-profile unique navigation/save @390",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "workspace-header-profile unique navigation/save @390",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "workspace-profile unique navigation/save @1920",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "workspace-header-profile unique navigation/save @1920",
+      "passed": true,
+      "error": ""
+    }
+  ],
+  "screenshots": [
+    "/app/test_reports/full_site_roles/fixes/public-long-title-390.jpg",
+    "/app/test_reports/full_site_roles/fixes/public-long-panel-390.jpg",
+    "/app/test_reports/full_site_roles/fixes/public-long-title-1000.jpg",
+    "/app/test_reports/full_site_roles/fixes/public-long-panel-1000.jpg",
+    "/app/test_reports/full_site_roles/fixes/public-long-title-1920.jpg",
+    "/app/test_reports/full_site_roles/fixes/public-long-panel-1920.jpg",
+    "/app/test_reports/full_site_roles/fixes/student-long-title-390.jpg",
+    "/app/test_reports/full_site_roles/fixes/student-long-panel-390.jpg",
+    "/app/test_reports/full_site_roles/fixes/student-long-title-1000.jpg",
+    "/app/test_reports/full_site_roles/fixes/student-long-panel-1000.jpg",
+    "/app/test_reports/full_site_roles/fixes/student-long-title-1920.jpg",
+    "/app/test_reports/full_site_roles/fixes/student-long-panel-1920.jpg",
+    "/app/test_reports/full_site_roles/fixes/visitor-catalog-long-390.jpg",
+    "/app/test_reports/full_site_roles/fixes/visitor-library-long-390.jpg",
+    "/app/test_reports/full_site_roles/fixes/visitor-catalog-long-1000.jpg",
+    "/app/test_reports/full_site_roles/fixes/visitor-library-long-1000.jpg",
+    "/app/test_reports/full_site_roles/fixes/visitor-catalog-long-1920.jpg",
+    "/app/test_reports/full_site_roles/fixes/visitor-library-long-1920.jpg",
+    "/app/test_reports/full_site_roles/fixes/visitor-profile-390.jpg",
+    "/app/test_reports/full_site_roles/fixes/visitor-profile-1920.jpg"
+  ]
+}

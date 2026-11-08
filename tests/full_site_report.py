@@ -1,0 +1,78 @@
+# Assemble only this run's executed checks; deduplicate retries and retain honest unverified gaps.
+import json,re
+from pathlib import Path
+import xml.etree.ElementTree as ET
+from PIL import Image
+
+ROOT=Path('/app/test_reports/full_site_roles')
+raw_names=['public_browser','roles_browser','accounts_courses_browser','research_workflow_browser','posts_workflow_browser','final_browser','final_interactions_browser']
+checks={}
+for name in raw_names:
+    for row in json.loads((ROOT/(name+'.json')).read_text())['checks']:
+        key=row['check']
+        if key=='final independent interactions':continue # Corrected mislabeled selector, verified by final_interactions_browser.
+        if key.endswith('remaining interaction sequence'):
+            role=key.split()[0];key=role+' dashboard actual library count'
+        if key.startswith('long Arabic course title @') or key.startswith('confirmed public long-course overflow @'):
+            key='long-course title layout @'+key.split('@')[-1]
+        checks[key]={**row,'check':key,'evidence':name+'.json'}
+for row in json.loads((ROOT/'role_followup.json').read_text())['checks']:
+    key=row['check'].removesuffix(' retry');checks[key]={**row,'check':key,'evidence':'role_followup.json'}
+notes=[
+ {'check':'visitor actual browser registration with avatar','passed':True,'error':'','evidence':'accounts_courses/automation_output/20261108_135820_23d6804d4c2d/console_20261108_135820.log'},
+ {'check':'visitor actual browser profile save','passed':True,'error':'','evidence':'accounts_courses automation stdout; ui_visitor-registration-dashboard-390.jpg'},
+ {'check':'pending custom registration calendar selects date','passed':True,'error':'','evidence':'accounts_courses/automation_output/20261108_135938_e063f25149e0/console_20261108_135938.log'},
+ {'check':'visitor browser logout after settled page','passed':True,'error':'','evidence':'logout_diagnostic automation stdout: HTTP200, redirected login'},
+ {'check':'pending actual browser registration submission','passed':False,'error':'No POST response observed after calendar interaction; stopped after repeated workflow interruptions. Root cause undetermined; not classified as proven application bug.','evidence':'accounts_courses automation stdout 20261108_135938_e063f25149e0'}]
+for row in notes:checks[row['check']]=row
+(ROOT/'executed_browser_checks.json').write_text(json.dumps({'checks':list(checks.values()),'manual_observations':notes},indent=2,ensure_ascii=False))
+
+xml_names=['full_site_accounts_courses','full_site_research_posts','full_site_boundaries','full_site_boundaries_followup','full_site_final_checks']
+api={}
+attempts=0
+for name in xml_names:
+    for tc in ET.parse('/app/test_reports/pytest/'+name+'.xml').iter('testcase'):
+        attempts+=1
+        key=tc.attrib['classname']+'::'+tc.attrib['name']
+        if tc.attrib['name']=='test_07_missing_resource_delete_semantics':continue # Later split into course and lecture probes.
+        api[key]={'check':key,'passed':tc.find('failure') is None and tc.find('error') is None,'evidence':name+'.xml'}
+(ROOT/'executed_api_checks.json').write_text(json.dumps({'checks':list(api.values()),'execution_attempts':attempts},indent=2))
+
+manifest=[]
+for path in sorted(ROOT.glob('*.jpg')):
+    with Image.open(path) as im:width,height=im.size
+    manifest.append({'file':str(path),'width':width,'height':height,'purpose':'Confirmed overflow/blank-layout evidence' if path.name.startswith('long-course') else 'Role/public/flow evidence'})
+(ROOT/'screenshot_manifest.json').write_text(json.dumps(manifest,indent=2))
+
+bp=sum(x['passed'] for x in api.values());bt=len(api);fp=sum(x['passed'] for x in checks.values());ft=len(checks)
+role_coverage={
+ 'public':{'visible':'All 15 public routes at 390/1000/1920; real navigation, course/post search and pagination, research introduction, auth forms.','permissions':'Anonymous admin/private files/comments/purchase/research gates exercised.','result':'PASS normal content; FAIL valid long-course layout.','screenshots':['public-home-390.jpg','public-home-1920.jpg','public-posts-1000.jpg','long-course-fresh-390.jpg']},
+ 'registered_visitor':{'visible':'Dashboard, profile/avatar, course library/payments, own research, posts/likes/comments/share. Actual browser registration and profile save.','permissions':'No self-promotion; admin UI/API denied; ID tampering/private receipt/avatar/research denied. Whole-course receipt rejects/replacement/full approval, preview/download, full research financial lifecycle.','result':'PASS tested workflows; long-course layout FAIL. First immediate profile/logout sequence interrupted, settled diagnostic logout passed.','screenshots':['visitor-dashboard-390.jpg','visitor-dashboard-1920.jpg','ui_visitor-registration-dashboard-390.jpg']},
+ 'pending_KRC':{'visible':'Pending notice, editable profile/KRC, visitor library/payments, research intake.','permissions':'No free flagged course and 0% research discount before approval; admin direct routes denied. API registration passed; admin browser approval and KRC correction passed.','result':'PASS API permissions and role screens; actual pending browser registration submission NOT VERIFIED, calendar worked but no POST observed.','screenshots':['pending-dashboard-profile-390.jpg','pending-dashboard-profile-1920.jpg']},
+ 'approved_student':{'visible':'Student role, disabled approved KRC field, flagged free courses, 15% research quote, course/research payment tabs.','permissions':'Unflagged course not free; course price not research-discounted; admin routes denied; one revision then completion.','result':'PASS tested role flows.','screenshots':['student-dashboard-courses-390.jpg','student-dashboard-courses-1920.jpg','research-workflow-completed-1000.jpg']},
+ 'employee1_and_employee2':{'visible':'Employee dashboard/profile, available non-sensitive service pool, assigned details/input/results, claim/start/return/delivery. No payment/course navigation.','permissions':'Concurrent claim exactly one winner; prior assignee loses files after return/reopen. No receipt/owner identity/quote totals/current or legacy settlement notes. Admin UI/API denied.','result':'PASS APIs and UI. One employee2 mobile profile navigation timeout passed on its single retry; not reproducible as app bug.','screenshots':['employee1-dashboard-research-390.jpg','employee2-dashboard-research-1920.jpg','employee1-assigned-list-1920.jpg','employee1-dashboard-research-abdb7b17d8caaf8636f098b9-390.jpg']},
+ 'admin':{'visible':'All 11 admin/nested pages at three widths; actual KRC approval/correction, course draft/edit/publish, lecture upload, receipt reviews, quotes, cancellation settlement, posts/image CRUD/moderation. Filtered test-only private lists.','permissions':'Non-admin API/UI denial backed by server. Positive amount/reason/duplicate/stale quote/review guards checked.','result':'PASS critical admin workflows; missing course/lecture DELETE falsely succeeds (minor).','screenshots':['admin-admin-1920.jpg','admin-admin-users-390.jpg','admin-course-receipt-approved-1920.jpg','admin-admin-research-390.jpg','admin-admin-posts-1920.jpg']},
+ 'blocked_and_inactive':{'visible':'Clear blocked/inactive login notices, public post reads still available.','permissions':'API login/session denial and stale-session private research/file/upload/reaction/comment denial; block/unblock/session revocation checked.','result':'PASS tested restrictions.','screenshots':['blocked-notice-390.jpg','inactive-notice-390.jpg']}}
+(ROOT/'role_coverage.json').write_text(json.dumps(role_coverage,indent=2,ensure_ascii=False))
+
+report={
+ 'summary':f'Fresh full-site run WITHOUT deployment: {bp}/{bt} unique API cases passed; {fp}/{ft} deduplicated browser checkpoints passed. Three viewport failures share one confirmed HIGH course-title layout defect; one pending browser-registration checkpoint remains unverified. Normal role layouts, real course/research/posts lifecycles and authorization passed. All temporary fixtures cleaned; original settings/courses/owner invitations exactly preserved. No APIs mocked.',
+ 'backend_issues':{'critical':[],'minor':[{'endpoint':'DELETE /api/admin/courses/{cid}','issue':'Nonexistent TEST_NONEXISTENT returns 200 {success:true}, emits false archive audit; should return meaningful 404.'},{'endpoint':'DELETE /api/admin/lectures/{lid}','issue':'Nonexistent TEST_NONEXISTENT returns 200 {success:true}, emits false archive audit; should return meaningful 404.'}]},
+ 'frontend_issues':{'ui_bugs':[{'component':'CourseDetail','issue':'Valid 143-character unbroken Arabic title expands RTL document to 1801/2273/2863px at viewport 390/1000/1920. Content/sidebar move out of view; mobile can appear blank after resizing.','selector':'[data-testid="course-detail-title"]','priority':'HIGH'}],
+ 'integration_issues':[],
+ 'design_issues':[{'screen':'Course detail and course-card title','issues':['Course detail grid uses auto minimum 1fr and children lack min-width:0; heading overflow-wrap is normal. Shared page-heading fix does not apply to course-detail h1. Extend wrapping/shrink handling to breadcrumb, course heading/grid and card title; do not hide valid text.']}]},
+ 'test_report_links':['/app/backend/tests/test_full_site_accounts_courses.py','/app/backend/tests/test_full_site_research_posts.py','/app/backend/tests/test_full_site_boundaries.py','/app/backend/tests/test_full_site_final_checks.py','/app/backend/tests/full_site_support.py','/app/tests/full_site_roles_browser.py','/app/tests/full_site_workflow_adapters.py',str(ROOT/'executed_api_checks.json'),str(ROOT/'executed_browser_checks.json'),str(ROOT/'role_coverage.json'),str(ROOT/'screenshot_manifest.json'),str(ROOT/'cleanup.json')]+['/app/test_reports/pytest/'+n+'.xml' for n in xml_names],
+ 'action_items':['HIGH: fix CourseDetail RTL long-title wrapping and grid shrink constraints; retest 390/1000/1920 with 143-180 unbroken Arabic characters and private purchase panel.','Return 404 for nonexistent course/lecture archives and avoid false success audit records.','Complete pending-student actual browser signup separately: calendar passed, but no POST response observed and repeated workflow interruptions were stopped. Diagnose native form validity/overlay/click behavior without weakening assertions.','Give header profile link a unique test ID; both sidebar and header currently use workspace-profile.','Rerun affected checks after main-agent fixes; no deployment.'],
+ 'critical_code_review_comments':['catalog.py delete_course (72-75) and remove_lecture (95-99) ignore Mongo matched/modified counts; this explains both false-success DELETE responses.','CourseDetail.jsx heading is not PageHeading; features.css shared page-heading fix therefore misses this valid long title. App.css .course-detail-grid uses 1fr with implicit auto minimum and h1 lacks overflow-wrap:anywhere.','Layout.jsx duplicates workspace-profile IDs in sidebar and header; harness used .first, application unchanged.'],
+ 'updated_files':['/app/backend/tests/full_site_support.py','/app/backend/tests/full_site_diagnostics.py','/app/backend/tests/test_full_site_accounts_courses.py','/app/backend/tests/test_full_site_research_posts.py','/app/backend/tests/test_full_site_boundaries.py','/app/backend/tests/test_full_site_final_checks.py','/app/tests/full_site_roles_browser.py','/app/tests/full_site_workflow_adapters.py','/app/tests/full_site_report.py','/app/memory/test_credentials.md','/app/test_reports/iteration_5.json'],
+ 'success_rate':{'backend':f'{bp/bt:.1%} ({bp}/{bt} unique current-run cases; {attempts} execution attempts including retries/harness correction)','frontend':f'{fp/ft:.1%} ({fp}/{ft} deduplicated current-run checkpoints; 3 viewport failures plus 1 unverified registration)'},
+ 'test_credentials':'No active credentials existed. Generated isolated temporary accounts only. All 12 users and credential manifest removed. No real owner credentials/invitation used or consumed.',
+ 'seed_data_creation':'No seed/reset/migration run. Cleanup removed 12 users, 17 remaining sessions, 18 courses, 4 lectures, 22 purchases, 9 research requests, 11 posts, 36 file metadata records, 20 comments, 2 reactions, 1 category, 1 reset token and 251 audit entries by exact run-owned IDs/relations. Simulated older purchase history and one legacy second-currency purchase explicitly inserted only for temporary users. Managed provider objects cannot be physically deleted; metadata removal revokes access.',
+ 'retest_needed':True,'should_main_agent_self_test':False,
+ 'context_for_next_testing_agent':'Do not rerun old phase1 currency suite: it unpublishes pre-existing courses. New full_site_support is ID-tracked, snapshots originals and never touches owner_invites. Current fixtures and private_state.json are gone; fresh setup required. Run API suites sequentially because workflows retain fixture state for browser/cleanup; no shared parallel setup. Test-only errors fixed: missing backend deps in browser harness, duplicate profile test ID selector, too-early dashboard count, comments selector including input label, pool service name analysis vs other. Raw initial failures remain in logs/XML; current normalized counts deduplicate retries. No application source modified.',
+ 'rca of the issue':'Reproduction: create a published test course with title TEST_tag + space + (عنوانكورسطويل repeated 11 times); open /courses/id at 390/1000/1920. Heading widths 1783/1916/2183px and grid tracks 1783px / 1916px 300px / 2183px 350px. overflow-wrap:normal plus 1fr auto-min sizing causes document overflow and offscreen RTL content. Mitigation: minmax(0,1fr), min-width:0 on content column, overflow-wrap:anywhere on title/breadcrumb/card title. Missing DELETE RCA: catalog update result unchecked. Signup interruption RCA undetermined because no browser POST was observed; do not label it a backend failure.',
+ 'coverage_gaps':['Pending-KRC actual browser signup not completed; API signup and UI calendar/approval tested.','Inbox receipt/link click not verified: only managed send to delivered@resend.dev via isolated temporarily assigned mailbox and retained reset token verified. Synthetic tokens exercised expiry/single-use/session invalidation.','No large MP4 playback/load test, real devices, formal security audit or load test. Browser emulation only.','Global currency-change UI mutation deliberately not executed to avoid unpublishing original courses. Immutable price snapshots and simulated isolated second-currency historical balance tested instead.','Employee creation/edit tested by API, not full browser form; blocked/inactive notice screenshots only at mobile.','No promise every possible button/dialog/state per role was exhausted. Subscriptions/ads out of implemented scope.'],
+ 'flaky_tests':[{'check':'employee2 mobile profile navigation','observed':'1 timeout of 2 attempts; single retry passed. Server session intact. Cause not established.'}],
+ 'screenshot_manifest':str(ROOT/'screenshot_manifest.json'),'role_coverage':str(ROOT/'role_coverage.json'),'deployment':'Not performed','application_changes':[]}
+Path('/app/test_reports/iteration_5.json').write_text(json.dumps(report,indent=2,ensure_ascii=False))
+print(json.dumps({'api_passed':bp,'api_unique':bt,'api_attempts':attempts,'browser_passed':fp,'browser_unique':ft,'screenshots':len(manifest),'private_manifest_removed':not (ROOT/'private_state.json').exists()},indent=2))

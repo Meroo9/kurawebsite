@@ -25,6 +25,7 @@ import {OperationsSummary} from './pages/admin/OperationsSummary';
 import './App.css';
 import './research.css';
 import './features.css';
+import './responsive-fixes.css';
 const ScrollReset=()=>{const {pathname}=useLocation();useEffect(()=>{window.scrollTo(0,0);document.documentElement.lang='ar';document.documentElement.dir='rtl';document.title='كورا | منصة الأبحاث والتعليم الطبي';},[pathname]);return null;};
 export default function App(){return <BrowserRouter><AppProvider><ScrollReset/><Routes>
  <Route element={<PublicLayout/>}>

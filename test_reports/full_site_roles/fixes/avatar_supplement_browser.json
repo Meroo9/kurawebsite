@@ -1,0 +1,18 @@
+{
+  "checks": [
+    {
+      "check": "ui_pending_typed avatar renders @1920",
+      "passed": false,
+      "error": "TimeoutError('Locator.wait_for: Timeout 30000ms exceeded.\\nCall log:\\n  - waiting for get_by_test_id(\"profile-avatar\") to be visible\\n')"
+    },
+    {
+      "check": "ui_pending_calendar avatar renders @390",
+      "passed": false,
+      "error": "TimeoutError('Locator.wait_for: Timeout 30000ms exceeded.\\nCall log:\\n  - waiting for get_by_test_id(\"profile-avatar\") to be visible\\n')"
+    }
+  ],
+  "screenshots": [
+    "/app/test_reports/full_site_roles/fixes/student-video-play-seek-390.jpg",
+    "/app/test_reports/full_site_roles/fixes/student-video-play-seek-1920.jpg"
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "checks": [
+    {
+      "check": "admin UI approval promotes only isolated pending student",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "admin UI KRC correction",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "admin UI draft course creation",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "admin UI course publish",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "admin UI actual lecture upload",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "exact older purchase UI found beyond page15",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "whole-course pending locked rejected",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "actual course receipt rejected",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "whole-course pending locked approved",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "actual course receipt approved",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "approved whole course private lecture preview",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "protected lecture real download",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "long Arabic course title @390",
+      "passed": false,
+      "error": "{'doc': 1640, 'viewport': 390}"
+    },
+    {
+      "check": "long Arabic course title @1000",
+      "passed": false,
+      "error": "{'doc': 2100, 'viewport': 1000}"
+    },
+    {
+      "check": "long Arabic course title @1920",
+      "passed": false,
+      "error": "{'doc': 2666, 'viewport': 1920}"
+    },
+    {
+      "check": "actual UI whole course purchase",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "actual library search and page12 navigation",
+      "passed": true,
+      "error": ""
+    }
+  ],
+  "screenshots": [
+    "/app/test_reports/full_site_roles/admin-course-receipt-rejected-1920.jpg",
+    "/app/test_reports/full_site_roles/admin-course-receipt-approved-1920.jpg",
+    "/app/test_reports/full_site_roles/long-course-title-390.jpg",
+    "/app/test_reports/full_site_roles/long-course-title-1000.jpg",
+    "/app/test_reports/full_site_roles/long-course-title-1920.jpg"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "checks": [
+    {
+      "check": "actual comments page15 navigation",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "actual clipboard share copies canonical post URL",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "actual public posts search page6 navigation",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "actual course search category page12 navigation",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "financial tabs and per-currency course totals actual UI",
+      "passed": true,
+      "error": ""
+    }
+  ],
+  "screenshots": []
+}

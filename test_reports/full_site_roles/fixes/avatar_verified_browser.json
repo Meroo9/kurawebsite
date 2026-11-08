@@ -1,0 +1,18 @@
+{
+  "checks": [
+    {
+      "check": "ui_pending_typed real persisted avatar renders @1920",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "ui_pending_calendar real persisted avatar renders @390",
+      "passed": true,
+      "error": ""
+    }
+  ],
+  "screenshots": [
+    "/app/test_reports/full_site_roles/fixes/ui_pending_typed-avatar-profile-1920.jpg",
+    "/app/test_reports/full_site_roles/fixes/ui_pending_calendar-avatar-profile-390.jpg"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "checks": [
+    {
+      "check": "admin actual post/image create",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "post detail layout 390",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "post detail layout 1000",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "feed/detail real image, persistent like, comment, plain-text XSS",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "moderation, text edit, image removal revokes public image, draft hides and delete",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "invalid upload retains draft; resume/edit/upload/submit succeeds",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "quote rejection/history, requote, owner cancel request, admin reasoned reject/approve settlement UI",
+      "passed": true,
+      "error": ""
+    }
+  ],
+  "screenshots": []
+}

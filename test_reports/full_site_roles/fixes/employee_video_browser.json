@@ -1,0 +1,76 @@
+{
+  "checks": [
+    {
+      "check": "admin actual UI employee creation",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "admin actual UI employee edit persisted @390",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "employee actual browser login before inactive @390",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "employee actual browser login before inactive @1920",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "admin actual UI employee disable persisted",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "employee disable revoked both existing browser sessions",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "ui_employee actual denied login notice @390",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "ui_employee actual denied login notice @1920",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "blocked actual denied login notice @390",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "blocked actual denied login notice @1920",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "real protected MP4 finite duration/play/seek @390",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "check": "real protected MP4 finite duration/play/seek @1920",
+      "passed": true,
+      "error": ""
+    }
+  ],
+  "screenshots": [
+    "/app/test_reports/full_site_roles/fixes/admin-employee-edited-390.jpg",
+    "/app/test_reports/full_site_roles/fixes/employee-active-login-390.jpg",
+    "/app/test_reports/full_site_roles/fixes/employee-active-login-1920.jpg",
+    "/app/test_reports/full_site_roles/fixes/admin-employee-disabled-1920.jpg",
+    "/app/test_reports/full_site_roles/fixes/ui_employee-notice-390.jpg",
+    "/app/test_reports/full_site_roles/fixes/ui_employee-notice-1920.jpg",
+    "/app/test_reports/full_site_roles/fixes/blocked-notice-390.jpg",
+    "/app/test_reports/full_site_roles/fixes/blocked-notice-1920.jpg",
+    "/app/test_reports/full_site_roles/fixes/student-video-play-seek-390.jpg",
+    "/app/test_reports/full_site_roles/fixes/student-video-play-seek-1920.jpg"
+  ]
+}

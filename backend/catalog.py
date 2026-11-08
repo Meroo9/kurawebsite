@@ -70,7 +70,8 @@ async def edit_course(cid: str, data: CourseInput, user=Depends(admin_user)):
 
 @router.delete('/admin/courses/{cid}')
 async def delete_course(cid: str, user=Depends(admin_user)):
-    await db.courses.update_one({'id': cid}, {'$set': {'deleted': True, 'published': False}})
+    result = await db.courses.update_one({'id': cid, 'deleted': {'$ne': True}}, {'$set': {'deleted': True, 'published': False}})
+    if not result.matched_count: raise HTTPException(404, 'الكورس غير موجود أو تمت أرشفته بالفعل')
     await audit(user['id'], 'course_archived', cid)
     return {'success': True}
 
@@ -94,7 +95,8 @@ async def edit_lecture(lid: str, data: LectureInput, user=Depends(admin_user)):
 
 @router.delete('/admin/lectures/{lid}')
 async def remove_lecture(lid: str, user=Depends(admin_user)):
-    await db.lectures.update_one({'id': lid}, {'$set': {'deleted': True}})
+    result = await db.lectures.update_one({'id': lid, 'deleted': {'$ne': True}}, {'$set': {'deleted': True}})
+    if not result.matched_count: raise HTTPException(404, 'المحاضرة غير موجودة أو تم حذفها بالفعل')
     await audit(user['id'], 'lecture_archived', lid)
     return {'success': True}
 

@@ -1,0 +1,26 @@
+{
+  "deleted": {
+    "post_comments": 20,
+    "post_reactions": 2,
+    "posts": 11,
+    "research_requests": 9,
+    "lectures": 4,
+    "courses": 18,
+    "categories": 1,
+    "purchases": 22,
+    "files": 36,
+    "sessions": 17,
+    "reset_tokens": 1,
+    "audit": 251,
+    "users": 12
+  },
+  "checks": {
+    "settings_exact": true,
+    "courses_exact": true,
+    "owner_invites_exact": true,
+    "users_removed": true,
+    "files_removed": true
+  },
+  "storage": "Metadata revoked; provider has no physical object delete API",
+  "shared_rate_limits": "Preserved; TTL expiry only"
+}

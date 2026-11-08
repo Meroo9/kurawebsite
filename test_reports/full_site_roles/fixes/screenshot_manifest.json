@@ -1,0 +1,182 @@
+[
+  {
+    "path": "/app/test_reports/full_site_roles/fixes/admin-employee-disabled-1920.jpg",
+    "role": "admin",
+    "viewport_width": 1920
+  },
+  {
+    "path": "/app/test_reports/full_site_roles/fixes/admin-employee-edited-390.jpg",
+    "role": "admin",
+    "viewport_width": 390
+  },
+  {
+    "path": "/app/test_reports/full_site_roles/fixes/approved-calendar-access-390.jpg",
+    "role": "student",
+    "viewport_width": 390
+  },
+  {
+    "path": "/app/test_reports/full_site_roles/fixes/approved-typed-access-1920.jpg",
+    "role": "student",
+    "viewport_width": 1920
+  },
+  {
+    "path": "/app/test_reports/full_site_roles/fixes/blocked-notice-1920.jpg",
+    "role": "blocked",
+    "viewport_width": 1920
+  },
+  {
+    "path": "/app/test_reports/full_site_roles/fixes/blocked-notice-390.jpg",
+    "role": "blocked",
+    "viewport_width": 390
+  },
+  {
+    "path": "/app/test_reports/full_site_roles/fixes/employee-active-login-1920.jpg",
+    "role": "employee",
+    "viewport_width": 1920
+  },
+  {
+    "path": "/app/test_reports/full_site_roles/fixes/employee-active-login-390.jpg",
+    "role": "employee",
+    "viewport_width": 390
+  },
+  {
+    "path": "/app/test_reports/full_site_roles/fixes/pending-calendar-registered-390.jpg",
+    "role": "pending_visitor",
+    "viewport_width": 390
+  },
+  {
+    "path": "/app/test_reports/full_site_roles/fixes/pending-typed-registered-1920.jpg",
+    "role": "pending_visitor",
+    "viewport_width": 1920
+  },
+  {
+    "path": "/app/test_reports/full_site_roles/fixes/public-long-panel-1000.jpg",
+    "role": "public",
+    "viewport_width": 1000
+  },
+  {
+    "path": "/app/test_reports/full_site_roles/fixes/public-long-panel-1920.jpg",
+    "role": "public",
+    "viewport_width": 1920
+  },
+  {
+    "path": "/app/test_reports/full_site_roles/fixes/public-long-panel-390.jpg",
+    "role": "public",
+    "viewport_width": 390
+  },
+  {
+    "path": "/app/test_reports/full_site_roles/fixes/public-long-title-1000.jpg",
+    "role": "public",
+    "viewport_width": 1000
+  },
+  {
+    "path": "/app/test_reports/full_site_roles/fixes/public-long-title-1920.jpg",
+    "role": "public",
+    "viewport_width": 1920
+  },
+  {
+    "path": "/app/test_reports/full_site_roles/fixes/public-long-title-390.jpg",
+    "role": "public",
+    "viewport_width": 390
+  },
+  {
+    "path": "/app/test_reports/full_site_roles/fixes/student-long-panel-1000.jpg",
+    "role": "student",
+    "viewport_width": 1000
+  },
+  {
+    "path": "/app/test_reports/full_site_roles/fixes/student-long-panel-1920.jpg",
+    "role": "student",
+    "viewport_width": 1920
+  },
+  {
+    "path": "/app/test_reports/full_site_roles/fixes/student-long-panel-390.jpg",
+    "role": "student",
+    "viewport_width": 390
+  },
+  {
+    "path": "/app/test_reports/full_site_roles/fixes/student-long-title-1000.jpg",
+    "role": "student",
+    "viewport_width": 1000
+  },
+  {
+    "path": "/app/test_reports/full_site_roles/fixes/student-long-title-1920.jpg",
+    "role": "student",
+    "viewport_width": 1920
+  },
+  {
+    "path": "/app/test_reports/full_site_roles/fixes/student-long-title-390.jpg",
+    "role": "student",
+    "viewport_width": 390
+  },
+  {
+    "path": "/app/test_reports/full_site_roles/fixes/student-video-play-seek-1920.jpg",
+    "role": "student",
+    "viewport_width": 1920
+  },
+  {
+    "path": "/app/test_reports/full_site_roles/fixes/student-video-play-seek-390.jpg",
+    "role": "student",
+    "viewport_width": 390
+  },
+  {
+    "path": "/app/test_reports/full_site_roles/fixes/ui_employee-notice-1920.jpg",
+    "role": "employee",
+    "viewport_width": 1920
+  },
+  {
+    "path": "/app/test_reports/full_site_roles/fixes/ui_employee-notice-390.jpg",
+    "role": "employee",
+    "viewport_width": 390
+  },
+  {
+    "path": "/app/test_reports/full_site_roles/fixes/ui_pending_calendar-avatar-profile-390.jpg",
+    "role": "student",
+    "viewport_width": 390
+  },
+  {
+    "path": "/app/test_reports/full_site_roles/fixes/ui_pending_typed-avatar-profile-1920.jpg",
+    "role": "student",
+    "viewport_width": 1920
+  },
+  {
+    "path": "/app/test_reports/full_site_roles/fixes/visitor-catalog-long-1000.jpg",
+    "role": "visitor",
+    "viewport_width": 1000
+  },
+  {
+    "path": "/app/test_reports/full_site_roles/fixes/visitor-catalog-long-1920.jpg",
+    "role": "visitor",
+    "viewport_width": 1920
+  },
+  {
+    "path": "/app/test_reports/full_site_roles/fixes/visitor-catalog-long-390.jpg",
+    "role": "visitor",
+    "viewport_width": 390
+  },
+  {
+    "path": "/app/test_reports/full_site_roles/fixes/visitor-library-long-1000.jpg",
+    "role": "visitor",
+    "viewport_width": 1000
+  },
+  {
+    "path": "/app/test_reports/full_site_roles/fixes/visitor-library-long-1920.jpg",
+    "role": "visitor",
+    "viewport_width": 1920
+  },
+  {
+    "path": "/app/test_reports/full_site_roles/fixes/visitor-library-long-390.jpg",
+    "role": "visitor",
+    "viewport_width": 390
+  },
+  {
+    "path": "/app/test_reports/full_site_roles/fixes/visitor-profile-1920.jpg",
+    "role": "visitor",
+    "viewport_width": 1920
+  },
+  {
+    "path": "/app/test_reports/full_site_roles/fixes/visitor-profile-390.jpg",
+    "role": "visitor",
+    "viewport_width": 390
+  }
+]
