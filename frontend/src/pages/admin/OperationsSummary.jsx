@@ -1,0 +1,5 @@
+import {useEffect,useState} from 'react';
+import {Link} from 'react-router-dom';
+import {Microscope,Receipt,MessagesSquare} from 'lucide-react';
+import {api} from '../../lib/api';
+export const OperationsSummary=()=>{const [data,setData]=useState(null);useEffect(()=>{api.get('/admin/operations-summary').then(r=>setData(r.data)).catch(()=>{});},[]);if(!data)return null;return <div className="operations-links">{[['waiting_quote','طلبات بانتظار التسعير','/admin/research?status=waiting_quote',Microscope],['research_receipts','إيصالات بحثية للمراجعة','/admin/research?payment_status=pending',Receipt],['published_posts','منشورات منشورة','/admin/posts',MessagesSquare]].map(([key,title,to,Icon])=><Link data-testid={`operations-${key}`} key={key} to={to}><Icon size={23}/><div><strong>{title}</strong><span>انتقل إلى الإدارة</span></div><b data-testid={`operations-count-${key}`}>{data[key]}</b></Link>)}</div>;};

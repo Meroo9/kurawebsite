@@ -1,0 +1,18 @@
+import {useEffect,useState} from 'react';
+import {Link,useParams} from 'react-router-dom';
+import {ArrowRight,Send,Trash2,Loader2} from 'lucide-react';
+import {toast} from 'sonner';
+import {api,message,date} from '../../lib/api';
+import {useApp} from '../../context/AppContext';
+import {Btn,Field,Busy,Pager,ErrorNotice} from '../../components/Shared';
+import {PostCard} from './PostCard';
+import {PostsSidebar} from './Posts';
+export default function PostDetail(){
+ const {id}=useParams(),{user}=useApp();const [post,setPost]=useState(null),[comments,setComments]=useState(null),[body,setBody]=useState(''),[page,setPage]=useState(1),[busy,setBusy]=useState(false),[error,setError]=useState('');
+ const loadComments=()=>api.get(`/posts/${id}/comments`,{params:{page}}).then(r=>setComments(r.data));
+ useEffect(()=>{api.get(`/posts/${id}`).then(r=>setPost(r.data)).catch(e=>setError(message(e)));},[id]);
+ useEffect(()=>{loadComments().catch(e=>setError(message(e)));},[id,page]);
+ const send=async e=>{e.preventDefault();setBusy(true);setError('');try{await api.post(`/posts/${id}/comments`,{body});setBody('');if(page!==1)setPage(1);else await loadComments();setPost((await api.get(`/posts/${id}`)).data);toast.success('تم نشر تعليقك');}catch(e){setError(message(e));}finally{setBusy(false);}};
+ const remove=async cid=>{if(!window.confirm('هل تريد حذف هذا التعليق؟'))return;try{await api.delete(`/posts/${id}/comments/${cid}`);await loadComments();setPost((await api.get(`/posts/${id}`)).data);toast.success('تم حذف التعليق');}catch(e){setError(message(e));}};
+ return <div className="container posts-page"><Link data-testid="post-back" className="text-link post-back" to="/posts"><ArrowRight size={17}/>العودة إلى المنشورات</Link><ErrorNotice text={error}/>{!post&&!error?<Busy/>:post&&<div className="posts-layout"><div><PostCard post={post} detail onChange={setPost}/><section id="comments" className="post-comments-section"><div className="subsection-heading"><h2>التعليقات</h2><span data-testid="comments-total">{comments?.total||0}</span></div>{user&&post.published?<form className="comment-form" onSubmit={send}><Field id="comment-body" label="شارك برأيك" multiline rows={3} required maxLength={1500} value={body} onChange={e=>setBody(e.target.value)} placeholder="إضافة تُثري الحوار…"/><div><small>{body.length} / 1500</small><Btn type="submit" disabled={busy||!body.trim()} data-testid="submit-comment">{busy?<Loader2 className="spin" size={16}/>:<Send size={16}/>}نشر التعليق</Btn></div></form>:<p className="notice" data-testid="comment-login-notice">{post.published?<><Link data-testid="comment-login" to="/login" state={{from:`/posts/${id}`}}>سجّل الدخول</Link> للمشاركة في النقاش وإضافة تعليقك.</>:'التعليقات متاحة بعد نشر المنشور.'}</p>}{comments?.items.length?<div className="comments-list">{comments.items.map(c=><article key={c.id} data-testid={`comment-${c.id}`}><span className="comment-avatar">{c.author_name[0]}</span><div><header><strong>{c.author_name}</strong><small>{date(c.created_at)}</small></header><p data-testid={`comment-body-${c.id}`}>{c.body}</p></div>{c.can_delete&&<button className="icon-button danger" aria-label="حذف التعليق" title="حذف التعليق" data-testid={`delete-comment-${c.id}`} onClick={()=>remove(c.id)}><Trash2 size={16}/></button>}</article>)}</div>:<p className="comments-empty" data-testid="comments-empty">كن أول من يضيف إلى هذا النقاش.</p>}<Pager page={page} total={comments?.total||0} onChange={setPage}/></section></div><PostsSidebar/></div>}</div>;
+}

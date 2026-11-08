@@ -8,6 +8,10 @@ from schemas import UserEdit, Register, SettingsInput
 
 router=APIRouter(prefix='/admin',tags=['administration'])
 
+@router.get('/operations-summary',response_model=Document)
+async def operations_summary(user=Depends(admin_user)):
+    return {'waiting_quote':await db.research_requests.count_documents({'status':'waiting_quote'}),'research_receipts':await db.research_requests.count_documents({'payment_status':'pending','status':{'$ne':'cancelled'}}),'published_posts':await db.posts.count_documents({'published':True,'deleted':False})}
+
 @router.get('/overview',response_model=Document)
 async def overview(user=Depends(admin_user)):
     return {'users':await db.users.count_documents({}), 'courses':await db.courses.count_documents({'deleted':{'$ne':True}}), 'pending_receipts':await db.purchases.count_documents({'status':'pending'}), 'pending_students':await db.users.count_documents({'student_status':'pending'}), 'recent':await db.audit.find({}, {'_id':0}).sort('created_at',-1).limit(8).to_list(8)}

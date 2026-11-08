@@ -1,0 +1,70 @@
+{
+  "summary": "Research/posts tested against the environment-derived public origin with five isolated roles and real managed file storage. Final API results: 20/21 unique tests passed. Full browser research intake/quote/claim/work/payment/revision/completion, posts CRUD/moderation, draft recovery and cancellation passed. Two unresolved application issues: employee financial-note leak and severe research long-title overflow. No application files changed; cleanup verified.",
+  "backend_issues": {
+    "critical": [
+      {
+        "endpoint": "GET /api/research/{rid}; POST /api/research/{rid}/action (reject_cancel)",
+        "issue": "Assigned employee receives the admin's private cancellation settlement note verbatim in events, including quote currency/amount, paid and remaining amounts. Reproduced twice. This violates employees' non-financial view.",
+        "priority": "HIGH"
+      }
+    ],
+    "minor": []
+  },
+  "frontend_issues": {
+    "ui_bugs": [
+      {
+        "component": "ResearchDetail / shared PageHeading",
+        "issue": "A valid title under the 180-character limit containing a long unbroken Arabic word expands the heading beyond the viewport. document widths: 1848 at 390px, 2017 at 1000px, 2441 at 1920px. Mobile/tablet screenshots can appear entirely blank because RTL content lies off-screen.",
+        "selector": "[data-testid='page-title']",
+        "priority": "HIGH"
+      }
+    ],
+    "integration_issues": [
+      {
+        "flow": "Employee research event history",
+        "issue": "ResearchDetail renders all returned event notes, so the API cancellation-settlement leak is also exposed in employee UI.",
+        "affected_selectors": ["[data-testid^='research-event-']"]
+      }
+    ],
+    "design_issues": []
+  },
+  "test_report_links": [
+    "/app/backend/tests/test_research_posts.py",
+    "/app/backend/tests/test_research_posts_followup.py",
+    "/app/tests/research_browser_regression.py",
+    "/app/tests/posts_browser_regression.py",
+    "/app/backend/tests/cleanup_research_posts.py",
+    "/app/test_reports/pytest/research_posts_results.xml",
+    "/app/test_reports/pytest/research_posts_followup_final.xml",
+    "/app/test_reports/research_cleanup_results.json"
+  ],
+  "action_items": [
+    "Keep cancellation settlement/admin financial notes out of employee events. Mark financial actions appropriately AND protect historical events already saved with financial=false; retain a safe work-state event if needed.",
+    "Constrain PageHeading flex children with min-width:0/max-width and break long title tokens (overflow-wrap:anywhere); verify 390, 1000 and 1920px research details and payments rows.",
+    "Rerun financial privacy regression and long-title browser checks after fixes. Preserve actual accounts, settings, course publication and owner invitation."
+  ],
+  "critical_code_review_comments": [
+    "research_actions.py calls change_request for all cancellation actions without financial=True, while research_core.py filters employee events only on that flag. Admin reject_cancel explicitly accepts external-settlement notes; therefore filtering by financial flag alone is insufficient for existing rows.",
+    "Shared PageHeading renders unrestricted h1 content; research file names already wrap correctly, but heading text does not. This is the demonstrated overflow source, not the file list/sidebar."
+  ],
+  "updated_files": [
+    "/app/backend/tests/test_research_posts.py",
+    "/app/backend/tests/test_research_posts_followup.py",
+    "/app/tests/research_browser_regression.py",
+    "/app/tests/posts_browser_regression.py",
+    "/app/backend/tests/cleanup_research_posts.py",
+    "/app/memory/test_credentials.md",
+    "/app/test_reports/iteration_3.json",
+    "/app/test_reports/research_cleanup_results.json"
+  ],
+  "success_rate": {
+    "backend": "95.2% (20/21 unique final tests; core16/16, followup4/5)",
+    "frontend": "Not numerically aggregated: executed functional workflows passed; long-title research layout failed at all three tested widths."
+  },
+  "test_credentials": "Credential file read before auth. No active credentials existed; generated isolated accounts only. All removed and manifest deleted. No invitation consumed and no email sent.",
+  "seed_data_creation": "Cleanup removed 5 users, 31 sessions, 18 research requests, 18 posts, 36 comments, 3 reactions, 27 file metadata rows, 1 course, 1 lecture, 1 purchase and 203 isolated audit rows. Original settings and pre-existing course published states verified intact. Provider objects cannot be physically deleted; metadata removal revokes access. Shared rate-limit buckets left to expire.",
+  "retest_needed": true,
+  "should_main_agent_self_test": false,
+  "context_for_next_testing_agent": "Run core test_research_posts.py first; it retains an isolated manifest for browser tests. Execute research_browser_regression.run and posts_browser_regression.run with BASE from frontend/.env and manifest. Then run followup module and cleanup script. Followup UI diagnostic assumes posts browser was executed. Browser source is directly executed by automation using exec(Path(...).read_text()) and await run, not merely defined. No mocks. Cookies/header protection, unauthorized research/file access, exclusive concurrent claim (200/409), revoke on return/reopen, withheld owner result IDs/downloads, student15%/visitor0 discounts, stale/rejected quote history, real partial/full receipts, prepayment, one revision, cancellation financial preservation, actual pagination12/6/15, public/private image boundaries, blocked users, safe XSS, course payment/private-file regression all exercised. Image-removal initial failure was a forced-click modal-animation artifact: ordinary click succeeded and persisted null image_id; final posts rerun passed. Initial followup expectation that reassigned workers must upload their own new file was corrected: approved requirement permits any uploaded current-round result. Existing same-round files are reused; not reported as a requirement failure. Long unbroken research title and financial-note leak remain unresolved. No unrelated load/email/subscription tests.",
+  "rca of the issue": "Privacy reproduction: create/accept/claim a request; owner requests cancellation; admin reject_cancel note includes financial settlement; assigned employee GET research detail exposes note in events. research_actions.py final change_request omits financial=True, and visible_research employee branch preserves every event with financial false. Layout reproduction: submit a valid title with roughly140 unbroken Arabic characters; h1 overflow-wrap is normal and its flex ancestor has no shrink constraint, producing1830px heading width on390px screen. Suggested mitigation: employee-safe cancellation event serialization plus legacy protection; constrain/wrap shared heading without suppressing legitimate content."
+}

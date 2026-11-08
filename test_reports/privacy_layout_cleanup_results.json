@@ -1,0 +1,20 @@
+{
+  "deleted": {
+    "research_requests": 3,
+    "files": 4,
+    "sessions": 9,
+    "audit": 29,
+    "users": 3
+  },
+  "checks": {
+    "settings_exactly_preserved": true,
+    "courses_exactly_preserved": true,
+    "owner_invites_exactly_preserved": true,
+    "isolated_users_removed": true,
+    "isolated_sessions_removed": true,
+    "isolated_requests_removed": true,
+    "isolated_file_metadata_removed": true,
+    "private_manifest_removed": true
+  },
+  "storage": "Real managed storage used. Provider objects cannot be physically deleted; isolated metadata removal revokes access. No invitation or email sent."
+}

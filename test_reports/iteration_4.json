@@ -1,0 +1,32 @@
+{
+  "summary": "Mandatory targeted verification passed: 10/10 API tests, 27/27 browser checks and one supplemental mobile payment-row check. Both iteration_3 HIGH issues are resolved. Current and legacy cancellation settlement notes remain private; 140-character unbroken Arabic titles wrap without overflow at 390/1000/1920px. Real managed storage used, no mocks. No application files changed. Isolated cleanup verified.",
+  "backend_issues": {"critical": [], "minor": []},
+  "frontend_issues": {"ui_bugs": [], "integration_issues": [], "design_issues": []},
+  "test_report_links": [
+    "/app/backend/tests/test_research_privacy_layout.py",
+    "/app/tests/research_privacy_layout_browser.py",
+    "/app/backend/tests/cleanup_research_privacy_layout.py",
+    "/app/test_reports/pytest/privacy_layout_results.xml",
+    "/app/test_reports/privacy_layout_browser_results.json",
+    "/app/test_reports/privacy_layout_cleanup_results.json"
+  ],
+  "action_items": [],
+  "critical_code_review_comments": [],
+  "updated_files": [
+    "/app/backend/tests/test_research_privacy_layout.py",
+    "/app/tests/research_privacy_layout_browser.py",
+    "/app/backend/tests/cleanup_research_privacy_layout.py",
+    "/app/memory/test_credentials.md",
+    "/app/test_reports/iteration_4.json",
+    "/app/test_reports/privacy_layout_browser_results.json",
+    "/app/test_reports/privacy_layout_cleanup_results.json",
+    "/app/test_reports/pytest/privacy_layout_results.xml"
+  ],
+  "success_rate": {"backend": "100% (10/10)", "frontend": "100% (27/27 scripted checks plus 1 supplemental payment closeup)"},
+  "test_credentials": "Read memory/test_credentials.md before authentication; no active credentials existed. Generated temporary credentials for three directly inserted isolated Mongo accounts. Private manifest removed after cleanup; no existing account credentials used.",
+  "seed_data_creation": "Removed only 3 temporary users, 9 sessions, 3 research requests, 4 file metadata rows and 29 audit rows. Original settings/courses/owner invitations exactly preserved. No owner invitation consumed and no emails sent. Provider objects cannot be physically deleted; metadata removal revokes file access.",
+  "retest_needed": false,
+  "should_main_agent_self_test": false,
+  "context_for_next_testing_agent": "Targeted suite only, not a repeat of iteration_3 full feature coverage. Run test_research_privacy_layout.py, execute browser file via explicit exec namespace and await ns['run'](page, env-derived BASE, manifest), then run cleanup_research_privacy_layout.py. Current cancel/reject_cancel tested through real quote/accept/claim flow with private amounts/currency; admin and owner retain notes in API and rendered UI, employee receives none of them or owner identity. Six legacy cancellation combinations (cancel/approve/reject with false/missing financial flag) project only id/action/actor_label/created_at/note='', and unknown/quote/receipt events are dropped even with false/missing flags. New cancel/reject/approve and early cancellation events persisted financial=True. Claim/start/upload/deliver and real partial/full receipts plus result-lock/access and employee receipt denial passed. Owner/admin/employee detail headings fully render at all three widths; document width equals viewport 390/1000/1920. Research list/payments also passed all widths. Intake textarea/long filename and normal public home/posts/course catalog/research pages passed. App.js imports research.css before features.css; base card/file/sidebar/timeline styles remain intact. Nonblank mobile/desktop screenshots under browser_privacy_layout, with supplemental mobile payment title closeup. Initial homepage selector timeout (home uses hero-title, not page-title) and exec scoping error were test-harness issues, corrected before successful checks. No unresolved API/integration failures found in this scope.",
+  "rca of the issue": "Verified both prior root causes addressed: employee_events now uses an explicit operational allowlist and fixed cancellation metadata projection, so historical financial=False/missing rows cannot leak settlement notes or extra fields; research_actions marks all new cancellation actions financial=True. Shared heading flex-child shrink constraints and overflow-wrap:anywhere keep valid long Arabic titles visible, unclipped and within viewport, with research finance rows similarly constrained. Measured heading widths 354/609/1315px at viewport 390/1000/1920; full text-height fits heading and overflow remains visible, not hidden. No remaining targeted defect reproduced."
+}

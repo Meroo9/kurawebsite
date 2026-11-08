@@ -1,0 +1,110 @@
+[
+  {
+    "check": "employee rendered event privacy",
+    "passed": true
+  },
+  {
+    "check": "employee long title detail 390",
+    "passed": true
+  },
+  {
+    "check": "employee long title detail 1000",
+    "passed": true
+  },
+  {
+    "check": "employee long title detail 1920",
+    "passed": true
+  },
+  {
+    "check": "owner rendered event privacy",
+    "passed": true
+  },
+  {
+    "check": "owner long title detail 390",
+    "passed": true
+  },
+  {
+    "check": "owner long title detail 1000",
+    "passed": true
+  },
+  {
+    "check": "owner long title detail 1920",
+    "passed": true
+  },
+  {
+    "check": "long title research list 390",
+    "passed": true
+  },
+  {
+    "check": "long title research payments 390",
+    "passed": true
+  },
+  {
+    "check": "long title research list 1000",
+    "passed": true
+  },
+  {
+    "check": "long title research payments 1000",
+    "passed": true
+  },
+  {
+    "check": "long title research list 1920",
+    "passed": true
+  },
+  {
+    "check": "long title research payments 1920",
+    "passed": true
+  },
+  {
+    "check": "mobile intake textarea and long selected filename",
+    "passed": true
+  },
+  {
+    "check": "admin rendered event privacy",
+    "passed": true
+  },
+  {
+    "check": "admin long title detail 390",
+    "passed": true
+  },
+  {
+    "check": "admin long title detail 1000",
+    "passed": true
+  },
+  {
+    "check": "admin long title detail 1920",
+    "passed": true
+  },
+  {
+    "check": "normal / 390",
+    "passed": true
+  },
+  {
+    "check": "normal /posts 390",
+    "passed": true
+  },
+  {
+    "check": "normal /courses 390",
+    "passed": true
+  },
+  {
+    "check": "normal /research 390",
+    "passed": true
+  },
+  {
+    "check": "normal / 1920",
+    "passed": true
+  },
+  {
+    "check": "normal /posts 1920",
+    "passed": true
+  },
+  {
+    "check": "normal /courses 1920",
+    "passed": true
+  },
+  {
+    "check": "normal /research 1920",
+    "passed": true
+  }
+]

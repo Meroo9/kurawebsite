@@ -10,6 +10,10 @@ from catalog import router as catalog_router
 from commerce import router as commerce_router
 from media import router as media_router
 from administration import router as admin_router
+from research import router as research_router
+from research_actions import router as research_actions_router
+from research_payments import router as research_payments_router
+from posts import router as posts_router
 
 @asynccontextmanager
 async def lifespan(app):
@@ -20,6 +24,12 @@ async def lifespan(app):
     await db.rate_limits.create_index('expires_at', expireAfterSeconds=0)
     await db.reset_tokens.create_index('expires_at', expireAfterSeconds=0)
     await db.purchases.create_index([('user_id', 1), ('course_id', 1)], unique=True)
+    await db.research_requests.create_index('id',unique=True)
+    await db.research_requests.create_index([('owner_id',1),('created_at',-1)])
+    await db.research_requests.create_index([('assigned_to',1),('status',1)])
+    await db.posts.create_index([('published',1),('deleted',1),('created_at',-1)])
+    await db.post_comments.create_index([('post_id',1),('deleted',1),('created_at',-1)])
+    await db.post_reactions.create_index([('post_id',1),('user_id',1)],unique=True)
     await db.settings.update_one({'id': 'site'}, {'$setOnInsert': {
         'id': 'site', 'currency': '', 'payment_instructions': '', 'contact_email': '',
         'contact_phone': '', 'address': '', 'about': 'مركز كورا للأبحاث والتعليم الطبي. مساحة تجمع التعلم الطبي والدعم البحثي، وتضع المعرفة في متناولك.',
@@ -53,7 +63,7 @@ async def security_headers(request: Request, call_next):
 async def validation_error(request, exc):
     return JSONResponse({'detail': 'يرجى مراجعة الحقول المطلوبة وصحة البيانات المدخلة'}, status_code=422)
 
-for router in (auth_router, catalog_router, commerce_router, media_router, admin_router):
+for router in (auth_router, catalog_router, commerce_router, media_router, admin_router,research_router,research_actions_router,research_payments_router,posts_router):
     app.include_router(router, prefix='/api')
 
 @app.get('/api/health')

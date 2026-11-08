@@ -1,0 +1,25 @@
+{
+  "deleted": {
+    "post_comments": 36,
+    "post_reactions": 3,
+    "posts": 18,
+    "research_requests": 18,
+    "lectures": 1,
+    "courses": 1,
+    "purchases": 1,
+    "files": 27,
+    "sessions": 31,
+    "reset_tokens": 0,
+    "audit": 203,
+    "users": 5
+  },
+  "checks": {
+    "settings_restored": true,
+    "original_courses_preserved": true,
+    "test_users_removed": true,
+    "test_files_removed": true,
+    "test_requests_removed": true,
+    "test_posts_removed": true
+  },
+  "managed_object_deletion": "Provider has no delete API; test metadata removed to revoke access. No real owner invitation touched."
+}

@@ -99,9 +99,15 @@ def validate_file(data, ext):
 
 @router.post('/files', response_model=Document)
 async def upload_file(file: UploadFile = File(...), purpose: str = Form(...), context_id: str = Form(''), user=Depends(current_user)):
-    if purpose not in ('avatar', 'receipt', 'lecture'): raise HTTPException(422, 'نوع الرفع غير مسموح')
-    max_mb = {'avatar':5,'receipt':10,'lecture':100}[purpose]
-    allowed = {'avatar':{'jpg','jpeg','png','webp'}, 'receipt':{'pdf','jpg','jpeg','png','webp'}, 'lecture':set(TYPES)}[purpose]
+    research_purposes=('research_input','research_result','research_receipt')
+    if purpose not in ('avatar', 'receipt', 'lecture','post_image',*research_purposes): raise HTTPException(422, 'نوع الرفع غير مسموح')
+    max_mb = {'avatar':5,'receipt':10,'lecture':100,'post_image':5,'research_input':25,'research_result':25,'research_receipt':10}[purpose]
+    images={'jpg','jpeg','png','webp'}
+    allowed = {'avatar':images,'post_image':images, 'receipt':{'pdf',*images}, 'lecture':set(TYPES),'research_input':set(TYPES)-{'mp4'},'research_result':set(TYPES)-{'mp4'},'research_receipt':{'pdf',*images}}[purpose]
+    if purpose=='post_image' and user['role']!='admin':raise HTTPException(403,'صور المنشورات متاحة للإدارة فقط')
+    if purpose in research_purposes:
+        from research_core import authorize_research_upload
+        await authorize_research_upload(purpose,context_id,user)
     ext = Path(file.filename or '').suffix.lower().lstrip('.')
     if ext not in allowed: raise HTTPException(422, 'صيغة الملف غير مدعومة')
     if purpose == 'lecture':
@@ -121,6 +127,12 @@ async def upload_file(file: UploadFile = File(...), purpose: str = Form(...), co
     response = await storage_request('PUT', path, content=data, headers={'Content-Type':TYPES[ext]})
     row={'id':fid,'storage_path':response.json()['path'],'owner_id':user['id'],'purpose':purpose,'context_id':context_id,'original_filename':Path(file.filename).name[:200],'content_type':TYPES[ext],'size':size,'is_deleted':False,'created_at':stamp()}
     await db.files.insert_one(row.copy())
+    if purpose in research_purposes:
+        from research_core import attach_research_file
+        try:await attach_research_file(row,user)
+        except HTTPException:
+            await db.files.update_one({'id':fid},{'$set':{'is_deleted':True}})
+            raise
     if purpose == 'avatar':
         if user.get('avatar_id'): await db.files.update_one({'id':user['avatar_id']},{'$set':{'is_deleted':True}})
         await db.users.update_one({'id':user['id']},{'$set':{'avatar_id':fid}})
@@ -136,6 +148,9 @@ async def authorized_file(fid, user):
         lecture = await db.lectures.find_one({'file_id':fid,'deleted':False}, {'_id':0})
         course = await db.courses.find_one({'id':row['context_id'],'deleted':{'$ne':True}}, {'_id':0})
         allowed = allowed or bool(lecture and course and await course_access(user,course))
+    elif row['purpose'].startswith('research_'):
+        from research_core import research_file_allowed
+        allowed=await research_file_allowed(row,user)
     if not allowed: raise HTTPException(403, 'ليس لديك صلاحية الوصول إلى هذا الملف')
     return row
 
@@ -150,10 +165,14 @@ async def download_file(fid: str, request: Request, download: bool = False, user
     spool, size = await storage_download(row['storage_path'])
     await audit(user['id'], 'file_download' if download else 'file_view',fid,row['purpose'])
     # Re-check immediately before delivery in case access was revoked during storage fetch.
-    active = await db.users.find_one({'id':user['id'],'status':'active'}, {'_id':0,'id':1})
+    active = await db.users.find_one({'id':user['id'],'status':'active'}, {'_id':0,'password_hash':0})
     if not active:
         spool.close()
         raise HTTPException(403, 'تم إيقاف الحساب')
+    try:await authorized_file(fid,active)
+    except HTTPException:
+        spool.close()
+        raise
     inline = row['content_type'] in ('application/pdf','image/png','image/jpeg','image/webp','video/mp4','text/plain')
     disposition = 'attachment' if download or not inline else 'inline'
     headers={'Content-Disposition':f"{disposition}; filename*=UTF-8''{quote(row['original_filename'])}", 'Accept-Ranges':'bytes', 'Content-Security-Policy':"sandbox"}
