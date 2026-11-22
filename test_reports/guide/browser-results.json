@@ -1,0 +1,67 @@
+[
+  {
+    "name": "Public RTL, 12 titles, unique test IDs, hidden print copy",
+    "passed": true
+  },
+  {
+    "name": "Role filter and reload persistence: visitor",
+    "passed": true
+  },
+  {
+    "name": "Role filter and reload persistence: student",
+    "passed": true
+  },
+  {
+    "name": "Role filter and reload persistence: employee",
+    "passed": true
+  },
+  {
+    "name": "Role filter and reload persistence: admin",
+    "passed": true
+  },
+  {
+    "name": "Role filter and reload persistence: all",
+    "passed": true
+  },
+  {
+    "name": "Invalid role, Arabic diacritics, combined search, clear and empty reset",
+    "passed": true
+  },
+  {
+    "name": "All 8 FAQ expand/collapse and answer text searchable",
+    "passed": true
+  },
+  {
+    "name": "TOC anchors and back to top",
+    "passed": true
+  },
+  {
+    "name": "Real Markdown download byte-for-byte match",
+    "passed": true
+  },
+  {
+    "name": "Print callback, all chapters/answers despite filters, hidden chrome, actual PDF",
+    "passed": false,
+    "error": ""
+  },
+  {
+    "name": "Responsive guide/table 390",
+    "passed": true
+  },
+  {
+    "name": "Responsive guide/table 768",
+    "passed": true
+  },
+  {
+    "name": "Responsive guide/table 1000",
+    "passed": true
+  },
+  {
+    "name": "Responsive guide/table 1920",
+    "passed": true
+  },
+  {
+    "name": "Home/mobile menu/footer guide and protected links still require login",
+    "passed": true
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "guide-toc-account",
+    "color": "rgb(129, 144, 167)",
+    "background": "rgb(252, 253, 255)",
+    "fontSize": "12px",
+    "contrast": 3.183775831007618
+  },
+  {
+    "id": "guide-scope",
+    "color": "rgb(152, 164, 182)",
+    "background": "rgb(252, 253, 255)",
+    "fontSize": "10px",
+    "contrast": 2.4797304492929926
+  },
+  {
+    "id": "guide-section-count",
+    "color": "rgb(158, 171, 192)",
+    "background": "rgb(252, 253, 255)",
+    "fontSize": "10px",
+    "contrast": 2.282398831574794
+  },
+  {
+    "id": "guide-screen-account-step-0",
+    "color": "rgb(104, 124, 153)",
+    "background": "rgb(252, 253, 255)",
+    "fontSize": "13px",
+    "contrast": 4.183830340831361
+  },
+  {
+    "id": "guide-role-admin",
+    "color": "rgb(131, 144, 166)",
+    "background": "rgb(252, 253, 255)",
+    "fontSize": "12px",
+    "contrast": 3.1719000968204565
+  },
+  {
+    "id": "guide-screen-files-cell-0-2",
+    "color": "rgb(126, 144, 170)",
+    "background": "rgb(252, 253, 255)",
+    "fontSize": "12px",
+    "contrast": 3.1955356586757757
+  }
+]

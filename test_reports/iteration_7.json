@@ -1,0 +1,66 @@
+{
+  "summary": "Targeted Arabic guide/frontend/documentation regression only. Four documentation pytest cases passed; 15/16 initial public-browser groups passed, the print group was verified separately after an anomalous callback-count assertion; all four authenticated workspace-role links passed. Actual filtered-view PDF contains all 12 numbered chapters across eight nonblank pages with no text outside page bounds. No functional blocker proven; two minor documentation/accessibility findings remain. No deployment, git write, or mocked application API.",
+  "backend_issues": {"critical": [], "minor": []},
+  "frontend_issues": {
+    "ui_bugs": [],
+    "integration_issues": [],
+    "design_issues": [
+      {
+        "screen": "/guide — desktop and mobile",
+        "issues": ["Small text is too faint: TOC links 3.18:1, scope 2.48:1, chapter count 2.28:1, inactive role buttons 3.17:1, file-limit table cells 3.20:1, and numbered step text 4.18:1 against #fcfdff. All sampled normal-sized text is below WCAG AA 4.5:1. CSS colors are in Guide.css lines 7, 9–13 and 15."]
+      }
+    ]
+  },
+  "test_report_links": [
+    "/app/tests/test_guide_docs.py",
+    "/app/tests/guide_browser.py",
+    "/app/tests/guide_roles_browser.py",
+    "/app/tests/guide_role_support.py",
+    "/app/tests/guide_pdf_inspect.py",
+    "/app/test_reports/guide/docs-results.xml",
+    "/app/test_reports/guide/browser-results.json",
+    "/app/test_reports/guide/roles-browser-results.json",
+    "/app/test_reports/guide/pdf-metrics.json",
+    "/app/test_reports/guide/contrast.json",
+    "/app/test_reports/guide/role-cleanup.json"
+  ],
+  "action_items": [
+    "Darken small guide text/TOC/buttons/count/table/scope to at least 4.5:1 against its actual background; check both mobile and desktop.",
+    "Document the existing aggregate limit of 30 research input attachments and 30 accumulated result-file versions per request, in addition to 25MB/file and 10 files/batch; regenerate both Markdown copies."
+  ],
+  "critical_code_review_comments": [
+    "Minor documentation omission: user-guide.ar.json files table lists per-file and per-batch limits but omits backend/research_core.py lines 86 and 90 aggregate caps (30 input files, 30 result versions). PRD already documents the aggregate cap. Main workflow/policy statements otherwise agree with reviewed implementation/PRD, including pending KRC, research-only 15%, flagged free courses, full-course receipts, partial research payments, full-payment result gating, one revision and employee access revocation."
+  ],
+  "updated_files": [
+    "/app/tests/test_guide_docs.py",
+    "/app/tests/guide_browser.py",
+    "/app/tests/guide_role_support.py",
+    "/app/tests/guide_roles_browser.py",
+    "/app/tests/guide_pdf_inspect.py",
+    "/app/test_reports/iteration_7.json"
+  ],
+  "success_rate": {
+    "backend": "Not run — frontend/doc-only scope; real login used solely for isolated role fixtures",
+    "frontend": "15/16 initial public groups (93.75%); print subsequently verified in focused diagnostics; 4/4 authenticated role navigation groups (100%); documentation pytest 4/4 (100%). Accessibility review found low contrast."
+  },
+  "test_credentials": "Credential manifest read: no active existing test accounts. Four isolated TEST_GUIDE accounts created using existing safe auth-fixture pattern. Real login via public origin with X-Kura-Request:1; no owner invite used. Sessions/private cookie state removed after testing.",
+  "seed_data_creation": "No seed/reset/migration run. Created exactly four temporary accounts and four sessions, then removed those exact IDs. Fingerprints confirm all original users, settings, courses and owner invitations preserved. No files, payments, posts or research records created.",
+  "retest_needed": true,
+  "should_main_agent_self_test": true,
+  "context_for_next_testing_agent": "Screenshots and actual eight-page PDF are under /app/test_reports/guide/. Browser tests cover all five role filters/query persistence, invalid role fallback, Arabic diacritics + combined search, count/reset/clear, all eight FAQ toggles and answer search, TOC/top anchors, public footer/mobile-menu/home navigation, unauthenticated dashboard/admin links returning to login, byte-identical actual Markdown download, print-media all chapters/answers despite filtered screen, and layouts at 390/768/1000/1920. Workspace guide navigation verified for visitor/student/employee/admin on mobile using real sessions. All fixture state cleaned. PDF inspection needs test-only pymupdf (installed in environment) and Pillow. Application files unchanged; main should fix only the two minor findings then recheck contrast/docs generation. Anonymous /api/auth/me 401 console entries are expected session probing, not an integration failure.",
+  "rca of the issue": {
+    "contrast": "Guide.css deliberately assigns pale gray-blue colors to 10–13px text; measured computed foreground/background values confirm contrast below 4.5:1. Reproduces in all viewport sizes; darker small-text tokens are needed.",
+    "file_limit_omission": "The single JSON source describes file size/batch caps but lacks existing aggregate caps; generator correctly reproduces that omission into both downloadable/repository documents.",
+    "print_probe": "Initial strict callback-count assertion observed a value other than one and stopped that group. Follow-up diagnostic observed two calls but no trace of originating clicks. A fresh instrumented trusted Playwright click produced exactly one DOM click and one window.print call; a separate programmatic DOM click also produced one call. No repeatable app bug established; the cause of the initial anomaly is unproven. Print-media visibility and real PDF generation/inspection passed separately. Raw initial failure retained in browser-results.json."
+  },
+  "flaky_tests": ["Print exact callback-count assertion failed once initially; clean event-traced click passed. This was not a repeated identical test series, so no failure-rate estimate is claimed."],
+  "coverage_limits": [
+    "No physical printer or native browser Save/PDF dialog exercised. Automated window.print callback, print-media DOM, Chromium PDF generation, first/last raster pages and all-page text bounds inspected.",
+    "Arabic PDF text extraction changes word/glyph ordering; chapter titles matched against source in DOM, all 12 chapter numbers confirmed in PDF, first/last page render visually reviewed. No claim of byte-exact PDF text extraction.",
+    "No whole-site/backend business regression, email/payment/file-upload integration test, deployment or GitHub push/commit. Guide static content/download are real, not mocked."
+  ],
+  "application_changes": [],
+  "mocked_apis": false,
+  "deployment": "Not performed",
+  "git_writes": "Not performed"
+}

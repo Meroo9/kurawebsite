@@ -1,0 +1,37 @@
+{
+  "summary": "Tiny final guide-only verification passed: documentation pytest 4/4 and targeted browser groups 4/4. Both iteration-7 minor findings are resolved. No application changes, auth fixtures, database writes, deployment or git writes.",
+  "backend_issues": {"critical": [], "minor": []},
+  "frontend_issues": {"ui_bugs": [], "integration_issues": [], "design_issues": []},
+  "test_report_links": [
+    "/app/tests/test_guide_docs.py",
+    "/app/tests/guide_final_browser.py",
+    "/app/test_reports/guide-final/docs-results.xml",
+    "/app/test_reports/guide-final/browser-results.json",
+    "/app/test_reports/guide-final/contrast.json"
+  ],
+  "action_items": [],
+  "critical_code_review_comments": [],
+  "updated_files": ["/app/tests/test_guide_docs.py", "/app/tests/guide_final_browser.py", "/app/test_reports/iteration_8.json"],
+  "success_rate": {
+    "backend": "Not run — frontend/documentation-only scope",
+    "frontend": "This targeted run: 4/4 browser groups and 4/4 documentation tests passed. Historical iteration-7 initial result remains 15/16; its print anomaly is not retroactively changed."
+  },
+  "test_credentials": "None required; public guide only; no authentication flow tested.",
+  "seed_data_creation": "None; no database fixtures or mutations.",
+  "retest_needed": false,
+  "should_main_agent_self_test": false,
+  "context_for_next_testing_agent": "Browser-computed contrast passed at 1920x1080 and 390x844: 228 samples per viewport, minimum 5.2033915658:1 against actual composited backgrounds. Checked TOC links/numbers/count, scope, inactive and active role buttons, steps and pseudo-number markers, chapter captions/numbers, table headers/all cells, eight expanded FAQ answers, notes, footer version/top link and search placeholder; hovered first TOC link, inactive employee and active all-role controls. Document and file table had no horizontal overflow at either width. Employee filter showed five chapters, combined استلام search one chapter; print-media still showed all 12 chapters and eight answers, then restored the filtered screen. FAQ answer search worked. Actual browser download and public GET return repository-identical Markdown, not HTML. Temporary-directory regeneration matched both committed-working-tree docs copies; JSON/Markdown contain 30 input attachments, 30 results across all revision rounds, 10 files per batch and 25MB/file; 12 chapters/8 FAQs retained. Reviewed guide source and Markdown found no secrets or claim GitHub was already updated. No wildcard imports added. Existing working role links were not changed or re-tested with fixtures.",
+  "rca of the issue": {
+    "resolved_contrast": "Darker Guide.css override group now yields minimum measured 5.20:1, above 4.5:1, including sampled hover/active states on desktop/mobile.",
+    "resolved_file_limits": "JSON files notes now include both aggregate 30-file caps; regeneration propagates the note byte-identically to repository/public Markdown.",
+    "historical_print_anomaly": "Iteration-7 initial exact print callback-count assertion failed; focused traced clicks and actual eight-page PDF subsequently passed. Original anomaly remains preserved in iteration_7.json/browser-results.json; cause unproven. This run checked print-media only, not callback count, PDF generation or native printing."
+  },
+  "coverage_limits": [
+    "No backend/whole-site regression, authentication, user creation, email/payment/upload integration or re-run of authenticated role navigation.",
+    "No physical printer, native print dialog or new PDF inspection. Prior eight-page PDF evidence remains historical.",
+    "Anonymous /api/auth/me returned expected 401 session probes in console; no guide error messages or failing guide flow observed."
+  ],
+  "mocked_apis": false,
+  "deployment": "Not performed",
+  "git_writes": "No commit or push performed"
+}

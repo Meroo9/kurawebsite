@@ -22,6 +22,7 @@ import Posts from './pages/posts/Posts';
 import PostDetail from './pages/posts/PostDetail';
 import AdminPosts from './pages/posts/AdminPosts';
 import {OperationsSummary} from './pages/admin/OperationsSummary';
+import Guide from './pages/Guide';
 import './App.css';
 import './research.css';
 import './features.css';
@@ -30,6 +31,7 @@ const ScrollReset=()=>{const {pathname}=useLocation();useEffect(()=>{window.scro
 export default function App(){return <BrowserRouter><AppProvider><ScrollReset/><Routes>
  <Route element={<PublicLayout/>}>
   <Route index element={<Home/>}/>
+  <Route path="guide" element={<Guide/>}/>
   {['about','services','pricing','contact','privacy'].map(p=><Route key={p} path={p} element={<Info/>}/>)}
   {['login','register','forgot-password','reset-password'].map(p=><Route key={p} path={p} element={<Auth/>}/>)}
   <Route path="activate-owner" element={<ActivateOwner/>}/>

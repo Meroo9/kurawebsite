@@ -1,0 +1,5486 @@
+{
+  "1920": [
+    {
+      "id": "guide-toc-account",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-toc-student-status",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-toc-courses",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-toc-research-request",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-toc-research-payment",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-toc-employee",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-toc-admin-start",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-toc-admin-courses",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-toc-admin-research",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-toc-posts",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-toc-files",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-toc-help",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-toc-account",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-toc-student-status",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-toc-courses",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-toc-research-request",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-toc-research-payment",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-toc-employee",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-toc-admin-start",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-toc-admin-courses",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-toc-admin-research",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-toc-posts",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-toc-files",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-toc-help",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-section-count",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-scope",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-role-all",
+      "pseudo": null,
+      "color": "rgb(11, 71, 205)",
+      "background": [
+        237,
+        243,
+        255
+      ],
+      "ratio": 6.744583400174396,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-role-visitor",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-role-student",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-role-employee",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-role-admin",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-account-step-0",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-account-step-1",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-account-step-2",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-account-step-3",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-account-step-4",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-account-step-5",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-student-status-step-0",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-student-status-step-1",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-student-status-step-2",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-student-status-step-3",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-student-status-step-4",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-courses-step-0",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-courses-step-1",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-courses-step-2",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-courses-step-3",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-courses-step-4",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-courses-step-5",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-courses-step-6",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-research-request-step-0",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-research-request-step-1",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-research-request-step-2",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-research-request-step-3",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-research-request-step-4",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-research-request-step-5",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-research-request-step-6",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-research-payment-step-0",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-research-payment-step-1",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-research-payment-step-2",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-research-payment-step-3",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-research-payment-step-4",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-research-payment-step-5",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-research-payment-step-6",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-employee-step-0",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-employee-step-1",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-employee-step-2",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-employee-step-3",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-employee-step-4",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-employee-step-5",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-employee-step-6",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-start-step-0",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-start-step-1",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-start-step-2",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-start-step-3",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-start-step-4",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-start-step-5",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-courses-step-0",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-courses-step-1",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-courses-step-2",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-courses-step-3",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-courses-step-4",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-courses-step-5",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-courses-step-6",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-research-step-0",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-research-step-1",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-research-step-2",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-research-step-3",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-research-step-4",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-research-step-5",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-research-step-6",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-posts-step-0",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-posts-step-1",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-posts-step-2",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-posts-step-3",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-posts-step-4",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-account-audience",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-student-status-audience",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-courses-audience",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-research-request-audience",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-research-payment-audience",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-employee-audience",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-start-audience",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-courses-audience",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-research-audience",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-posts-audience",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-files-audience",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-help-audience",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-chapter-number",
+      "pseudo": null,
+      "color": "rgb(54, 94, 156)",
+      "background": [
+        240,
+        245,
+        255
+      ],
+      "ratio": 5.932687875500446,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-chapter-number",
+      "pseudo": null,
+      "color": "rgb(54, 94, 156)",
+      "background": [
+        240,
+        245,
+        255
+      ],
+      "ratio": 5.932687875500446,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-chapter-number",
+      "pseudo": null,
+      "color": "rgb(54, 94, 156)",
+      "background": [
+        240,
+        245,
+        255
+      ],
+      "ratio": 5.932687875500446,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-chapter-number",
+      "pseudo": null,
+      "color": "rgb(54, 94, 156)",
+      "background": [
+        240,
+        245,
+        255
+      ],
+      "ratio": 5.932687875500446,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-chapter-number",
+      "pseudo": null,
+      "color": "rgb(54, 94, 156)",
+      "background": [
+        240,
+        245,
+        255
+      ],
+      "ratio": 5.932687875500446,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-chapter-number",
+      "pseudo": null,
+      "color": "rgb(54, 94, 156)",
+      "background": [
+        240,
+        245,
+        255
+      ],
+      "ratio": 5.932687875500446,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-chapter-number",
+      "pseudo": null,
+      "color": "rgb(54, 94, 156)",
+      "background": [
+        240,
+        245,
+        255
+      ],
+      "ratio": 5.932687875500446,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-chapter-number",
+      "pseudo": null,
+      "color": "rgb(54, 94, 156)",
+      "background": [
+        240,
+        245,
+        255
+      ],
+      "ratio": 5.932687875500446,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-chapter-number",
+      "pseudo": null,
+      "color": "rgb(54, 94, 156)",
+      "background": [
+        240,
+        245,
+        255
+      ],
+      "ratio": 5.932687875500446,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-chapter-number",
+      "pseudo": null,
+      "color": "rgb(54, 94, 156)",
+      "background": [
+        240,
+        245,
+        255
+      ],
+      "ratio": 5.932687875500446,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-chapter-number",
+      "pseudo": null,
+      "color": "rgb(54, 94, 156)",
+      "background": [
+        240,
+        245,
+        255
+      ],
+      "ratio": 5.932687875500446,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-chapter-number",
+      "pseudo": null,
+      "color": "rgb(54, 94, 156)",
+      "background": [
+        240,
+        245,
+        255
+      ],
+      "ratio": 5.932687875500446,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-files-th-0",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        249,
+        251,
+        254
+      ],
+      "ratio": 5.746280551015881,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-files-th-1",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        249,
+        251,
+        254
+      ],
+      "ratio": 5.746280551015881,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-files-th-2",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        249,
+        251,
+        254
+      ],
+      "ratio": 5.746280551015881,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-files-cell-0-0",
+      "pseudo": null,
+      "color": "rgb(70, 100, 142)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.93951659345616,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-files-cell-0-1",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-files-cell-0-2",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-files-cell-1-0",
+      "pseudo": null,
+      "color": "rgb(70, 100, 142)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.93951659345616,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-files-cell-1-1",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-files-cell-1-2",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-files-cell-2-0",
+      "pseudo": null,
+      "color": "rgb(70, 100, 142)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.93951659345616,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-files-cell-2-1",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-files-cell-2-2",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-files-cell-3-0",
+      "pseudo": null,
+      "color": "rgb(70, 100, 142)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.93951659345616,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-files-cell-3-1",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-files-cell-3-2",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-help-answer-0",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-help-answer-1",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-help-answer-2",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-help-answer-3",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-help-answer-4",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-help-answer-5",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-help-answer-6",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-help-answer-7",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-account-note-0",
+      "pseudo": null,
+      "color": "rgb(117, 96, 59)",
+      "background": [
+        250,
+        248,
+        242
+      ],
+      "ratio": 5.661526771745864,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-student-status-note-0",
+      "pseudo": null,
+      "color": "rgb(117, 96, 59)",
+      "background": [
+        250,
+        248,
+        242
+      ],
+      "ratio": 5.661526771745864,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-courses-note-0",
+      "pseudo": null,
+      "color": "rgb(117, 96, 59)",
+      "background": [
+        250,
+        248,
+        242
+      ],
+      "ratio": 5.661526771745864,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-research-request-note-0",
+      "pseudo": null,
+      "color": "rgb(117, 96, 59)",
+      "background": [
+        250,
+        248,
+        242
+      ],
+      "ratio": 5.661526771745864,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-research-payment-note-0",
+      "pseudo": null,
+      "color": "rgb(117, 96, 59)",
+      "background": [
+        250,
+        248,
+        242
+      ],
+      "ratio": 5.661526771745864,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-employee-note-0",
+      "pseudo": null,
+      "color": "rgb(117, 96, 59)",
+      "background": [
+        250,
+        248,
+        242
+      ],
+      "ratio": 5.661526771745864,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-start-note-0",
+      "pseudo": null,
+      "color": "rgb(117, 96, 59)",
+      "background": [
+        250,
+        248,
+        242
+      ],
+      "ratio": 5.661526771745864,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-courses-note-0",
+      "pseudo": null,
+      "color": "rgb(117, 96, 59)",
+      "background": [
+        250,
+        248,
+        242
+      ],
+      "ratio": 5.661526771745864,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-research-note-0",
+      "pseudo": null,
+      "color": "rgb(117, 96, 59)",
+      "background": [
+        250,
+        248,
+        242
+      ],
+      "ratio": 5.661526771745864,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-posts-note-0",
+      "pseudo": null,
+      "color": "rgb(117, 96, 59)",
+      "background": [
+        250,
+        248,
+        242
+      ],
+      "ratio": 5.661526771745864,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-files-note-0",
+      "pseudo": null,
+      "color": "rgb(117, 96, 59)",
+      "background": [
+        250,
+        248,
+        242
+      ],
+      "ratio": 5.661526771745864,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-files-note-1",
+      "pseudo": null,
+      "color": "rgb(117, 96, 59)",
+      "background": [
+        250,
+        248,
+        242
+      ],
+      "ratio": 5.661526771745864,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-files-note-2",
+      "pseudo": null,
+      "color": "rgb(117, 96, 59)",
+      "background": [
+        250,
+        248,
+        242
+      ],
+      "ratio": 5.661526771745864,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-files-note-3",
+      "pseudo": null,
+      "color": "rgb(117, 96, 59)",
+      "background": [
+        250,
+        248,
+        242
+      ],
+      "ratio": 5.661526771745864,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-files-note-4",
+      "pseudo": null,
+      "color": "rgb(117, 96, 59)",
+      "background": [
+        250,
+        248,
+        242
+      ],
+      "ratio": 5.661526771745864,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-version",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-back-to-top",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-account-step-0",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-account-step-1",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-account-step-2",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-account-step-3",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-account-step-4",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-account-step-5",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-student-status-step-0",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-student-status-step-1",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-student-status-step-2",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-student-status-step-3",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-student-status-step-4",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-courses-step-0",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-courses-step-1",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-courses-step-2",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-courses-step-3",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-courses-step-4",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-courses-step-5",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-courses-step-6",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-research-request-step-0",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-research-request-step-1",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-research-request-step-2",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-research-request-step-3",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-research-request-step-4",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-research-request-step-5",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-research-request-step-6",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-research-payment-step-0",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-research-payment-step-1",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-research-payment-step-2",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-research-payment-step-3",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-research-payment-step-4",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-research-payment-step-5",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-research-payment-step-6",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-employee-step-0",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-employee-step-1",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-employee-step-2",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-employee-step-3",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-employee-step-4",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-employee-step-5",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-employee-step-6",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-start-step-0",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-start-step-1",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-start-step-2",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-start-step-3",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-start-step-4",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-start-step-5",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-courses-step-0",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-courses-step-1",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-courses-step-2",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-courses-step-3",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-courses-step-4",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-courses-step-5",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-courses-step-6",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-research-step-0",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-research-step-1",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-research-step-2",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-research-step-3",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-research-step-4",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-research-step-5",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-research-step-6",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-posts-step-0",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-posts-step-1",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-posts-step-2",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-posts-step-3",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-posts-step-4",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-search",
+      "pseudo": "::placeholder",
+      "color": "rgb(95, 109, 131)",
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "ratio": 5.247673169891093,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-toc-account",
+      "pseudo": null,
+      "color": "rgb(11, 71, 205)",
+      "background": [
+        238,
+        244,
+        254
+      ],
+      "ratio": 6.795247523773757,
+      "opacity": "1",
+      "state": "hover"
+    },
+    {
+      "id": "guide-toc-account",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        238,
+        244,
+        254
+      ],
+      "ratio": 5.203391565784422,
+      "opacity": "1",
+      "state": "hover"
+    },
+    {
+      "id": "guide-role-employee",
+      "pseudo": null,
+      "color": "rgb(11, 71, 205)",
+      "background": [
+        241,
+        245,
+        252
+      ],
+      "ratio": 6.866721733831836,
+      "opacity": "1",
+      "state": "hover"
+    },
+    {
+      "id": "guide-role-all",
+      "pseudo": null,
+      "color": "rgb(11, 71, 205)",
+      "background": [
+        241,
+        245,
+        252
+      ],
+      "ratio": 6.866721733831836,
+      "opacity": "1",
+      "state": "hover"
+    }
+  ],
+  "390": [
+    {
+      "id": "guide-toc-account",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-toc-student-status",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-toc-courses",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-toc-research-request",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-toc-research-payment",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-toc-employee",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-toc-admin-start",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-toc-admin-courses",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-toc-admin-research",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-toc-posts",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-toc-files",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-toc-help",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-toc-account",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-toc-student-status",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-toc-courses",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-toc-research-request",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-toc-research-payment",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-toc-employee",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-toc-admin-start",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-toc-admin-courses",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-toc-admin-research",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-toc-posts",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-toc-files",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-toc-help",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-section-count",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-scope",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-role-all",
+      "pseudo": null,
+      "color": "rgb(11, 71, 205)",
+      "background": [
+        237,
+        243,
+        255
+      ],
+      "ratio": 6.744583400174396,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-role-visitor",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-role-student",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-role-employee",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-role-admin",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-account-step-0",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-account-step-1",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-account-step-2",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-account-step-3",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-account-step-4",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-account-step-5",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-student-status-step-0",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-student-status-step-1",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-student-status-step-2",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-student-status-step-3",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-student-status-step-4",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-courses-step-0",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-courses-step-1",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-courses-step-2",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-courses-step-3",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-courses-step-4",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-courses-step-5",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-courses-step-6",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-research-request-step-0",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-research-request-step-1",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-research-request-step-2",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-research-request-step-3",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-research-request-step-4",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-research-request-step-5",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-research-request-step-6",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-research-payment-step-0",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-research-payment-step-1",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-research-payment-step-2",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-research-payment-step-3",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-research-payment-step-4",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-research-payment-step-5",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-research-payment-step-6",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-employee-step-0",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-employee-step-1",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-employee-step-2",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-employee-step-3",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-employee-step-4",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-employee-step-5",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-employee-step-6",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-start-step-0",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-start-step-1",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-start-step-2",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-start-step-3",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-start-step-4",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-start-step-5",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-courses-step-0",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-courses-step-1",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-courses-step-2",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-courses-step-3",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-courses-step-4",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-courses-step-5",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-courses-step-6",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-research-step-0",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-research-step-1",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-research-step-2",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-research-step-3",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-research-step-4",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-research-step-5",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-research-step-6",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-posts-step-0",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-posts-step-1",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-posts-step-2",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-posts-step-3",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-posts-step-4",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-account-audience",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-student-status-audience",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-courses-audience",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-research-request-audience",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-research-payment-audience",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-employee-audience",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-start-audience",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-courses-audience",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-research-audience",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-posts-audience",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-files-audience",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-help-audience",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-chapter-number",
+      "pseudo": null,
+      "color": "rgb(54, 94, 156)",
+      "background": [
+        240,
+        245,
+        255
+      ],
+      "ratio": 5.932687875500446,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-chapter-number",
+      "pseudo": null,
+      "color": "rgb(54, 94, 156)",
+      "background": [
+        240,
+        245,
+        255
+      ],
+      "ratio": 5.932687875500446,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-chapter-number",
+      "pseudo": null,
+      "color": "rgb(54, 94, 156)",
+      "background": [
+        240,
+        245,
+        255
+      ],
+      "ratio": 5.932687875500446,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-chapter-number",
+      "pseudo": null,
+      "color": "rgb(54, 94, 156)",
+      "background": [
+        240,
+        245,
+        255
+      ],
+      "ratio": 5.932687875500446,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-chapter-number",
+      "pseudo": null,
+      "color": "rgb(54, 94, 156)",
+      "background": [
+        240,
+        245,
+        255
+      ],
+      "ratio": 5.932687875500446,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-chapter-number",
+      "pseudo": null,
+      "color": "rgb(54, 94, 156)",
+      "background": [
+        240,
+        245,
+        255
+      ],
+      "ratio": 5.932687875500446,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-chapter-number",
+      "pseudo": null,
+      "color": "rgb(54, 94, 156)",
+      "background": [
+        240,
+        245,
+        255
+      ],
+      "ratio": 5.932687875500446,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-chapter-number",
+      "pseudo": null,
+      "color": "rgb(54, 94, 156)",
+      "background": [
+        240,
+        245,
+        255
+      ],
+      "ratio": 5.932687875500446,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-chapter-number",
+      "pseudo": null,
+      "color": "rgb(54, 94, 156)",
+      "background": [
+        240,
+        245,
+        255
+      ],
+      "ratio": 5.932687875500446,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-chapter-number",
+      "pseudo": null,
+      "color": "rgb(54, 94, 156)",
+      "background": [
+        240,
+        245,
+        255
+      ],
+      "ratio": 5.932687875500446,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-chapter-number",
+      "pseudo": null,
+      "color": "rgb(54, 94, 156)",
+      "background": [
+        240,
+        245,
+        255
+      ],
+      "ratio": 5.932687875500446,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-chapter-number",
+      "pseudo": null,
+      "color": "rgb(54, 94, 156)",
+      "background": [
+        240,
+        245,
+        255
+      ],
+      "ratio": 5.932687875500446,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-files-th-0",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        249,
+        251,
+        254
+      ],
+      "ratio": 5.746280551015881,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-files-th-1",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        249,
+        251,
+        254
+      ],
+      "ratio": 5.746280551015881,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-files-th-2",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        249,
+        251,
+        254
+      ],
+      "ratio": 5.746280551015881,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-files-cell-0-0",
+      "pseudo": null,
+      "color": "rgb(70, 100, 142)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.93951659345616,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-files-cell-0-1",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-files-cell-0-2",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-files-cell-1-0",
+      "pseudo": null,
+      "color": "rgb(70, 100, 142)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.93951659345616,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-files-cell-1-1",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-files-cell-1-2",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-files-cell-2-0",
+      "pseudo": null,
+      "color": "rgb(70, 100, 142)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.93951659345616,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-files-cell-2-1",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-files-cell-2-2",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-files-cell-3-0",
+      "pseudo": null,
+      "color": "rgb(70, 100, 142)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.93951659345616,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-files-cell-3-1",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-files-cell-3-2",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-help-answer-0",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-help-answer-1",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-help-answer-2",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-help-answer-3",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-help-answer-4",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-help-answer-5",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-help-answer-6",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-help-answer-7",
+      "pseudo": null,
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.852716619181181,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-account-note-0",
+      "pseudo": null,
+      "color": "rgb(117, 96, 59)",
+      "background": [
+        250,
+        248,
+        242
+      ],
+      "ratio": 5.661526771745864,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-student-status-note-0",
+      "pseudo": null,
+      "color": "rgb(117, 96, 59)",
+      "background": [
+        250,
+        248,
+        242
+      ],
+      "ratio": 5.661526771745864,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-courses-note-0",
+      "pseudo": null,
+      "color": "rgb(117, 96, 59)",
+      "background": [
+        250,
+        248,
+        242
+      ],
+      "ratio": 5.661526771745864,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-research-request-note-0",
+      "pseudo": null,
+      "color": "rgb(117, 96, 59)",
+      "background": [
+        250,
+        248,
+        242
+      ],
+      "ratio": 5.661526771745864,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-research-payment-note-0",
+      "pseudo": null,
+      "color": "rgb(117, 96, 59)",
+      "background": [
+        250,
+        248,
+        242
+      ],
+      "ratio": 5.661526771745864,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-employee-note-0",
+      "pseudo": null,
+      "color": "rgb(117, 96, 59)",
+      "background": [
+        250,
+        248,
+        242
+      ],
+      "ratio": 5.661526771745864,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-start-note-0",
+      "pseudo": null,
+      "color": "rgb(117, 96, 59)",
+      "background": [
+        250,
+        248,
+        242
+      ],
+      "ratio": 5.661526771745864,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-courses-note-0",
+      "pseudo": null,
+      "color": "rgb(117, 96, 59)",
+      "background": [
+        250,
+        248,
+        242
+      ],
+      "ratio": 5.661526771745864,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-research-note-0",
+      "pseudo": null,
+      "color": "rgb(117, 96, 59)",
+      "background": [
+        250,
+        248,
+        242
+      ],
+      "ratio": 5.661526771745864,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-posts-note-0",
+      "pseudo": null,
+      "color": "rgb(117, 96, 59)",
+      "background": [
+        250,
+        248,
+        242
+      ],
+      "ratio": 5.661526771745864,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-files-note-0",
+      "pseudo": null,
+      "color": "rgb(117, 96, 59)",
+      "background": [
+        250,
+        248,
+        242
+      ],
+      "ratio": 5.661526771745864,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-files-note-1",
+      "pseudo": null,
+      "color": "rgb(117, 96, 59)",
+      "background": [
+        250,
+        248,
+        242
+      ],
+      "ratio": 5.661526771745864,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-files-note-2",
+      "pseudo": null,
+      "color": "rgb(117, 96, 59)",
+      "background": [
+        250,
+        248,
+        242
+      ],
+      "ratio": 5.661526771745864,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-files-note-3",
+      "pseudo": null,
+      "color": "rgb(117, 96, 59)",
+      "background": [
+        250,
+        248,
+        242
+      ],
+      "ratio": 5.661526771745864,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-files-note-4",
+      "pseudo": null,
+      "color": "rgb(117, 96, 59)",
+      "background": [
+        250,
+        248,
+        242
+      ],
+      "ratio": 5.661526771745864,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-version",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-back-to-top",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "ratio": 5.648626991378917,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-account-step-0",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-account-step-1",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-account-step-2",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-account-step-3",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-account-step-4",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-account-step-5",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-student-status-step-0",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-student-status-step-1",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-student-status-step-2",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-student-status-step-3",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-student-status-step-4",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-courses-step-0",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-courses-step-1",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-courses-step-2",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-courses-step-3",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-courses-step-4",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-courses-step-5",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-courses-step-6",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-research-request-step-0",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-research-request-step-1",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-research-request-step-2",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-research-request-step-3",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-research-request-step-4",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-research-request-step-5",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-research-request-step-6",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-research-payment-step-0",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-research-payment-step-1",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-research-payment-step-2",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-research-payment-step-3",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-research-payment-step-4",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-research-payment-step-5",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-research-payment-step-6",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-employee-step-0",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-employee-step-1",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-employee-step-2",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-employee-step-3",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-employee-step-4",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-employee-step-5",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-employee-step-6",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-start-step-0",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-start-step-1",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-start-step-2",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-start-step-3",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-start-step-4",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-start-step-5",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-courses-step-0",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-courses-step-1",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-courses-step-2",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-courses-step-3",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-courses-step-4",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-courses-step-5",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-courses-step-6",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-research-step-0",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-research-step-1",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-research-step-2",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-research-step-3",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-research-step-4",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-research-step-5",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-admin-research-step-6",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-posts-step-0",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-posts-step-1",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-posts-step-2",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-posts-step-3",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-screen-posts-step-4",
+      "pseudo": "::before",
+      "color": "rgb(83, 101, 125)",
+      "background": [
+        240,
+        244,
+        250
+      ],
+      "ratio": 5.396755128149191,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-search",
+      "pseudo": "::placeholder",
+      "color": "rgb(95, 109, 131)",
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "ratio": 5.247673169891093,
+      "opacity": "1"
+    },
+    {
+      "id": "guide-toc-account",
+      "pseudo": null,
+      "color": "rgb(11, 71, 205)",
+      "background": [
+        238,
+        244,
+        254
+      ],
+      "ratio": 6.795247523773757,
+      "opacity": "1",
+      "state": "hover"
+    },
+    {
+      "id": "guide-toc-account",
+      "pseudo": null,
+      "color": "rgb(86, 103, 129)",
+      "background": [
+        238,
+        244,
+        254
+      ],
+      "ratio": 5.203391565784422,
+      "opacity": "1",
+      "state": "hover"
+    },
+    {
+      "id": "guide-role-employee",
+      "pseudo": null,
+      "color": "rgb(11, 71, 205)",
+      "background": [
+        241,
+        245,
+        252
+      ],
+      "ratio": 6.866721733831836,
+      "opacity": "1",
+      "state": "hover"
+    },
+    {
+      "id": "guide-role-all",
+      "pseudo": null,
+      "color": "rgb(11, 71, 205)",
+      "background": [
+        241,
+        245,
+        252
+      ],
+      "ratio": 6.866721733831836,
+      "opacity": "1",
+      "state": "hover"
+    }
+  ]
+}

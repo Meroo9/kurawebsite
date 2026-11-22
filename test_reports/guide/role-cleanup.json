@@ -1,0 +1,14 @@
+{
+  "deleted": {
+    "sessions": 4,
+    "audit": 0,
+    "users": 4
+  },
+  "checks": {
+    "users_preserved": true,
+    "settings_preserved": true,
+    "owner_invites_preserved": true,
+    "courses_preserved": true,
+    "temporary_users_removed": true
+  }
+}

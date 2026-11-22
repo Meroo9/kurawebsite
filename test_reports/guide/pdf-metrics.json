@@ -1,0 +1,65 @@
+{
+  "pages": 8,
+  "text_lengths": [
+    1438,
+    1727,
+    1581,
+    1764,
+    1687,
+    1556,
+    1365,
+    1549
+  ],
+  "clipped_text": [],
+  "chapter_numbers": [
+    {
+      "number": "01",
+      "present": true
+    },
+    {
+      "number": "02",
+      "present": true
+    },
+    {
+      "number": "03",
+      "present": true
+    },
+    {
+      "number": "04",
+      "present": true
+    },
+    {
+      "number": "05",
+      "present": true
+    },
+    {
+      "number": "06",
+      "present": true
+    },
+    {
+      "number": "07",
+      "present": true
+    },
+    {
+      "number": "08",
+      "present": true
+    },
+    {
+      "number": "09",
+      "present": true
+    },
+    {
+      "number": "10",
+      "present": true
+    },
+    {
+      "number": "11",
+      "present": true
+    },
+    {
+      "number": "12",
+      "present": true
+    }
+  ],
+  "file_size_bytes": 194726
+}

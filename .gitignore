@@ -18,6 +18,8 @@ node_modules/
 
 # Testing
 /coverage
+**/private_state.json
+**/*test_state.json
 
 # Next.js
 /.next/
